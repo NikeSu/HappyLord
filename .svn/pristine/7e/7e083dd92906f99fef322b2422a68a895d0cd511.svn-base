@@ -1,0 +1,96 @@
+19 十二月 2017 | 22:36:20,115 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+19 十二月 2017 | 22:36:20,478 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+19 十二月 2017 | 22:36:20,496 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\Felix\AppData\Local\Temp\vfs_cache" as temporary files store.
+19 十二月 2017 | 22:36:20,541 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+19 十二月 2017 | 22:36:20,542 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+19 十二月 2017 | 22:36:20,552 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+19 十二月 2017 | 22:36:20,560 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+19 十二月 2017 | 22:36:20,565 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\FPSGame.zone.xml
+19 十二月 2017 | 22:36:20,586 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: FPSGame 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+19 十二月 2017 | 22:36:20,868 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+19 十二月 2017 | 22:36:20,868 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+19 十二月 2017 | 22:36:20,868 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+19 十二月 2017 | 22:36:20,901 | INFO  | main | Extensions |     | {java}: ============================================= 
+19 十二月 2017 | 22:36:20,902 | INFO  | main | Extensions |     | {java}:          绝地求生Server 启动成功                                       
+19 十二月 2017 | 22:36:20,902 | INFO  | main | Extensions |     | {java}: ============================================= 
+19 十二月 2017 | 22:36:20,905 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+19 十二月 2017 | 22:36:20,945 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+19 十二月 2017 | 22:36:21,052 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+19 十二月 2017 | 22:36:21,057 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+19 十二月 2017 | 22:36:21,057 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+19 十二月 2017 | 22:36:22,526 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+19 十二月 2017 | 22:36:42,649 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:29603 } on Server port: 9933 <---> 29603
+19 十二月 2017 | 22:36:42,688 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:29603 ) , Type: Flash ActiveX:WIN 28,0,0,126
+19 十二月 2017 | 22:36:42,693 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:29603 ) , asSpect: false
+19 十二月 2017 | 22:39:11,336 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+19 十二月 2017 | 22:39:11,680 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+19 十二月 2017 | 22:39:11,699 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\Felix\AppData\Local\Temp\vfs_cache" as temporary files store.
+19 十二月 2017 | 22:39:11,745 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+19 十二月 2017 | 22:39:11,746 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+19 十二月 2017 | 22:39:11,754 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+19 十二月 2017 | 22:39:11,761 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+19 十二月 2017 | 22:39:11,764 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\FPSGame.zone.xml
+19 十二月 2017 | 22:39:11,785 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: FPSGame 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+19 十二月 2017 | 22:39:11,997 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+19 十二月 2017 | 22:39:11,997 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+19 十二月 2017 | 22:39:12,002 | INFO  | main | Extensions |     | {java}: 游戏房间扩展打开 
+19 十二月 2017 | 22:39:12,002 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+19 十二月 2017 | 22:39:12,002 | INFO  | main | Extensions |     | {java}: 游戏房间扩展打开 
+19 十二月 2017 | 22:39:12,008 | INFO  | main | Extensions |     | {java}: ============================================= 
+19 十二月 2017 | 22:39:12,009 | INFO  | main | Extensions |     | {java}:          绝地求生Server 启动成功                                       
+19 十二月 2017 | 22:39:12,009 | INFO  | main | Extensions |     | {java}: ============================================= 
+19 十二月 2017 | 22:39:12,011 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+19 十二月 2017 | 22:39:12,043 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+19 十二月 2017 | 22:39:12,144 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+19 十二月 2017 | 22:39:12,148 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+19 十二月 2017 | 22:39:12,148 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+19 十二月 2017 | 22:39:13,258 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+19 十二月 2017 | 22:55:12,150 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: FPSGame }, CCU: 0/0
+19 十二月 2017 | 22:55:12,151 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+19 十二月 2017 | 22:55:12,151 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/0

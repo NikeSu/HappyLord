@@ -1,0 +1,48 @@
+16 十二月 2017 | 10:14:06,887 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+16 十二月 2017 | 10:14:07,244 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+16 十二月 2017 | 10:14:07,263 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\Felix\AppData\Local\Temp\vfs_cache" as temporary files store.
+16 十二月 2017 | 10:14:07,308 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+16 十二月 2017 | 10:14:07,309 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+16 十二月 2017 | 10:14:07,319 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+16 十二月 2017 | 10:14:07,324 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+16 十二月 2017 | 10:14:07,333 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\BasicExamples.zone.xml
+16 十二月 2017 | 10:14:07,350 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+16 十二月 2017 | 10:14:07,379 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+16 十二月 2017 | 10:14:07,379 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: test1, Id: 1, Group: default, isGame: false ], type = SFSRoom
+16 十二月 2017 | 10:14:07,392 | INFO  | main | Extensions |     | {java}: 斗地主服务器启动成功... 
+16 十二月 2017 | 10:14:07,424 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 2, Group: default, isGame: false ], type = SFSRoom
+16 十二月 2017 | 10:14:07,474 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+16 十二月 2017 | 10:14:07,577 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+16 十二月 2017 | 10:14:07,581 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+16 十二月 2017 | 10:14:07,581 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+16 十二月 2017 | 10:14:08,592 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+16 十二月 2017 | 10:22:16,763 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:28870 } on Server port: 9933 <---> 28870
+16 十二月 2017 | 10:22:16,790 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:28870 ) , Type: Flash ActiveX:WIN 28,0,0,126
+16 十二月 2017 | 10:22:16,795 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 2, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:28870 ) , asSpect: false
+16 十二月 2017 | 10:55:07,584 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: FPSGame }, CCU: 0/0
+16 十二月 2017 | 10:55:07,585 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/1
+16 十二月 2017 | 10:55:07,586 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+16 十二月 2017 | 10:55:07,586 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1

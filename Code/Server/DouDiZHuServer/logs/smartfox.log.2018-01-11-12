@@ -1,0 +1,30 @@
+11 一月 2018 | 12:02:02,929 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:5518 }
+11 一月 2018 | 12:02:02,941 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 0, Priv: 0, Sess: 172.18.23.160:5518 ) , SessionLen: 131998, Type: Unity
+11 一月 2018 | 12:04:23,007 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 172.18.23.160:5841 } on Server port: 9933 <---> 5841
+11 一月 2018 | 12:04:23,713 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户admin登录成功! 
+11 一月 2018 | 12:04:23,715 | INFO  | SFSWorker:Ext:1 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 1, Priv: 0, Sess: 172.18.23.160:5841 ) , Type: Unity
+11 一月 2018 | 12:04:23,715 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户进入区 
+11 一月 2018 | 12:04:23,962 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 获取用户信息 
+11 一月 2018 | 12:04:23,963 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: !---------{Max_mult=256, honor_title=难民, quan=199, usernick=admin123456, sex=女, headpicture=picture1, userpwd=admin123, Vitory=null, gold=233, gamelv=15, game_count=7, viplv=1, vipEXP=null, ID=2, Defeat=null, personalwords=Hello,Admin!, gameEXP=null, username=admin}-----------! 
+11 一月 2018 | 12:04:23,964 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: admin 
+11 一月 2018 | 12:04:24,873 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: admin的背包信息 
+11 一月 2018 | 12:04:24,874 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: [{gamelv=15}] 
+11 一月 2018 | 12:04:40,120 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: admin的背包信息 
+11 一月 2018 | 12:04:40,121 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: [{gamelv=15}] 
+11 一月 2018 | 12:06:42,992 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:5841 }
+11 一月 2018 | 12:06:42,994 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 1, Priv: 0, Sess: 172.18.23.160:5841 ) , SessionLen: 139280, Type: Unity
+11 一月 2018 | 12:55:42,918 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: DouDiZhu }, CCU: 0/1
+11 一月 2018 | 12:55:42,918 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+11 一月 2018 | 12:55:42,919 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1
+11 一月 2018 | 12:59:16,176 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 172.18.23.160:6449 } on Server port: 9933 <---> 6449
+11 一月 2018 | 12:59:17,541 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户admin登录成功! 
+11 一月 2018 | 12:59:17,542 | INFO  | SFSWorker:Ext:2 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 2, Priv: 0, Sess: 172.18.23.160:6449 ) , Type: Unity
+11 一月 2018 | 12:59:17,542 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户进入区 
+11 一月 2018 | 12:59:17,797 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 获取用户信息 
+11 一月 2018 | 12:59:17,798 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: !---------{Max_mult=256, honor_title=难民, quan=199, usernick=admin123456, sex=女, headpicture=picture1, userpwd=admin123, Vitory=null, gold=233, gamelv=15, game_count=7, viplv=1, vipEXP=null, ID=2, Defeat=null, personalwords=Hello,Admin!, gameEXP=null, username=admin}-----------! 
+11 一月 2018 | 12:59:17,798 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: admin 
+11 一月 2018 | 12:59:19,736 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 获取用户信息 
+11 一月 2018 | 12:59:19,737 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: !---------{Max_mult=256, honor_title=难民, quan=199, usernick=admin123456, sex=女, headpicture=picture1, userpwd=admin123, Vitory=null, gold=233, gamelv=15, game_count=7, viplv=1, vipEXP=null, ID=2, Defeat=null, personalwords=Hello,Admin!, gameEXP=null, username=admin}-----------! 
+11 一月 2018 | 12:59:19,737 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: admin 
+11 一月 2018 | 12:59:20,621 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: admin的背包信息 
+11 一月 2018 | 12:59:20,622 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: [{gamelv=15}] 

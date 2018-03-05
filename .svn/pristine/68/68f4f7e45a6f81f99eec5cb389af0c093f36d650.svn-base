@@ -1,0 +1,204 @@
+14 十二月 2017 | 22:07:01,344 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+14 十二月 2017 | 22:07:01,688 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+14 十二月 2017 | 22:07:01,705 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\Felix\AppData\Local\Temp\vfs_cache" as temporary files store.
+14 十二月 2017 | 22:07:01,750 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+14 十二月 2017 | 22:07:01,751 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+14 十二月 2017 | 22:07:01,760 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+14 十二月 2017 | 22:07:01,764 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+14 十二月 2017 | 22:07:01,767 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\BasicExamples.zone.xml
+14 十二月 2017 | 22:07:01,784 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 十二月 2017 | 22:07:01,809 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+14 十二月 2017 | 22:07:01,809 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: test1, Id: 1, Group: default, isGame: false ], type = SFSRoom
+14 十二月 2017 | 22:07:01,814 | INFO  | main | Extensions |     | {java}: 斗地主服务器启动成功... 
+14 十二月 2017 | 22:07:01,820 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 2, Group: default, isGame: false ], type = SFSRoom
+14 十二月 2017 | 22:07:01,852 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+14 十二月 2017 | 22:07:01,953 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+14 十二月 2017 | 22:07:01,953 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+14 十二月 2017 | 22:07:01,954 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+14 十二月 2017 | 22:07:02,666 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+14 十二月 2017 | 22:07:44,496 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:29368 } on Server port: 9933 <---> 29368
+14 十二月 2017 | 22:07:49,886 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: abc, Id: 0, Priv: 0, Sess: 127.0.0.1:29368 ) , Type: Unity
+14 十二月 2017 | 22:07:49,905 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: test1, Id: 1, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: abc, Id: 0, Priv: 0, Sess: 127.0.0.1:29368 ) , asSpect: false
+14 十二月 2017 | 22:07:49,906 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户:( User Name: abc, Id: 0, Priv: 0, Sess: 127.0.0.1:29368 )  
+14 十二月 2017 | 22:07:49,906 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 房间[ Room: test1, Id: 1, Group: default, isGame: false ] 
+14 十二月 2017 | 22:08:37,760 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:29368 }
+14 十二月 2017 | 22:08:37,761 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: abc, Id: 0, Priv: 0, Sess: 127.0.0.1:29368 ) , SessionLen: 47875, Type: Unity
+14 十二月 2017 | 22:08:37,761 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: DisConnectedabc 
+14 十二月 2017 | 22:11:01,349 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:30085 } on Server port: 9933 <---> 30085
+14 十二月 2017 | 22:11:01,407 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: abc, Id: 1, Priv: 0, Sess: 127.0.0.1:30085 ) , Type: Unity
+14 十二月 2017 | 22:11:38,200 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+14 十二月 2017 | 22:11:38,541 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+14 十二月 2017 | 22:11:38,558 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\Felix\AppData\Local\Temp\vfs_cache" as temporary files store.
+14 十二月 2017 | 22:11:38,603 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+14 十二月 2017 | 22:11:38,604 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+14 十二月 2017 | 22:11:38,611 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+14 十二月 2017 | 22:11:38,615 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+14 十二月 2017 | 22:11:38,618 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\BasicExamples.zone.xml
+14 十二月 2017 | 22:11:38,636 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 十二月 2017 | 22:11:38,661 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+14 十二月 2017 | 22:11:38,661 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: test1, Id: 1, Group: default, isGame: false ], type = SFSRoom
+14 十二月 2017 | 22:11:38,666 | INFO  | main | Extensions |     | {java}: 斗地主服务器启动成功... 
+14 十二月 2017 | 22:11:38,671 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 2, Group: default, isGame: false ], type = SFSRoom
+14 十二月 2017 | 22:11:38,703 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+14 十二月 2017 | 22:11:38,809 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+14 十二月 2017 | 22:11:38,810 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+14 十二月 2017 | 22:11:38,810 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+14 十二月 2017 | 22:11:39,524 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+14 十二月 2017 | 22:11:45,668 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:30281 } on Server port: 9933 <---> 30281
+14 十二月 2017 | 22:11:45,855 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: abc, Id: 0, Priv: 0, Sess: 127.0.0.1:30281 ) , Type: Unity
+14 十二月 2017 | 22:12:44,311 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:30594 } on Server port: 9933 <---> 30594
+14 十二月 2017 | 22:12:44,333 | INFO  | SFSWorker:Ext:1 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 1, Priv: 0, Sess: 127.0.0.1:30594 ) , Type: Flash ActiveX:WIN 28,0,0,126
+14 十二月 2017 | 22:12:44,337 | INFO  | SFSWorker:Ext:1 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 2, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 1, Priv: 0, Sess: 127.0.0.1:30594 ) , asSpect: false
+14 十二月 2017 | 22:13:00,655 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:30281 }
+14 十二月 2017 | 22:13:00,656 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: abc, Id: 0, Priv: 0, Sess: 127.0.0.1:30281 ) , SessionLen: 74802, Type: Unity
+14 十二月 2017 | 22:13:00,656 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: DisConnectedabc 
+14 十二月 2017 | 22:13:02,059 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 127.0.0.1:30660 } on Server port: 9933 <---> 30660
+14 十二月 2017 | 22:13:02,121 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: abc, Id: 2, Priv: 0, Sess: 127.0.0.1:30660 ) , Type: Unity
+14 十二月 2017 | 22:13:37,085 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 3, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:30660 }
+14 十二月 2017 | 22:13:37,085 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: DisConnectedabc 
+14 十二月 2017 | 22:13:37,085 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: abc, Id: 2, Priv: 0, Sess: 127.0.0.1:30660 ) , SessionLen: 34964, Type: Unity
+14 十二月 2017 | 22:13:40,594 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 4, Type: DEFAULT, Logged: No, IP: 127.0.0.1:30804 } on Server port: 9933 <---> 30804
+14 十二月 2017 | 22:13:40,655 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: abc, Id: 3, Priv: 0, Sess: 127.0.0.1:30804 ) , Type: Unity
+14 十二月 2017 | 22:13:40,680 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: abc, Id: 3, Priv: 0, Sess: 127.0.0.1:30804 ) , asSpect: false
+14 十二月 2017 | 22:13:40,681 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户:( User Name: abc, Id: 3, Priv: 0, Sess: 127.0.0.1:30804 )  
+14 十二月 2017 | 22:13:40,681 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 房间[ Room: The Lobby, Id: 0, Group: default, isGame: false ] 
+14 十二月 2017 | 22:13:45,468 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 4, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:30804 }
+14 十二月 2017 | 22:13:45,469 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: DisConnectedabc 
+14 十二月 2017 | 22:13:45,469 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: abc, Id: 3, Priv: 0, Sess: 127.0.0.1:30804 ) , SessionLen: 4814, Type: Unity
+14 十二月 2017 | 22:13:51,564 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 5, Type: DEFAULT, Logged: No, IP: 127.0.0.1:30845 } on Server port: 9933 <---> 30845
+14 十二月 2017 | 22:13:51,619 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: abc, Id: 4, Priv: 0, Sess: 127.0.0.1:30845 ) , Type: Unity
+14 十二月 2017 | 22:13:51,650 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: abc, Id: 4, Priv: 0, Sess: 127.0.0.1:30845 ) , asSpect: false
+14 十二月 2017 | 22:13:51,650 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户:( User Name: abc, Id: 4, Priv: 0, Sess: 127.0.0.1:30845 )  
+14 十二月 2017 | 22:13:51,651 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 房间[ Room: The Lobby, Id: 0, Group: default, isGame: false ] 
+14 十二月 2017 | 22:13:56,037 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 5, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:30845 }
+14 十二月 2017 | 22:13:56,037 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: abc, Id: 4, Priv: 0, Sess: 127.0.0.1:30845 ) , SessionLen: 4418, Type: Unity
+14 十二月 2017 | 22:13:56,037 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: DisConnectedabc 
+14 十二月 2017 | 22:14:09,643 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 6, Type: DEFAULT, Logged: No, IP: 127.0.0.1:30919 } on Server port: 9933 <---> 30919
+14 十二月 2017 | 22:14:09,697 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: abc, Id: 5, Priv: 0, Sess: 127.0.0.1:30919 ) , Type: Unity
+14 十二月 2017 | 22:14:11,631 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 6, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:30919 }
+14 十二月 2017 | 22:14:11,631 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: DisConnectedabc 
+14 十二月 2017 | 22:14:11,631 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: abc, Id: 5, Priv: 0, Sess: 127.0.0.1:30919 ) , SessionLen: 1934, Type: Unity
+14 十二月 2017 | 22:16:52,405 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 7, Type: DEFAULT, Logged: No, IP: 127.0.0.1:31484 } on Server port: 9933 <---> 31484
+14 十二月 2017 | 22:16:52,463 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: abc, Id: 6, Priv: 0, Sess: 127.0.0.1:31484 ) , Type: Unity
+14 十二月 2017 | 22:16:52,495 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: abc, Id: 6, Priv: 0, Sess: 127.0.0.1:31484 ) , asSpect: false
+14 十二月 2017 | 22:16:52,496 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户:( User Name: abc, Id: 6, Priv: 0, Sess: 127.0.0.1:31484 )  
+14 十二月 2017 | 22:16:52,496 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 房间[ Room: The Lobby, Id: 0, Group: default, isGame: false ] 
+14 十二月 2017 | 22:16:54,742 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 7, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:31484 }
+14 十二月 2017 | 22:16:54,743 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: abc, Id: 6, Priv: 0, Sess: 127.0.0.1:31484 ) , SessionLen: 2280, Type: Unity
+14 十二月 2017 | 22:16:54,743 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: DisConnectedabc 
+14 十二月 2017 | 22:17:13,798 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 8, Type: DEFAULT, Logged: No, IP: 127.0.0.1:31565 } on Server port: 9933 <---> 31565
+14 十二月 2017 | 22:17:13,857 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: abc, Id: 7, Priv: 0, Sess: 127.0.0.1:31565 ) , Type: Unity
+14 十二月 2017 | 22:17:13,889 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: abc, Id: 7, Priv: 0, Sess: 127.0.0.1:31565 ) , asSpect: false
+14 十二月 2017 | 22:17:13,889 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户:( User Name: abc, Id: 7, Priv: 0, Sess: 127.0.0.1:31565 )  
+14 十二月 2017 | 22:17:13,889 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 房间[ Room: The Lobby, Id: 0, Group: default, isGame: false ] 
+14 十二月 2017 | 22:17:23,070 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 8, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:31565 }
+14 十二月 2017 | 22:17:23,071 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: DisConnectedabc 
+14 十二月 2017 | 22:17:23,071 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: abc, Id: 7, Priv: 0, Sess: 127.0.0.1:31565 ) , SessionLen: 9214, Type: Unity
+14 十二月 2017 | 22:19:31,952 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 9, Type: DEFAULT, Logged: No, IP: 127.0.0.1:32047 } on Server port: 9933 <---> 32047
+14 十二月 2017 | 22:19:32,008 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: abc, Id: 8, Priv: 0, Sess: 127.0.0.1:32047 ) , Type: Unity
+14 十二月 2017 | 22:19:32,044 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: abc, Id: 8, Priv: 0, Sess: 127.0.0.1:32047 ) , asSpect: false
+14 十二月 2017 | 22:19:32,044 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户:( User Name: abc, Id: 8, Priv: 0, Sess: 127.0.0.1:32047 )  
+14 十二月 2017 | 22:19:32,044 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 房间[ Room: The Lobby, Id: 0, Group: default, isGame: false ] 
+14 十二月 2017 | 22:19:41,962 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 9, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:32047 }
+14 十二月 2017 | 22:19:41,962 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: DisConnectedabc 
+14 十二月 2017 | 22:19:41,962 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: abc, Id: 8, Priv: 0, Sess: 127.0.0.1:32047 ) , SessionLen: 9954, Type: Unity
+14 十二月 2017 | 22:19:51,007 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 10, Type: DEFAULT, Logged: No, IP: 127.0.0.1:32120 } on Server port: 9933 <---> 32120
+14 十二月 2017 | 22:19:51,065 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: abc, Id: 9, Priv: 0, Sess: 127.0.0.1:32120 ) , Type: Unity
+14 十二月 2017 | 22:19:51,095 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | Room joined: [ Room: The Lobby, Id: 0, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: abc, Id: 9, Priv: 0, Sess: 127.0.0.1:32120 ) , asSpect: false
+14 十二月 2017 | 22:19:51,096 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户:( User Name: abc, Id: 9, Priv: 0, Sess: 127.0.0.1:32120 )  
+14 十二月 2017 | 22:19:51,096 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 房间[ Room: The Lobby, Id: 0, Group: default, isGame: false ] 
+14 十二月 2017 | 22:20:24,443 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+14 十二月 2017 | 22:20:24,796 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+14 十二月 2017 | 22:20:24,814 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\Felix\AppData\Local\Temp\vfs_cache" as temporary files store.
+14 十二月 2017 | 22:20:24,860 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+14 十二月 2017 | 22:20:24,861 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+14 十二月 2017 | 22:20:24,868 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+14 十二月 2017 | 22:20:24,873 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+14 十二月 2017 | 22:20:24,876 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\BasicExamples.zone.xml
+14 十二月 2017 | 22:20:24,893 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+14 十二月 2017 | 22:20:24,919 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+14 十二月 2017 | 22:20:24,920 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: test1, Id: 1, Group: default, isGame: false ], type = SFSRoom
+14 十二月 2017 | 22:20:24,925 | INFO  | main | Extensions |     | {java}: 斗地主服务器启动成功... 
+14 十二月 2017 | 22:20:24,930 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 2, Group: default, isGame: false ], type = SFSRoom
+14 十二月 2017 | 22:20:24,963 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+14 十二月 2017 | 22:20:25,072 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+14 十二月 2017 | 22:20:25,072 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+14 十二月 2017 | 22:20:25,072 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+14 十二月 2017 | 22:20:25,807 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+14 十二月 2017 | 22:20:27,020 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:32274 } on Server port: 9933 <---> 32274
+14 十二月 2017 | 22:20:27,192 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: abc, Id: 0, Priv: 0, Sess: 127.0.0.1:32274 ) , Type: Unity
+14 十二月 2017 | 22:20:27,218 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: test1, Id: 1, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: abc, Id: 0, Priv: 0, Sess: 127.0.0.1:32274 ) , asSpect: false
+14 十二月 2017 | 22:20:27,218 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户:( User Name: abc, Id: 0, Priv: 0, Sess: 127.0.0.1:32274 )  
+14 十二月 2017 | 22:20:27,218 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 房间[ Room: test1, Id: 1, Group: default, isGame: false ] 
+14 十二月 2017 | 22:20:35,234 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:32274 }
+14 十二月 2017 | 22:20:35,236 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: abc, Id: 0, Priv: 0, Sess: 127.0.0.1:32274 ) , SessionLen: 8044, Type: Unity
+14 十二月 2017 | 22:20:35,236 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: DisConnectedabc 

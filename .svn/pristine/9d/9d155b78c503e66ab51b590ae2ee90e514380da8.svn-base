@@ -1,0 +1,66 @@
+﻿using Sfs2X.Core;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System;
+using Sfs2X.Requests;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
+public class UILogin : MonoBehaviour {
+    public UIInput user;
+    public UIInput pwd;
+    private string UserLoginId;
+    private string UserLoginPwd;
+
+    // Use this for initialization
+    void Start () {
+        Global.EvtMgr.AddEventListener(SFSEvent.CONNECTION,OnConnection);
+        
+        Global.EvtMgr.AddEventListener(SFSEvent.LOGIN,UserLogin);
+        Global.EvtMgr.AddEventListener(SFSEvent.LOGIN_ERROR,UserLoginFailed);
+
+    }
+    /// <summary>
+    /// 游戏大区连接失败回调
+    /// </summary>
+    /// <param name="evt"></param>
+    private void UserLoginFailed(NEvent evt)
+    {
+        Global.Log("游戏大区连接失败");
+    }
+    /// <summary>
+    /// 游戏大区连接成功回调
+    /// </summary>
+    /// <param name="evt"></param>
+    private void UserLogin(NEvent evt)
+    {
+        Global.Log("游戏大区连接成功");
+        SceneManager.LoadScene("GameSelect");
+    }
+
+   
+    /// <summary>
+    /// 服务器连接成功回调
+    /// </summary>
+    /// <param name="evt"></param>
+    private void OnConnection(NEvent evt)
+    {
+        Global.Log("服务器连接成功");
+    }
+    /// <summary>
+    /// 登录按钮发送登录请求
+    /// </summary>
+    public void Login_Btn()
+    {
+        UserLoginId = user.value;
+        UserLoginPwd = pwd.value;
+
+        Global.NetMgr.SendSFSMessage(new LoginRequest(UserLoginId,UserLoginPwd,Global.m_defaultZone));
+    }
+
+    // Update is called once per frame
+    void Update () {
+		
+	}
+}

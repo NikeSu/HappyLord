@@ -1,0 +1,24 @@
+package com.fps;
+
+import com.smartfoxserver.v2.entities.User;
+import com.smartfoxserver.v2.entities.data.ISFSObject;
+import com.smartfoxserver.v2.entities.data.SFSObject;
+import com.smartfoxserver.v2.extensions.BaseClientRequestHandler;
+
+public class OnExtLoginHandler extends BaseClientRequestHandler {
+
+	public void handleClientRequest(User arg0, ISFSObject sfsobj) {
+		// TODO Auto-generated method stub
+		String user=sfsobj.getUtfString("username");
+		String pwd=sfsobj.getUtfString("password");
+		
+		trace("用户登录验证"+user+","+pwd);
+		
+		
+		//构建登录反馈信息
+		SFSObject outObj=new SFSObject();
+		outObj.putText("result","登录成功! success");
+		this.send("login", outObj, arg0);
+	}
+
+}

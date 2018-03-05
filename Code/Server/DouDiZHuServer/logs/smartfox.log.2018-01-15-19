@@ -1,0 +1,5 @@
+15 一月 2018 | 19:16:42,673 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 15, Type: DEFAULT, Logged: No, IP: 172.18.23.160:6110 } on Server port: 9933 <---> 6110
+15 一月 2018 | 19:18:50,537 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 15, Type: DEFAULT, Logged: No, IP: 172.18.23.160:6110 }
+15 一月 2018 | 19:55:00,624 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: DouDiZhu }, CCU: 0/0
+15 一月 2018 | 19:55:00,624 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+15 一月 2018 | 19:55:00,624 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/0

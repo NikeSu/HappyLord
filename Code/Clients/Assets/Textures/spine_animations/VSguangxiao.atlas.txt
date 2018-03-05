@@ -1,0 +1,41 @@
+
+VSguangxiao.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bai
+  rotate: true
+  xy: 571, 73
+  size: 161, 162
+  orig: 161, 162
+  offset: 0, 0
+  index: -1
+di
+  rotate: false
+  xy: 294, 26
+  size: 250, 48
+  orig: 250, 48
+  offset: 0, 0
+  index: -1
+hong
+  rotate: false
+  xy: 294, 76
+  size: 275, 158
+  orig: 275, 158
+  offset: 0, 0
+  index: -1
+lan
+  rotate: false
+  xy: 2, 2
+  size: 290, 232
+  orig: 290, 232
+  offset: 0, 0
+  index: -1
+xiaoguang
+  rotate: false
+  xy: 735, 195
+  size: 30, 39
+  orig: 30, 39
+  offset: 0, 0
+  index: -1

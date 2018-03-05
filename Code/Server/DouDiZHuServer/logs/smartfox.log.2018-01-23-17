@@ -1,0 +1,6 @@
+23 一月 2018 | 17:31:31,065 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 4, Type: DEFAULT, Logged: No, IP: 127.0.0.1:14380 } on Server port: 9933 <---> 14380
+23 一月 2018 | 17:31:31,086 | INFO  | SFSWorker:Ext:2 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 3, Priv: 0, Sess: 127.0.0.1:14380 ) , Type: Flash ActiveX:WIN 24,0,0,221
+23 一月 2018 | 17:31:31,098 | INFO  | SFSWorker:Ext:2 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 3, Priv: 0, Sess: 127.0.0.1:14380 ) , asSpect: false
+23 一月 2018 | 17:55:27,164 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: DouDiZhu }, CCU: 0/0
+23 一月 2018 | 17:55:27,165 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/1
+23 一月 2018 | 17:55:27,165 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1

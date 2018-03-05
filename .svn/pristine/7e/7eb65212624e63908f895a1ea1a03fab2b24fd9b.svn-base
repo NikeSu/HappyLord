@@ -1,0 +1,289 @@
+02 一月 2018 | 17:40:03,440 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 172.18.23.160:13207 } on Server port: 9933 <---> 13207
+02 一月 2018 | 17:40:43,762 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 3, Type: DEFAULT, Logged: No, IP: 172.18.23.160:13207 }
+02 一月 2018 | 17:42:04,968 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 4, Type: DEFAULT, Logged: No, IP: 172.18.23.160:13237 } on Server port: 9933 <---> 13237
+02 一月 2018 | 17:42:06,495 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户frank登录成功! 
+02 一月 2018 | 17:42:06,496 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 2, Priv: 0, Sess: 172.18.23.160:13237 ) , Type: Unity
+02 一月 2018 | 17:42:06,497 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+02 一月 2018 | 17:44:13,780 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 4, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:13237 }
+02 一月 2018 | 17:44:13,781 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 2, Priv: 0, Sess: 172.18.23.160:13237 ) , SessionLen: 127285, Type: Unity
+02 一月 2018 | 17:47:13,858 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+02 一月 2018 | 17:47:14,323 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+02 一月 2018 | 17:47:14,345 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+02 一月 2018 | 17:47:14,407 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+02 一月 2018 | 17:47:14,409 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+02 一月 2018 | 17:47:14,418 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+02 一月 2018 | 17:47:14,426 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+02 一月 2018 | 17:47:14,430 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+02 一月 2018 | 17:47:14,460 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 17:47:14,487 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 17:47:14,497 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 17:47:14,722 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+02 一月 2018 | 17:47:14,724 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 17:47:14,724 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 17:47:14,729 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+02 一月 2018 | 17:47:14,730 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 17:47:14,731 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 17:47:14,735 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+02 一月 2018 | 17:47:14,736 | INFO  | main | Extensions |     | {java}: ==================斗地主服务器初始化========================== 
+02 一月 2018 | 17:47:14,741 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+02 一月 2018 | 17:47:14,743 | INFO  | main | Extensions |     | {java}: ======================================================= 
+02 一月 2018 | 17:47:14,747 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 17:47:14,785 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+02 一月 2018 | 17:47:14,979 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+02 一月 2018 | 17:47:14,980 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+02 一月 2018 | 17:47:14,980 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+02 一月 2018 | 17:47:16,473 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+02 一月 2018 | 17:47:48,269 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+02 一月 2018 | 17:47:48,739 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+02 一月 2018 | 17:47:48,760 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+02 一月 2018 | 17:47:48,823 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+02 一月 2018 | 17:47:48,824 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+02 一月 2018 | 17:47:48,833 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+02 一月 2018 | 17:47:48,840 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+02 一月 2018 | 17:47:48,844 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+02 一月 2018 | 17:47:48,873 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 17:47:48,901 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 17:47:48,910 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 17:47:49,135 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+02 一月 2018 | 17:47:49,137 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 17:47:49,138 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 17:47:49,142 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+02 一月 2018 | 17:47:49,143 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 17:47:49,143 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 17:47:49,147 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+02 一月 2018 | 17:47:49,148 | INFO  | main | Extensions |     | {java}: ==================斗地主服务器初始化========================== 
+02 一月 2018 | 17:47:49,153 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+02 一月 2018 | 17:47:49,155 | INFO  | main | Extensions |     | {java}: ======================================================= 
+02 一月 2018 | 17:47:49,159 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 17:47:49,196 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+02 一月 2018 | 17:47:49,379 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+02 一月 2018 | 17:47:49,380 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+02 一月 2018 | 17:47:49,380 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+02 一月 2018 | 17:47:50,882 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+02 一月 2018 | 17:49:18,313 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+02 一月 2018 | 17:49:18,779 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+02 一月 2018 | 17:49:18,801 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+02 一月 2018 | 17:49:18,863 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+02 一月 2018 | 17:49:18,864 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+02 一月 2018 | 17:49:18,874 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+02 一月 2018 | 17:49:18,881 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+02 一月 2018 | 17:49:18,884 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+02 一月 2018 | 17:49:18,912 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 17:49:18,942 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 17:49:18,950 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 17:49:19,172 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+02 一月 2018 | 17:49:19,174 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 17:49:19,174 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 17:49:19,180 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+02 一月 2018 | 17:49:19,180 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 17:49:19,181 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 17:49:19,185 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+02 一月 2018 | 17:49:19,186 | INFO  | main | Extensions |     | {java}: ==================斗地主服务器初始化========================== 
+02 一月 2018 | 17:49:19,190 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+02 一月 2018 | 17:49:19,193 | INFO  | main | Extensions |     | {java}: ======================================================= 
+02 一月 2018 | 17:49:19,197 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 17:49:19,233 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+02 一月 2018 | 17:49:19,423 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+02 一月 2018 | 17:49:19,424 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+02 一月 2018 | 17:49:19,424 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+02 一月 2018 | 17:49:20,961 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+02 一月 2018 | 17:55:12,282 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+02 一月 2018 | 17:55:12,766 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+02 一月 2018 | 17:55:12,788 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+02 一月 2018 | 17:55:12,850 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+02 一月 2018 | 17:55:12,851 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+02 一月 2018 | 17:55:12,861 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+02 一月 2018 | 17:55:12,867 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+02 一月 2018 | 17:55:12,870 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+02 一月 2018 | 17:55:12,899 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 17:55:12,928 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 17:55:12,935 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 17:55:13,160 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+02 一月 2018 | 17:55:13,162 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 17:55:13,163 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 17:55:13,167 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+02 一月 2018 | 17:55:13,168 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 17:55:13,169 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 17:55:13,173 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+02 一月 2018 | 17:55:13,175 | INFO  | main | Extensions |     | {java}: ==================斗地主服务器初始化========================== 
+02 一月 2018 | 17:55:13,179 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+02 一月 2018 | 17:55:13,181 | INFO  | main | Extensions |     | {java}: ======================================================= 
+02 一月 2018 | 17:55:13,184 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 17:55:13,219 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+02 一月 2018 | 17:55:13,401 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+02 一月 2018 | 17:55:13,401 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+02 一月 2018 | 17:55:13,401 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+02 一月 2018 | 17:55:14,895 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+02 一月 2018 | 17:56:13,405 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: DouDiZhu }, CCU: 0/0
+02 一月 2018 | 17:56:13,405 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+02 一月 2018 | 17:56:13,406 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/0
+02 一月 2018 | 17:57:30,046 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+02 一月 2018 | 17:57:30,572 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+02 一月 2018 | 17:57:30,595 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+02 一月 2018 | 17:57:30,657 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+02 一月 2018 | 17:57:30,659 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+02 一月 2018 | 17:57:30,669 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+02 一月 2018 | 17:57:30,679 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+02 一月 2018 | 17:57:30,682 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+02 一月 2018 | 17:57:30,713 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 17:57:30,741 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 17:57:30,748 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 17:57:31,157 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+02 一月 2018 | 17:57:31,159 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 17:57:31,160 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 17:57:31,168 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+02 一月 2018 | 17:57:31,169 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 17:57:31,170 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 17:57:31,179 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+02 一月 2018 | 17:57:31,180 | INFO  | main | Extensions |     | {java}: ==================斗地主服务器初始化========================== 
+02 一月 2018 | 17:57:31,192 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+02 一月 2018 | 17:57:31,195 | INFO  | main | Extensions |     | {java}: ======================================================= 
+02 一月 2018 | 17:57:31,201 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 17:57:31,255 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+02 一月 2018 | 17:57:31,432 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+02 一月 2018 | 17:57:31,432 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+02 一月 2018 | 17:57:31,433 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+02 一月 2018 | 17:57:33,125 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+02 一月 2018 | 17:57:41,424 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 172.18.23.160:13544 } on Server port: 9933 <---> 13544
+02 一月 2018 | 17:57:45,682 | WARN  | SFSWorker:Ext:4 | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSLoginException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSLoginException
+Message: 密码不正确
+Description: Extension's Login Handler exception
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.ddz.zone.SFSLoginHandler.handleServerEvent(SFSLoginHandler.java:44)
+com.smartfoxserver.v2.extensions.SFSExtension.handleServerEvent(SFSExtension.java:259)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchEvent(SFSExtensionManager.java:768)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchZoneLevelEvent(SFSExtensionManager.java:689)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.handleServerEvent(SFSExtensionManager.java:887)
+com.smartfoxserver.v2.core.SFSEventManager$SFSEventRunner.run(SFSEventManager.java:66)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 17:57:49,964 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户frank登录成功! 
+02 一月 2018 | 17:57:49,976 | INFO  | SFSWorker:Ext:2 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 0, Priv: 0, Sess: 172.18.23.160:13544 ) , Type: Unity
+02 一月 2018 | 17:57:49,978 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户进入区 
+02 一月 2018 | 17:57:57,409 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:13544 }
+02 一月 2018 | 17:57:57,412 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 0, Priv: 0, Sess: 172.18.23.160:13544 ) , SessionLen: 7436, Type: Unity
+02 一月 2018 | 17:58:31,437 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: DouDiZhu }, CCU: 0/0
+02 一月 2018 | 17:58:31,437 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+02 一月 2018 | 17:58:31,438 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/0

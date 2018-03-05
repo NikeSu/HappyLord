@@ -1,0 +1,69 @@
+
+fanpaitexiao.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fanpaitexiao0001
+  rotate: false
+  xy: 2, 184
+  size: 150, 180
+  orig: 150, 180
+  offset: 0, 0
+  index: -1
+fanpaitexiao0003
+  rotate: false
+  xy: 2, 2
+  size: 150, 180
+  orig: 150, 180
+  offset: 0, 0
+  index: -1
+fanpaitexiao0005
+  rotate: false
+  xy: 154, 184
+  size: 150, 180
+  orig: 150, 180
+  offset: 0, 0
+  index: -1
+fanpaitexiao0009
+  rotate: false
+  xy: 154, 2
+  size: 150, 180
+  orig: 150, 180
+  offset: 0, 0
+  index: -1
+fanpaitexiao0011
+  rotate: false
+  xy: 306, 184
+  size: 150, 180
+  orig: 150, 180
+  offset: 0, 0
+  index: -1
+fanpaitexiao0015
+  rotate: false
+  xy: 306, 2
+  size: 150, 180
+  orig: 150, 180
+  offset: 0, 0
+  index: -1
+fanpaitexiao0017
+  rotate: false
+  xy: 458, 184
+  size: 150, 180
+  orig: 150, 180
+  offset: 0, 0
+  index: -1
+fanpaitexiao0019
+  rotate: false
+  xy: 458, 2
+  size: 150, 180
+  orig: 150, 180
+  offset: 0, 0
+  index: -1
+fanpaitexiao0021
+  rotate: false
+  xy: 610, 184
+  size: 150, 180
+  orig: 150, 180
+  offset: 0, 0
+  index: -1

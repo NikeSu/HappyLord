@@ -1,0 +1,16 @@
+09 一月 2018 | 16:11:45,893 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 40, Type: DEFAULT, Logged: No, IP: 172.18.23.160:9160 } on Server port: 9933 <---> 9160
+09 一月 2018 | 16:11:47,123 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户admin登录成功! 
+09 一月 2018 | 16:11:47,124 | INFO  | SFSWorker:Ext:2 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 31, Priv: 0, Sess: 172.18.23.160:9160 ) , Type: Unity
+09 一月 2018 | 16:11:47,125 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户进入区 
+09 一月 2018 | 16:11:47,448 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 获取用户信息 
+09 一月 2018 | 16:11:47,449 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: !---------{Max_mult=256, honor_title=难民, quan=199, usernick=admin123456, sex=女, headpicture=picture1, userpwd=admin123, Vitory=null, gold=233, gamelv=15, game_count=7, viplv=1, vipEXP=null, ID=2, Defeat=null, personalwords=Hello,Admin!, gameEXP=null, username=admin}-----------! 
+09 一月 2018 | 16:11:47,449 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: admin 
+09 一月 2018 | 16:11:56,953 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 收到邮箱拓展 
+09 一月 2018 | 16:11:56,953 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 返回客户端消息 
+09 一月 2018 | 16:12:12,931 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 收到邮箱拓展 
+09 一月 2018 | 16:12:12,931 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 返回客户端消息 
+09 一月 2018 | 16:14:23,792 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 40, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:9160 }
+09 一月 2018 | 16:14:23,792 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 31, Priv: 0, Sess: 172.18.23.160:9160 ) , SessionLen: 156668, Type: Unity
+09 一月 2018 | 16:55:13,971 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: DouDiZhu }, CCU: 0/1
+09 一月 2018 | 16:55:13,971 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 1/1
+09 一月 2018 | 16:55:13,971 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: CCU: 1/2

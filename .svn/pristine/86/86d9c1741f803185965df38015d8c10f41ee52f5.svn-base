@@ -1,0 +1,151 @@
+﻿using Sfs2X;
+using Sfs2X.Core;
+using UnityEngine;
+using Sfs2X.Requests;
+using Sfs2X.Entities.Data;
+using System.Collections;
+using Sfs2X.Entities;
+
+public class NetManager : MonoBehaviour {
+
+    private SmartFox sfs = new SmartFox();
+
+    public SmartFox SFS
+    {
+        get { return sfs; }
+    }
+    private string defaultZoneName="";
+    /// <summary>
+    /// 初始化默认游戏区
+    /// </summary>
+    /// <param name="defaultZone"></param>
+    public void Init(string Zone)
+    {
+        this.defaultZoneName = Zone;
+        sfs.ThreadSafeMode = true;
+        //是否开启调试模式
+        //sfs.Debug = true;
+
+        //监听客户端事件
+        sfs.AddEventListener(SFSEvent.CONNECTION, OnSFSEventHandler);
+        sfs.AddEventListener(SFSEvent.CONNECTION_LOST, OnSFSEventHandler);
+
+        //监听客户端登录事件
+        sfs.AddEventListener(SFSEvent.LOGIN, OnSFSEventHandler);
+        sfs.AddEventListener(SFSEvent.LOGIN_ERROR, OnSFSEventHandler);
+
+        //监听用户加入 房间
+        sfs.AddEventListener(SFSEvent.ROOM_JOIN, OnSFSEventHandler);
+        //监听扩展反馈
+        sfs.AddEventListener(SFSEvent.EXTENSION_RESPONSE, OnExtensionHandler);
+
+        //监听用户变量变化
+        sfs.AddEventListener(SFSEvent.USER_VARIABLES_UPDATE, OnSFSEventHandler);
+        //监听有用户进入房间
+        sfs.AddEventListener(SFSEvent.USER_ENTER_ROOM, OnSFSEventHandler);
+        //监听用户离开房间
+        sfs.AddEventListener(SFSEvent.USER_EXIT_ROOM, OnSFSEventHandler);
+
+        //监听房间变变量
+        sfs.AddEventListener(SFSEvent.ROOM_VARIABLES_UPDATE, OnSFSEventHandler);
+
+        //监听Socket Error;
+        sfs.AddEventListener(SFSEvent.SOCKET_ERROR, OnSFSEventHandler);
+        
+        Global.Log("【NetManager】初始化成功！");
+    }
+
+  
+
+    /// <summary>
+    /// 链接到服务器
+    /// </summary>
+    /// <param name="serverIP">服务器IP</param>
+    /// <param name="serverPort">端口</param>
+    public void Connect(string serverIP = "127.0.0.1", int serverPort = 9933)
+    {
+        sfs.Connect(serverIP, serverPort);
+    }
+
+    /// <summary>
+    /// 系统事件监听
+    /// </summary>
+    /// <param name="evt"></param>
+    private void OnSFSEventHandler(BaseEvent evt)
+    {
+
+		object target = evt.Target;
+		string cmd = evt.Type.ToString ();
+		SFSObject data = evt.Params ["params"] as SFSObject;
+		NEvent e = new NEvent (target, cmd, data,evt);
+        ///派发系统事件
+        Global.EvtMgr.DispatchEvent(e);
+    }
+
+
+    /// <summary>
+    /// 向服务器发送扩展请求
+    /// </summary>
+    /// <param name="cmd">命令</param>
+    /// <param name="obj">数据</param>
+    public void SendExtMessage(string cmd,ISFSObject obj)
+    {
+        sfs.Send(new ExtensionRequest(cmd, obj));
+    }
+    /// <summary>
+    /// 向服务器发送扩展请求
+    /// </summary>
+    /// <param name="cmd">命令</param>
+    /// <param name="obj">数据</param>
+    public void SendExtMessage(string cmd, ISFSObject obj,Room room=null)
+    {
+        if (room == null)
+        {
+            sfs.Send(new ExtensionRequest(cmd, obj));
+        }else
+        {
+            sfs.Send(new ExtensionRequest(cmd, obj, room, true));
+        }
+    }
+    /// <summary>
+    /// 向服务器端发送事件请求
+    /// </summary>
+    /// <param name="request"></param>
+    public void SendSFSMessage(IRequest request)
+    {
+        sfs.Send(request);
+    }
+
+
+    /// <summary>
+    /// 扩展函数处理
+    /// </summary>
+    /// <param name="evt">事件类型</param>
+    private void OnExtensionHandler(BaseEvent evt)
+    {
+        //通讯指令
+        string cmd = (string)evt.Params["cmd"];
+		SFSObject data = (SFSObject)evt.Params ["params"];
+		NEvent e = new NEvent(evt.Target, cmd, data,evt);
+        Global.EvtMgr.DispatchEvent(e); 
+    }
+
+
+    void Update()
+    {
+        ///不断刷新SmartFoxServer事件处理
+        if (sfs != null)
+            sfs.ProcessEvents();
+
+    }
+
+
+    void OnDestroy()
+    {
+        //关闭时，断开与服务器连接
+        if (sfs != null && sfs.IsConnected)
+        {
+            sfs.Disconnect();
+        }
+    }
+}

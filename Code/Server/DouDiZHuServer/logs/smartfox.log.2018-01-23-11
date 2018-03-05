@@ -1,0 +1,36 @@
+23 一月 2018 | 11:32:17,698 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 22, Type: DEFAULT, Logged: No, IP: 172.18.23.188:4046 } on Server port: 9933 <---> 4046
+23 一月 2018 | 11:32:22,245 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户test登录成功! 
+23 一月 2018 | 11:32:22,249 | INFO  | SFSWorker:Ext:3 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: test, Id: 19, Priv: 0, Sess: 172.18.23.188:4046 ) , Type: Unity
+23 一月 2018 | 11:32:22,249 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户进入区 
+23 一月 2018 | 11:32:22,489 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 获取用户信息 
+23 一月 2018 | 11:32:22,490 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: !---------{Max_mult=888, honor_title=大富豪, quan=99, usernick=哈哈哈, sex=未知, headpicture=picture2, userpwd=test, Vitory=null, gold=1000, gamelv=99, game_count=9999, viplv=99, vipEXP=null, ID=3, Defeat=null, personalwords=, gameEXP=null, username=test}-----------! 
+23 一月 2018 | 11:32:22,490 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: test 
+23 一月 2018 | 11:32:24,089 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: test, Id: 19, Priv: 0, Sess: 172.18.23.188:4046 ) , asSpect: false
+23 一月 2018 | 11:32:24,090 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入房间 
+23 一月 2018 | 11:32:24,090 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: [ Room: lobby, Id: 0, Group: default, isGame: false ] 
+23 一月 2018 | 11:32:24,090 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: [( User Name: test, Id: 19, Priv: 0, Sess: 172.18.23.188:4046 ) ] 
+23 一月 2018 | 11:32:24,090 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: !-----1-----! 
+23 一月 2018 | 11:32:24,091 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 房间信息发送客户端成功,等待游戏开始 
+23 一月 2018 | 11:32:28,929 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 22, Type: DEFAULT, Logged: Yes, IP: 172.18.23.188:4046 }
+23 一月 2018 | 11:32:28,930 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: test, Id: 19, Priv: 0, Sess: 172.18.23.188:4046 ) , SessionLen: 6682, Type: Unity
+23 一月 2018 | 11:33:29,385 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 23, Type: DEFAULT, Logged: No, IP: 172.18.23.184:27864 } on Server port: 9933 <---> 27864
+23 一月 2018 | 11:33:31,524 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户test登录成功! 
+23 一月 2018 | 11:33:31,526 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: test, Id: 20, Priv: 0, Sess: 172.18.23.184:27864 ) , Type: Unity
+23 一月 2018 | 11:33:31,527 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+23 一月 2018 | 11:33:31,767 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 获取用户信息 
+23 一月 2018 | 11:33:31,769 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: !---------{Max_mult=888, honor_title=大富豪, quan=99, usernick=哈哈哈, sex=未知, headpicture=picture2, userpwd=test, Vitory=null, gold=1000, gamelv=99, game_count=9999, viplv=99, vipEXP=null, ID=3, Defeat=null, personalwords=, gameEXP=null, username=test}-----------! 
+23 一月 2018 | 11:33:31,770 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: test 
+23 一月 2018 | 11:33:35,703 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 23, Type: DEFAULT, Logged: Yes, IP: 172.18.23.184:27864 }
+23 一月 2018 | 11:33:35,703 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: test, Id: 20, Priv: 0, Sess: 172.18.23.184:27864 ) , SessionLen: 4177, Type: Unity
+23 一月 2018 | 11:46:52,187 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 24, Type: DEFAULT, Logged: No, IP: 172.18.23.188:6194 } on Server port: 9933 <---> 6194
+23 一月 2018 | 11:46:54,222 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户test登录成功! 
+23 一月 2018 | 11:46:54,225 | INFO  | SFSWorker:Ext:1 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: test, Id: 21, Priv: 0, Sess: 172.18.23.188:6194 ) , Type: Unity
+23 一月 2018 | 11:46:54,225 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户进入区 
+23 一月 2018 | 11:46:54,470 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 获取用户信息 
+23 一月 2018 | 11:46:54,472 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: !---------{Max_mult=888, honor_title=大富豪, quan=99, usernick=哈哈哈, sex=未知, headpicture=picture2, userpwd=test, Vitory=null, gold=1000, gamelv=99, game_count=9999, viplv=99, vipEXP=null, ID=3, Defeat=null, personalwords=, gameEXP=null, username=test}-----------! 
+23 一月 2018 | 11:46:54,472 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: test 
+23 一月 2018 | 11:48:59,199 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 24, Type: DEFAULT, Logged: Yes, IP: 172.18.23.188:6194 }
+23 一月 2018 | 11:48:59,200 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: test, Id: 21, Priv: 0, Sess: 172.18.23.188:6194 ) , SessionLen: 124975, Type: Unity
+23 一月 2018 | 11:55:19,125 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: DouDiZhu }, CCU: 0/1
+23 一月 2018 | 11:55:19,126 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+23 一月 2018 | 11:55:19,127 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1

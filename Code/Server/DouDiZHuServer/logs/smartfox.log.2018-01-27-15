@@ -1,0 +1,17 @@
+27 一月 2018 | 15:18:28,844 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 5, Type: DEFAULT, Logged: No, IP: 127.0.0.1:2349 } on Server port: 9933 <---> 2349
+27 一月 2018 | 15:18:30,863 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户test登录成功! 
+27 一月 2018 | 15:18:30,864 | INFO  | SFSWorker:Ext:1 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: test, Id: 6, Priv: 0, Sess: 127.0.0.1:2349 ) , Type: Unity
+27 一月 2018 | 15:18:30,865 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户进入区 
+27 一月 2018 | 15:18:31,661 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 获取用户信息 
+27 一月 2018 | 15:18:31,665 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: !---------{Max_mult=888, honor_title=大富豪, quan=99, usernick=陆志明, sex=未知, headpicture=picture2, userpwd=test, Vitory=null, gold=33999, gamelv=99, game_count=9999, viplv=99, vipEXP=null, ID=3, Defeat=null, personalwords=啊ad实打实的, gameEXP=null, username=test}-----------! 
+27 一月 2018 | 15:18:31,665 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: test 
+27 一月 2018 | 15:18:39,859 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 6, Type: DEFAULT, Logged: No, IP: 127.0.0.1:2354 } on Server port: 9933 <---> 2354
+27 一月 2018 | 15:18:44,571 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户frank登录成功! 
+27 一月 2018 | 15:18:44,572 | INFO  | SFSWorker:Ext:1 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 7, Priv: 0, Sess: 127.0.0.1:2354 ) , Type: Unity
+27 一月 2018 | 15:18:44,572 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户进入区 
+27 一月 2018 | 15:18:44,818 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 获取用户信息 
+27 一月 2018 | 15:18:44,819 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: !---------{Max_mult=128, honor_title=难民, quan=19, usernick=Frank, sex=男, headpicture=picture1, userpwd=123, Vitory=null, gold=1000, gamelv=12, game_count=10, viplv=1, vipEXP=null, ID=1, Defeat=null, personalwords=, gameEXP=null, username=frank}-----------! 
+27 一月 2018 | 15:18:44,820 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: frank 
+27 一月 2018 | 15:55:52,913 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: DouDiZhu }, CCU: 1/2
+27 一月 2018 | 15:55:52,913 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+27 一月 2018 | 15:55:52,914 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: CCU: 1/2

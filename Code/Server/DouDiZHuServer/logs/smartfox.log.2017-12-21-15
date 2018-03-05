@@ -1,0 +1,104 @@
+21 十二月 2017 | 15:35:59,872 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+21 十二月 2017 | 15:36:00,461 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+21 十二月 2017 | 15:36:00,491 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+21 十二月 2017 | 15:36:00,553 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+21 十二月 2017 | 15:36:00,555 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+21 十二月 2017 | 15:36:00,578 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+21 十二月 2017 | 15:36:00,586 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+21 十二月 2017 | 15:36:00,590 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\FPSGame.zone.xml
+21 十二月 2017 | 15:36:00,630 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: FPSGame 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+21 十二月 2017 | 15:36:00,883 | ERROR | main | v2.db.SFSDBManager |     | java.sql.SQLException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.sql.SQLException
+Message: Access denied for user 'root'@'localhost' (using password: YES)
+Description: The DBManager Test SQL failed: select * from account
+Please double check your SQL code and make sure that Database server is running.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+21 十二月 2017 | 15:36:00,891 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+21 十二月 2017 | 15:36:00,892 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+21 十二月 2017 | 15:36:00,892 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+21 十二月 2017 | 15:36:00,906 | INFO  | main | Extensions |     | {java}: ============================================= 
+21 十二月 2017 | 15:36:00,907 | INFO  | main | Extensions |     | {java}:          缁濆湴姹傜敓Server 鍚姩鎴愬姛                                       
+21 十二月 2017 | 15:36:00,907 | INFO  | main | Extensions |     | {java}: ============================================= 
+21 十二月 2017 | 15:36:00,912 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+21 十二月 2017 | 15:36:01,099 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+21 十二月 2017 | 15:36:01,293 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+21 十二月 2017 | 15:36:01,294 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+21 十二月 2017 | 15:36:01,294 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+21 十二月 2017 | 15:36:04,365 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+21 十二月 2017 | 15:37:02,595 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+21 十二月 2017 | 15:37:03,068 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+21 十二月 2017 | 15:37:03,090 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+21 十二月 2017 | 15:37:03,152 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+21 十二月 2017 | 15:37:03,154 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+21 十二月 2017 | 15:37:03,179 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+21 十二月 2017 | 15:37:03,186 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+21 十二月 2017 | 15:37:03,190 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\FPSGame.zone.xml
+21 十二月 2017 | 15:37:03,229 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: FPSGame 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+21 十二月 2017 | 15:37:03,490 | ERROR | main | v2.db.SFSDBManager |     | java.sql.SQLException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.sql.SQLException
+Message: Access denied for user 'root'@'localhost' (using password: YES)
+Description: The DBManager Test SQL failed: select * from account
+Please double check your SQL code and make sure that Database server is running.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+21 十二月 2017 | 15:37:03,498 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+21 十二月 2017 | 15:37:03,499 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+21 十二月 2017 | 15:37:03,499 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+21 十二月 2017 | 15:37:03,512 | INFO  | main | Extensions |     | {java}: ============================================= 
+21 十二月 2017 | 15:37:03,513 | INFO  | main | Extensions |     | {java}:          绝地求生Server 启动成功                                       
+21 十二月 2017 | 15:37:03,513 | INFO  | main | Extensions |     | {java}: ============================================= 
+21 十二月 2017 | 15:37:03,517 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+21 十二月 2017 | 15:37:03,633 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+21 十二月 2017 | 15:37:03,826 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+21 十二月 2017 | 15:37:03,827 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+21 十二月 2017 | 15:37:03,827 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+21 十二月 2017 | 15:37:05,629 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.

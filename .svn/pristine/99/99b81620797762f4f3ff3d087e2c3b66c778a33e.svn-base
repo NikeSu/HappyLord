@@ -1,0 +1,103 @@
+﻿using Sfs2X.Entities;
+using Sfs2X.Entities.Data;
+using Sfs2X.Requests;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Room_message : MonoBehaviour {
+    public UILabel multi;
+    public UILabel grade;
+    public UILabel matchname;
+
+    public UIButton CallLord;
+
+    public GameObject mask;
+    public UIButton btn_mask;
+
+    public GameObject chat;
+    public UIButton btn_chat;
+
+    void Awake()
+    {
+        print("!-----" + Global.multi + "-------!");
+        print("!-----" + Global.grade + "-------!");
+        print("!-----" + Global.matchName + "-------!");
+    }
+
+	// Use this for initialization
+	void Start () {
+       
+        multi.text = Global.multi.ToString();
+
+        grade.text = Global.grade.ToString();
+
+        matchname.text = Global.matchName; 
+
+        UIEventListener.Get(CallLord.gameObject).onClick = CallLordHandler;
+
+        Global.AddEventListener("test",TestHandler);
+
+        UIEventListener.Get(btn_mask.gameObject).onClick = BtnMaskClicked;
+
+        Global.AddEventListener("GetMaskInfo",MaskInfoHandler);
+	}
+
+
+    /// <summary>
+    /// 服务器发给客户端任务内容
+    /// </summary>
+    /// <param name="evt"></param>
+    private void MaskInfoHandler(NEvent evt)
+    {
+        print(evt.Data.GetUtfString("mask"));
+        mask.SetActive(true);
+    }
+
+
+    /// <summary>
+    /// 点击任务按钮的点击处理（向服务器发送获取任务请求）
+    /// </summary>
+    /// <param name="go"></param>
+    private void BtnMaskClicked(GameObject go)
+    {
+        print("向服务器发送获取任务请求");
+
+        SFSObject obj = new SFSObject();
+        Room room = Global.NetMgr.SFS.LastJoinedRoom;
+        Global.NetMgr.SFS.Send(new ExtensionRequest("GetMaskInfo",obj,room));
+        print("------发送请求ing------");
+    }
+
+
+    /// <summary>
+    /// 系统反馈客户端本场游戏的倍数
+    /// </summary>
+    /// <param name="evt"></param>
+    private void TestHandler(NEvent evt)
+    {
+        multi.text = evt.Data.GetInt("Multi").ToString();
+    }
+
+
+    /// <summary>
+    /// 叫地主按钮按下的点击处理（发送房间拓展消息增加倍数）
+    /// </summary>
+    /// <param name="go"></param>
+    private void CallLordHandler(GameObject go)
+    {
+        print("叫地主");
+        Room room = Global.NetMgr.SFS.LastJoinedRoom;
+
+        SFSObject obj = new SFSObject();
+
+        obj.PutInt("Multi",int.Parse( multi.text ));
+        Global.NetMgr.SFS.Send(new ExtensionRequest("test", obj, room));
+    }
+
+    // Update is called once per frame
+    void Update () {
+		
+	}
+}

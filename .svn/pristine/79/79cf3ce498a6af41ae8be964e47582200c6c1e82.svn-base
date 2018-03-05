@@ -1,0 +1,30 @@
+package com.fps;
+import java.sql.SQLException;
+
+import com.fps.db.DBManager;
+import com.smartfoxserver.v2.core.SFSEventType;
+import com.smartfoxserver.v2.db.IDBManager;
+import com.smartfoxserver.v2.extensions.SFSExtension;
+
+public class FPSExtension extends SFSExtension {
+
+	public void init() {
+		
+		this.addEventHandler(SFSEventType.USER_JOIN_ROOM, OnUserJoinRoom.class);
+		this.addEventHandler(SFSEventType.USER_LOGIN, OnUserLogin.class);
+		this.addEventHandler(SFSEventType.USER_DISCONNECT, OnUserDisconnect.class);
+		this.addRequestHandler("login", OnExtLoginHandler.class);
+		
+		//数据库链接
+		try {
+			DBManager.GetInstance().Init();
+		} catch (SQLException e) {
+			//TODO Auto-generated catch block
+			 
+		}
+		trace("=============================================");
+        trace("         绝地求生Server 启动成功                                      ");
+		trace("=============================================");
+	}
+
+}

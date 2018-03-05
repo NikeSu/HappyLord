@@ -1,0 +1,108 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class GameController : MonoBehaviour
+{
+
+    public List<string> cardlist = new List<string>();
+    public List<string> player1Cards;
+    public List<string> player2Cards;
+    public List<string> player3Cards;
+
+    public List<string> dipai;
+    
+
+    // Use this for initialization
+    void Start()
+    {
+
+        InitCardList();
+        FaPai();
+    }
+
+    private void FaPai()
+    {
+        //发底牌
+        dipai = new List<string>();
+        string d1 = cardlist[cardlist.Count - 3];
+        string d2 = cardlist[cardlist.Count - 2];
+        string d3 = cardlist[cardlist.Count - 1];
+        dipai.Add(d1);
+        dipai.Add(d2);
+        dipai.Add(d3);
+        cardlist.RemoveRange(cardlist.Count - 3, 3);
+
+        player1Cards = new List<string>();
+        player2Cards = new List<string>();
+        player3Cards = new List<string>();
+        for (int i = 0; i < cardlist.Count; i+=3)
+        {
+            player1Cards.Add(cardlist[i]);
+            player2Cards.Add(cardlist[i + 1]);
+            player3Cards.Add(cardlist[i + 2]);
+        }
+
+        print(123);
+        Debug.Log(cardlist.ToString());
+
+    }
+
+    /// <summary>
+    ///创建一副牌
+    /// </summary>
+
+    private void InitCardList()
+    {
+        cardlist= new List<string>();
+        for (int i = 0; i < 4; i++)
+        {
+            for (int j = 0; j < 13; j++)
+            {
+                if (j == 10)
+                {
+                    cardlist.Add(i + "A");
+                }
+                else if (j == 11)
+                {
+                    cardlist.Add(i + "B");
+                }
+                else if (j == 12)
+                {
+                    cardlist.Add(i + "C");
+                }
+                else if (j == 13)
+                {
+                    cardlist.Add(i + "D");
+                }
+                else
+                {
+                    cardlist.Add(i + "" + j);
+                }
+
+            }
+
+        }
+        cardlist.Add("41");
+        cardlist.Add("51");
+
+        for (int i = 0; i < cardlist.Count; i++)
+        {
+            string v = cardlist[i];
+            int id = UnityEngine.Random.Range(0, cardlist.Count);
+            cardlist[i] = cardlist[id];
+            cardlist[id] = v;
+        }
+    }
+
+ 
+
+
+
+}
+
+
+
+
+

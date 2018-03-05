@@ -1,0 +1,88 @@
+[{
+    "roomid": 1,
+    "type": 0,
+    "name": "欢乐-新手场",
+    "base-value": 5,
+    "min-coin": 100,
+    "max-coin": 3000,
+    "pay-prop": 50058,
+    "round": 6,
+    "prize": 1
+  },
+  {
+    "roomid": 2,
+    "type": 0,
+    "name": "欢乐-初级场",
+    "base-value": 50,
+    "min-coin": 1500,
+    "max-coin": 30000,
+    "pay-prop": 50058,
+    "round": 6,
+    "prize": 1
+  },
+  {
+    "roomid": 3,
+    "type": 0,
+    "name": "欢乐-中级场",
+    "base-value": 500,
+    "min-coin": 20000,
+    "max-coin": 300000,
+    "pay-prop": 50058,
+    "round": 6,
+    "prize": 10
+  },
+  {
+    "roomid": 4,
+    "type": 0,
+    "name": "欢乐-高级场",
+    "base-value": 3000,
+    "min-coin": 150000,
+    "max-coin": 9999999999.0,
+    "pay-prop": 50091,
+    "round": 6,
+    "prize": 50
+  },
+  {
+    "roomid": 5,
+    "type": 1,
+    "name": "癞子-新手场",
+    "base-value": 2,
+    "min-coin": 100,
+    "max-coin": 3000,
+    "pay-prop": 50058,
+    "round": 6,
+    "prize": 1
+  },
+  {
+    "roomid": 6,
+    "type": 1,
+    "name": "癞子-初级场",
+    "base-value": 30,
+    "min-coin": 1500,
+    "max-coin": 30000,
+    "pay-prop": 50058,
+    "round": 6,
+    "prize": 1
+  },
+  {
+    "roomid": 7,
+    "type": 1,
+    "name": "癞子-中级场",
+    "base-value": 300,
+    "min-coin": 20000,
+    "max-coin": 300000,
+    "pay-prop": 50058,
+    "round": 6,
+    "prize": 10
+  },
+  {
+    "roomid": 8,
+    "type": 1,
+    "name": "癞子-高级场",
+    "base-value": 1500,
+    "min-coin": 150000,
+    "max-coin": 9999999999.0,
+    "pay-prop": 50091,
+    "round": 6,
+    "prize": 50
+}]

@@ -1,0 +1,215 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class GameController : MonoBehaviour
+{
+    public Card M_card;
+
+    public UISprite ZHUPAI;
+    public  UISprite TwoPAI;
+    public UISprite TherePai;
+    public bool Xuanze;
+    //public UISprite Paibei;
+    //public UISprite play1;
+    //public UISprite play2;
+    //public UISprite play3;
+  
+  
+
+   
+
+
+    
+    /// <summary>
+    /// 把扑克分成4类，P1，P2,P3,底牌
+    /// </summary>
+    public List<string> cardlist = new List<string>();
+    public List<string> player1Cards;
+    public List<string> player2Cards;
+    public List<string> player3Cards;
+
+    public List<string> dipai;
+    
+    
+
+    // Use this for initialization
+    void Start()
+    {
+
+        InitCardList();
+        FaPai();
+        OnClick();
+
+        CreateCards();
+
+
+    }
+   
+
+    /// <summary>
+    /// 利用集和来解决牌的归属问题
+    /// </summary>
+    public void FaPai()
+    {
+       
+        dipai = new List<string>();
+        string d1 = cardlist[cardlist.Count - 3];
+        string d2 = cardlist[cardlist.Count - 2];
+        string d3 = cardlist[cardlist.Count - 1];
+        dipai.Add(d1);
+        dipai.Add(d2);
+        dipai.Add(d3);
+        cardlist.RemoveRange(cardlist.Count - 3, 3);
+
+        player1Cards = new List<string>();
+        player2Cards = new List<string>();
+        player3Cards = new List<string>();
+        for (int i = 0; i < cardlist.Count; i+=3)
+        {
+            player1Cards.Add(cardlist[i]);
+            player2Cards.Add(cardlist[i + 1]);
+            player3Cards.Add(cardlist[i + 2]);
+        }
+
+    }
+
+    /// <summary>
+    ///创建一副牌
+    /// </summary>
+
+    private void InitCardList()
+    {
+        cardlist= new List<string>();
+        for (int i = 0; i < 4; i++)
+        {
+            for (int j = 1; j <=13; j++)
+            {
+                if (j == 10)
+                {
+                    cardlist.Add(i + "A");
+                }
+                else if (j == 11)
+                {
+                    cardlist.Add(i + "B");
+                }
+                else if (j == 12)
+                {
+                    cardlist.Add(i + "C");
+                }
+                else if (j == 13)
+                {
+                    cardlist.Add(i + "D");
+                }
+                else
+                {
+                    cardlist.Add(i + "" + j);
+                }
+
+            }
+
+        }
+        cardlist.Add("41");
+        cardlist.Add("51");
+        
+        ///利用位置转换来起到打乱牌的效果
+        for (int i = 0; i < cardlist.Count; i++)
+        {
+            string v = cardlist[i];
+            int id = UnityEngine.Random.Range(0, cardlist.Count);
+            cardlist[i] = cardlist[id];
+            cardlist[id] = v;
+        }
+        ///扑克牌的排序
+    //    for (int i = 0; i < player1Cards.Count; i++)
+    //    {
+    //        transform.localPosition = play1.transform.position + Vector3.right * 25;
+
+    //    }
+    //    for (int i = 0; i < player2Cards.Count; i++)
+    //    {
+    //        transform.localPosition = play2.transform.position + Vector3.up;
+
+    //    }
+    //    for (int i = 0; i < player3Cards.Count; i++)
+    //    {
+    //        transform.localPosition = play3.transform.position + Vector3.up;
+           
+    //    }
+    }
+    /// <summary>
+    /// 是否被点中
+    /// </summary>
+    public  bool Select
+    {
+        set
+        {
+            Xuanze = value;
+
+        }
+        get
+        {
+            return Xuanze;
+
+        }
+    }
+    /// <summary>
+    /// 卡牌点击事件
+    /// </summary>
+
+    public void OnClick()
+    {
+        if (cardlist.Count == player1Cards.Count)
+        {
+            if (Xuanze)
+            {
+                transform.localPosition -= Vector3.up * 10;
+                Xuanze = false;
+            }
+            else
+            {
+                transform.localPosition += Vector3.up;
+                Xuanze = true;
+            }
+        }
+     
+
+    }
+
+
+
+    /// <summary>
+    /// 创建玩家1的手牌
+    /// </summary>
+    public void  CreateCards()
+    {
+        for (int i = player1Cards.Count-1; i>=0; i--)
+        {
+            Card go = Instantiate(M_card);
+            go.Value = player1Cards[i];
+            go.transform.SetParent(GameObject.Find("CardParent").transform);
+            go.transform.localScale = Vector3.one;            
+            go.transform.localPosition = new Vector3(50*i, GameObject.Find("CardParent").transform.position.y,
+            GameObject.Find("CardParent").transform.position.z);
+            //Array.Sort(); 
+
+        }
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

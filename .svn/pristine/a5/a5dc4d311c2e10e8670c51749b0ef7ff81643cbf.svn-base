@@ -1,0 +1,109 @@
+﻿using Sfs2X.Core;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using System;
+using Sfs2X.Requests;
+using Sfs2X.Entities.Data;
+
+public class HomePanel : BaseUI
+{
+
+    public UISprite header;
+
+    public UILabel gold;
+    public UILabel quan;
+    public UILabel usernick;
+
+    public GameObject Xinxi;
+    public GameObject beibao;
+    public GameObject setting;
+
+    void Start()
+    {
+        Global.AddEventListener(SFSEvent.ROOM_JOIN, OnJoinRoomHandler);
+        Global.AddEventListener(SFSEvent.ROOM_JOIN_ERROR, OnJoinRoomErrorHandler);
+
+        Global.AddEventListener("GetUserInfo", UserInfoGet);
+
+        SFSObject obj = new SFSObject();
+        obj.PutUtfString("name", Global.me.Name);
+        Global.SendExtMessage("GetUserInfo", obj);
+    }
+
+    private void UserInfoGet(NEvent evt)
+    {
+        SFSObject obj = evt.Data;
+        print("金币数量为：" + obj.GetUtfString("gold"));
+        print("用户昵称为:" + obj.GetUtfString("usernick"));
+        print("用户VIP等级为：" + obj.GetUtfString("viplv"));
+        print("用户礼券数量为：" + obj.GetUtfString("quan"));
+
+        gold.text = obj.GetUtfString("gold");
+
+        quan.text = obj.GetUtfString("quan");
+
+        usernick.text = obj.GetUtfString("usernick");
+    }
+
+    private void OnJoinRoomErrorHandler(NEvent evt)
+    {
+        print("加入房间“lobby”失败");
+    }
+
+    private void OnJoinRoomHandler(NEvent evt)
+    {
+        print("加入房间“lobby”成功");
+    }
+
+    protected override void OnClickHandler(GameObject button)
+    {
+        base.OnClickHandler(button);
+        
+
+        switch (button.name)
+        {
+            case "Shangcheng_icon":
+                
+                SceneManager.LoadScene("ShangCheng");
+                
+
+                break;
+            case "PaiHang_icon":
+                SceneManager.LoadScene("paihangbang");
+                break;
+            case "ShuiHuan_icon":
+                SceneManager.LoadScene("paihangbang");
+                break;
+            case "HuoDong_icon":
+                SceneManager.LoadScene("Activity");
+                break;
+            case "email":
+                SceneManager.LoadScene("Email");
+                break;
+            case "touxiang":                            
+                   Xinxi.SetActive(true);                         
+                break;
+            case "BeiBao_icon":
+                beibao.SetActive(true);
+                break;
+            case "Setting":
+                setting.SetActive(true);
+                break;
+                case "Huanlei":
+                print("选择欢乐场 进入lobby房间");
+                Global.SendSFSMessage(new JoinRoomRequest("lobby"));
+                SceneManager.LoadScene("欢乐场");
+                break;
+            case "Bisai":
+                SceneManager.LoadScene("比赛场");
+                break;
+            case "Laizi":
+                SceneManager.LoadScene("癞子场");                
+                break;
+        
+
+        }
+    }
+}

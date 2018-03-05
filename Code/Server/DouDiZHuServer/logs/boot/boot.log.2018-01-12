@@ -1,0 +1,845 @@
+12 一月 2018 | 09:14:05,002 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+12 一月 2018 | 09:14:05,006 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.51.0 { main }
+12 一月 2018 | 09:14:05,007 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 4
+	VM Max. memory: 1895MB
+	os.name: Windows 7
+	os.arch: amd64
+	os.version: 6.1
+	java.version: 1.8.0_111
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.8
+	java.vm.version: 25.111-b14
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: C:\Users\aaa\AppData\Local\Temp\
+	Default charset: UTF-8
+
+12 一月 2018 | 09:14:05,051 | INFO  | main | bootLogger |     | Network Info:
+	Card: Software Loopback Interface 1
+		 ->127.0.0.1
+		 ->0:0:0:0:0:0:0:1
+	Card: WAN Miniport (SSTP)
+	Card: WAN Miniport (L2TP)
+	Card: WAN Miniport (PPTP)
+	Card: WAN Miniport (PPPOE)
+	Card: WAN Miniport (IPv6)
+	Card: WAN Miniport (Network Monitor)
+	Card: WAN Miniport (IP)
+	Card: RAS Async Adapter
+	Card: WAN Miniport (IKEv2)
+	Card: Realtek PCIe GBE Family Controller
+		 ->172.18.23.160
+		 ->fe80:0:0:0:5cd2:bee:d76d:61e1%eth3
+	Card: Teredo Tunneling Pseudo-Interface
+		 ->2001:0:9d38:6ab8:38a3:e285:480f:3ba4
+		 ->fe80:0:0:0:38a3:e285:480f:3ba4%net4
+	Card: 802.11n USB Wireless LAN Card
+	Card: Microsoft ISATAP Adapter #2
+		 ->fe80:0:0:0:0:5efe:ac12:17a0%net5
+	Card: 802.11n USB Wireless LAN Card #2
+	Card: Microsoft ISATAP Adapter
+	Card: Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000
+	Card: Realtek PCIe GBE Family Controller-WFP LightWeight Filter-0000
+	Card: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IP)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+
+12 一月 2018 | 09:14:05,068 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@411341bd
+12 一月 2018 | 09:14:05,192 | INFO  | main | bootLogger |     | TCP Selector opened
+12 一月 2018 | 09:14:05,201 | INFO  | main | bootLogger |     | UDP Selector opened
+12 一月 2018 | 09:14:05,204 | INFO  | main | bootLogger |     | AcceptSelector opened
+12 一月 2018 | 09:14:05,210 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9933
+12 一月 2018 | 09:14:05,221 | INFO  | main | bootLogger |     | Added bound udp socket --> 127.0.0.1:9933
+12 一月 2018 | 09:14:05,222 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+12 一月 2018 | 09:14:05,222 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+12 一月 2018 | 09:14:05,222 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+12 一月 2018 | 09:14:05,222 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+12 一月 2018 | 09:14:05,231 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+12 一月 2018 | 09:14:05,235 | INFO  | main | bootLogger |     | Security Manager started
+12 一月 2018 | 09:14:05,237 | INFO  | main | bootLogger |     | DatagramReader started
+12 一月 2018 | 09:14:05,238 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@57dc9128
+12 一月 2018 | 09:14:05,238 | INFO  | main | bootLogger |     | SocketReader started
+12 一月 2018 | 09:14:05,238 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+12 一月 2018 | 09:14:05,238 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+12 一月 2018 | 09:29:05,431 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+12 一月 2018 | 09:29:05,433 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.51.0 { main }
+12 一月 2018 | 09:29:05,433 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 4
+	VM Max. memory: 1895MB
+	os.name: Windows 7
+	os.arch: amd64
+	os.version: 6.1
+	java.version: 1.8.0_111
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.8
+	java.vm.version: 25.111-b14
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: C:\Users\aaa\AppData\Local\Temp\
+	Default charset: UTF-8
+
+12 一月 2018 | 09:29:05,475 | INFO  | main | bootLogger |     | Network Info:
+	Card: Software Loopback Interface 1
+		 ->127.0.0.1
+		 ->0:0:0:0:0:0:0:1
+	Card: WAN Miniport (SSTP)
+	Card: WAN Miniport (L2TP)
+	Card: WAN Miniport (PPTP)
+	Card: WAN Miniport (PPPOE)
+	Card: WAN Miniport (IPv6)
+	Card: WAN Miniport (Network Monitor)
+	Card: WAN Miniport (IP)
+	Card: RAS Async Adapter
+	Card: WAN Miniport (IKEv2)
+	Card: Realtek PCIe GBE Family Controller
+		 ->172.18.23.160
+		 ->fe80:0:0:0:5cd2:bee:d76d:61e1%eth3
+	Card: Teredo Tunneling Pseudo-Interface
+		 ->2001:0:9d38:6ab8:38a3:e285:480f:3ba4
+		 ->fe80:0:0:0:38a3:e285:480f:3ba4%net4
+	Card: 802.11n USB Wireless LAN Card
+	Card: Microsoft ISATAP Adapter #2
+		 ->fe80:0:0:0:0:5efe:ac12:17a0%net5
+	Card: 802.11n USB Wireless LAN Card #2
+	Card: Microsoft ISATAP Adapter
+	Card: Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000
+	Card: Realtek PCIe GBE Family Controller-WFP LightWeight Filter-0000
+	Card: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IP)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+
+12 一月 2018 | 09:29:05,481 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@210ab13f
+12 一月 2018 | 09:29:05,563 | INFO  | main | bootLogger |     | TCP Selector opened
+12 一月 2018 | 09:29:05,570 | INFO  | main | bootLogger |     | UDP Selector opened
+12 一月 2018 | 09:29:05,573 | INFO  | main | bootLogger |     | AcceptSelector opened
+12 一月 2018 | 09:29:05,577 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9933
+12 一月 2018 | 09:29:05,578 | INFO  | main | bootLogger |     | Added bound udp socket --> 127.0.0.1:9933
+12 一月 2018 | 09:29:05,579 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+12 一月 2018 | 09:29:05,579 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+12 一月 2018 | 09:29:05,580 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+12 一月 2018 | 09:29:05,580 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+12 一月 2018 | 09:29:05,581 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+12 一月 2018 | 09:29:05,582 | INFO  | main | bootLogger |     | Security Manager started
+12 一月 2018 | 09:29:05,584 | INFO  | main | bootLogger |     | DatagramReader started
+12 一月 2018 | 09:29:05,584 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@5f9edf14
+12 一月 2018 | 09:29:05,584 | INFO  | main | bootLogger |     | SocketReader started
+12 一月 2018 | 09:29:05,584 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+12 一月 2018 | 09:29:05,584 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+12 一月 2018 | 09:32:33,274 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+12 一月 2018 | 09:32:33,275 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.51.0 { main }
+12 一月 2018 | 09:32:33,276 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 4
+	VM Max. memory: 1895MB
+	os.name: Windows 7
+	os.arch: amd64
+	os.version: 6.1
+	java.version: 1.8.0_111
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.8
+	java.vm.version: 25.111-b14
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: C:\Users\aaa\AppData\Local\Temp\
+	Default charset: UTF-8
+
+12 一月 2018 | 09:32:33,321 | INFO  | main | bootLogger |     | Network Info:
+	Card: Software Loopback Interface 1
+		 ->127.0.0.1
+		 ->0:0:0:0:0:0:0:1
+	Card: WAN Miniport (SSTP)
+	Card: WAN Miniport (L2TP)
+	Card: WAN Miniport (PPTP)
+	Card: WAN Miniport (PPPOE)
+	Card: WAN Miniport (IPv6)
+	Card: WAN Miniport (Network Monitor)
+	Card: WAN Miniport (IP)
+	Card: RAS Async Adapter
+	Card: WAN Miniport (IKEv2)
+	Card: Realtek PCIe GBE Family Controller
+		 ->172.18.23.160
+		 ->fe80:0:0:0:5cd2:bee:d76d:61e1%eth3
+	Card: Teredo Tunneling Pseudo-Interface
+		 ->2001:0:9d38:6ab8:38a3:e285:480f:3ba4
+		 ->fe80:0:0:0:38a3:e285:480f:3ba4%net4
+	Card: 802.11n USB Wireless LAN Card
+	Card: Microsoft ISATAP Adapter #2
+		 ->fe80:0:0:0:0:5efe:ac12:17a0%net5
+	Card: 802.11n USB Wireless LAN Card #2
+	Card: Microsoft ISATAP Adapter
+	Card: Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000
+	Card: Realtek PCIe GBE Family Controller-WFP LightWeight Filter-0000
+	Card: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IP)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+
+12 一月 2018 | 09:32:33,325 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@210ab13f
+12 一月 2018 | 09:32:33,413 | INFO  | main | bootLogger |     | TCP Selector opened
+12 一月 2018 | 09:32:33,421 | INFO  | main | bootLogger |     | UDP Selector opened
+12 一月 2018 | 09:32:33,424 | INFO  | main | bootLogger |     | AcceptSelector opened
+12 一月 2018 | 09:32:33,429 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9933
+12 一月 2018 | 09:32:33,430 | INFO  | main | bootLogger |     | Added bound udp socket --> 127.0.0.1:9933
+12 一月 2018 | 09:32:33,430 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+12 一月 2018 | 09:32:33,430 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+12 一月 2018 | 09:32:33,431 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+12 一月 2018 | 09:32:33,431 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+12 一月 2018 | 09:32:33,431 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+12 一月 2018 | 09:32:33,432 | INFO  | main | bootLogger |     | Security Manager started
+12 一月 2018 | 09:32:33,433 | INFO  | main | bootLogger |     | DatagramReader started
+12 一月 2018 | 09:32:33,434 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@5f9edf14
+12 一月 2018 | 09:32:33,434 | INFO  | main | bootLogger |     | SocketReader started
+12 一月 2018 | 09:32:33,434 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+12 一月 2018 | 09:32:33,434 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+12 一月 2018 | 09:50:59,480 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+12 一月 2018 | 09:50:59,481 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.51.0 { main }
+12 一月 2018 | 09:50:59,481 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 4
+	VM Max. memory: 1895MB
+	os.name: Windows 7
+	os.arch: amd64
+	os.version: 6.1
+	java.version: 1.8.0_111
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.8
+	java.vm.version: 25.111-b14
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: C:\Users\aaa\AppData\Local\Temp\
+	Default charset: UTF-8
+
+12 一月 2018 | 09:50:59,521 | INFO  | main | bootLogger |     | Network Info:
+	Card: Software Loopback Interface 1
+		 ->127.0.0.1
+		 ->0:0:0:0:0:0:0:1
+	Card: WAN Miniport (SSTP)
+	Card: WAN Miniport (L2TP)
+	Card: WAN Miniport (PPTP)
+	Card: WAN Miniport (PPPOE)
+	Card: WAN Miniport (IPv6)
+	Card: WAN Miniport (Network Monitor)
+	Card: WAN Miniport (IP)
+	Card: RAS Async Adapter
+	Card: WAN Miniport (IKEv2)
+	Card: Realtek PCIe GBE Family Controller
+		 ->172.18.23.160
+		 ->fe80:0:0:0:5cd2:bee:d76d:61e1%eth3
+	Card: Teredo Tunneling Pseudo-Interface
+		 ->2001:0:9d38:6ab8:38a3:e285:480f:3ba4
+		 ->fe80:0:0:0:38a3:e285:480f:3ba4%net4
+	Card: 802.11n USB Wireless LAN Card
+	Card: Microsoft ISATAP Adapter #2
+		 ->fe80:0:0:0:0:5efe:ac12:17a0%net5
+	Card: 802.11n USB Wireless LAN Card #2
+	Card: Microsoft ISATAP Adapter
+	Card: Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000
+	Card: Realtek PCIe GBE Family Controller-WFP LightWeight Filter-0000
+	Card: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IP)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+
+12 一月 2018 | 09:50:59,525 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@210ab13f
+12 一月 2018 | 09:50:59,604 | INFO  | main | bootLogger |     | TCP Selector opened
+12 一月 2018 | 09:50:59,611 | INFO  | main | bootLogger |     | UDP Selector opened
+12 一月 2018 | 09:50:59,614 | INFO  | main | bootLogger |     | AcceptSelector opened
+12 一月 2018 | 09:50:59,618 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9933
+12 一月 2018 | 09:50:59,620 | INFO  | main | bootLogger |     | Added bound udp socket --> 127.0.0.1:9933
+12 一月 2018 | 09:50:59,620 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+12 一月 2018 | 09:50:59,620 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+12 一月 2018 | 09:50:59,620 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+12 一月 2018 | 09:50:59,620 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+12 一月 2018 | 09:50:59,621 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+12 一月 2018 | 09:50:59,622 | INFO  | main | bootLogger |     | Security Manager started
+12 一月 2018 | 09:50:59,623 | INFO  | main | bootLogger |     | DatagramReader started
+12 一月 2018 | 09:50:59,623 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@5f9edf14
+12 一月 2018 | 09:50:59,623 | INFO  | main | bootLogger |     | SocketReader started
+12 一月 2018 | 09:50:59,624 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+12 一月 2018 | 09:50:59,624 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+12 一月 2018 | 09:55:02,595 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+12 一月 2018 | 09:55:02,596 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.51.0 { main }
+12 一月 2018 | 09:55:02,596 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 4
+	VM Max. memory: 1895MB
+	os.name: Windows 7
+	os.arch: amd64
+	os.version: 6.1
+	java.version: 1.8.0_111
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.8
+	java.vm.version: 25.111-b14
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: C:\Users\aaa\AppData\Local\Temp\
+	Default charset: UTF-8
+
+12 一月 2018 | 09:55:02,634 | INFO  | main | bootLogger |     | Network Info:
+	Card: Software Loopback Interface 1
+		 ->127.0.0.1
+		 ->0:0:0:0:0:0:0:1
+	Card: WAN Miniport (SSTP)
+	Card: WAN Miniport (L2TP)
+	Card: WAN Miniport (PPTP)
+	Card: WAN Miniport (PPPOE)
+	Card: WAN Miniport (IPv6)
+	Card: WAN Miniport (Network Monitor)
+	Card: WAN Miniport (IP)
+	Card: RAS Async Adapter
+	Card: WAN Miniport (IKEv2)
+	Card: Realtek PCIe GBE Family Controller
+		 ->172.18.23.160
+		 ->fe80:0:0:0:5cd2:bee:d76d:61e1%eth3
+	Card: Teredo Tunneling Pseudo-Interface
+		 ->2001:0:9d38:6ab8:38a3:e285:480f:3ba4
+		 ->fe80:0:0:0:38a3:e285:480f:3ba4%net4
+	Card: 802.11n USB Wireless LAN Card
+	Card: Microsoft ISATAP Adapter #2
+		 ->fe80:0:0:0:0:5efe:ac12:17a0%net5
+	Card: 802.11n USB Wireless LAN Card #2
+	Card: Microsoft ISATAP Adapter
+	Card: Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000
+	Card: Realtek PCIe GBE Family Controller-WFP LightWeight Filter-0000
+	Card: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IP)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+
+12 一月 2018 | 09:55:02,638 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@210ab13f
+12 一月 2018 | 09:55:02,725 | INFO  | main | bootLogger |     | TCP Selector opened
+12 一月 2018 | 09:55:02,733 | INFO  | main | bootLogger |     | UDP Selector opened
+12 一月 2018 | 09:55:02,736 | INFO  | main | bootLogger |     | AcceptSelector opened
+12 一月 2018 | 09:55:02,740 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9933
+12 一月 2018 | 09:55:02,742 | INFO  | main | bootLogger |     | Added bound udp socket --> 127.0.0.1:9933
+12 一月 2018 | 09:55:02,742 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+12 一月 2018 | 09:55:02,742 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+12 一月 2018 | 09:55:02,742 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+12 一月 2018 | 09:55:02,743 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+12 一月 2018 | 09:55:02,743 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+12 一月 2018 | 09:55:02,744 | INFO  | main | bootLogger |     | Security Manager started
+12 一月 2018 | 09:55:02,745 | INFO  | main | bootLogger |     | DatagramReader started
+12 一月 2018 | 09:55:02,746 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@5f9edf14
+12 一月 2018 | 09:55:02,746 | INFO  | main | bootLogger |     | SocketReader started
+12 一月 2018 | 09:55:02,746 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+12 一月 2018 | 09:55:02,746 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+12 一月 2018 | 09:56:51,212 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+12 一月 2018 | 09:56:51,213 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.51.0 { main }
+12 一月 2018 | 09:56:51,213 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 4
+	VM Max. memory: 1895MB
+	os.name: Windows 7
+	os.arch: amd64
+	os.version: 6.1
+	java.version: 1.8.0_111
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.8
+	java.vm.version: 25.111-b14
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: C:\Users\aaa\AppData\Local\Temp\
+	Default charset: UTF-8
+
+12 一月 2018 | 09:56:51,252 | INFO  | main | bootLogger |     | Network Info:
+	Card: Software Loopback Interface 1
+		 ->127.0.0.1
+		 ->0:0:0:0:0:0:0:1
+	Card: WAN Miniport (SSTP)
+	Card: WAN Miniport (L2TP)
+	Card: WAN Miniport (PPTP)
+	Card: WAN Miniport (PPPOE)
+	Card: WAN Miniport (IPv6)
+	Card: WAN Miniport (Network Monitor)
+	Card: WAN Miniport (IP)
+	Card: RAS Async Adapter
+	Card: WAN Miniport (IKEv2)
+	Card: Realtek PCIe GBE Family Controller
+		 ->172.18.23.160
+		 ->fe80:0:0:0:5cd2:bee:d76d:61e1%eth3
+	Card: Teredo Tunneling Pseudo-Interface
+		 ->2001:0:9d38:6ab8:38a3:e285:480f:3ba4
+		 ->fe80:0:0:0:38a3:e285:480f:3ba4%net4
+	Card: 802.11n USB Wireless LAN Card
+	Card: Microsoft ISATAP Adapter #2
+		 ->fe80:0:0:0:0:5efe:ac12:17a0%net5
+	Card: 802.11n USB Wireless LAN Card #2
+	Card: Microsoft ISATAP Adapter
+	Card: Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000
+	Card: Realtek PCIe GBE Family Controller-WFP LightWeight Filter-0000
+	Card: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IP)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+
+12 一月 2018 | 09:56:51,257 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@210ab13f
+12 一月 2018 | 09:56:51,338 | INFO  | main | bootLogger |     | TCP Selector opened
+12 一月 2018 | 09:56:51,346 | INFO  | main | bootLogger |     | UDP Selector opened
+12 一月 2018 | 09:56:51,349 | INFO  | main | bootLogger |     | AcceptSelector opened
+12 一月 2018 | 09:56:51,354 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9933
+12 一月 2018 | 09:56:51,355 | INFO  | main | bootLogger |     | Added bound udp socket --> 127.0.0.1:9933
+12 一月 2018 | 09:56:51,356 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+12 一月 2018 | 09:56:51,356 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+12 一月 2018 | 09:56:51,356 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+12 一月 2018 | 09:56:51,356 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+12 一月 2018 | 09:56:51,356 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+12 一月 2018 | 09:56:51,357 | INFO  | main | bootLogger |     | Security Manager started
+12 一月 2018 | 09:56:51,359 | INFO  | main | bootLogger |     | DatagramReader started
+12 一月 2018 | 09:56:51,359 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@5f9edf14
+12 一月 2018 | 09:56:51,359 | INFO  | main | bootLogger |     | SocketReader started
+12 一月 2018 | 09:56:51,359 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+12 一月 2018 | 09:56:51,359 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+12 一月 2018 | 10:37:13,808 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+12 一月 2018 | 10:37:13,809 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.51.0 { main }
+12 一月 2018 | 10:37:13,809 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 4
+	VM Max. memory: 1895MB
+	os.name: Windows 7
+	os.arch: amd64
+	os.version: 6.1
+	java.version: 1.8.0_111
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.8
+	java.vm.version: 25.111-b14
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: C:\Users\aaa\AppData\Local\Temp\
+	Default charset: UTF-8
+
+12 一月 2018 | 10:37:13,846 | INFO  | main | bootLogger |     | Network Info:
+	Card: Software Loopback Interface 1
+		 ->127.0.0.1
+		 ->0:0:0:0:0:0:0:1
+	Card: WAN Miniport (SSTP)
+	Card: WAN Miniport (L2TP)
+	Card: WAN Miniport (PPTP)
+	Card: WAN Miniport (PPPOE)
+	Card: WAN Miniport (IPv6)
+	Card: WAN Miniport (Network Monitor)
+	Card: WAN Miniport (IP)
+	Card: RAS Async Adapter
+	Card: WAN Miniport (IKEv2)
+	Card: Realtek PCIe GBE Family Controller
+		 ->172.18.23.160
+		 ->fe80:0:0:0:5cd2:bee:d76d:61e1%eth3
+	Card: Teredo Tunneling Pseudo-Interface
+		 ->2001:0:9d38:6ab8:38a3:e285:480f:3ba4
+		 ->fe80:0:0:0:38a3:e285:480f:3ba4%net4
+	Card: 802.11n USB Wireless LAN Card
+	Card: Microsoft ISATAP Adapter #2
+		 ->fe80:0:0:0:0:5efe:ac12:17a0%net5
+	Card: 802.11n USB Wireless LAN Card #2
+	Card: Microsoft ISATAP Adapter
+	Card: Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000
+	Card: Realtek PCIe GBE Family Controller-WFP LightWeight Filter-0000
+	Card: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IP)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+
+12 一月 2018 | 10:37:13,851 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@210ab13f
+12 一月 2018 | 10:37:13,935 | INFO  | main | bootLogger |     | TCP Selector opened
+12 一月 2018 | 10:37:13,942 | INFO  | main | bootLogger |     | UDP Selector opened
+12 一月 2018 | 10:37:13,946 | INFO  | main | bootLogger |     | AcceptSelector opened
+12 一月 2018 | 10:37:13,949 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9933
+12 一月 2018 | 10:37:13,951 | INFO  | main | bootLogger |     | Added bound udp socket --> 127.0.0.1:9933
+12 一月 2018 | 10:37:13,952 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+12 一月 2018 | 10:37:13,952 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+12 一月 2018 | 10:37:13,952 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+12 一月 2018 | 10:37:13,952 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+12 一月 2018 | 10:37:13,952 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+12 一月 2018 | 10:37:13,953 | INFO  | main | bootLogger |     | Security Manager started
+12 一月 2018 | 10:37:13,955 | INFO  | main | bootLogger |     | DatagramReader started
+12 一月 2018 | 10:37:13,955 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@5f9edf14
+12 一月 2018 | 10:37:13,955 | INFO  | main | bootLogger |     | SocketReader started
+12 一月 2018 | 10:37:13,955 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+12 一月 2018 | 10:37:13,955 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+12 一月 2018 | 10:44:37,045 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+12 一月 2018 | 10:44:37,048 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.51.0 { main }
+12 一月 2018 | 10:44:37,048 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 4
+	VM Max. memory: 1895MB
+	os.name: Windows 7
+	os.arch: amd64
+	os.version: 6.1
+	java.version: 1.8.0_111
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.8
+	java.vm.version: 25.111-b14
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: C:\Users\aaa\AppData\Local\Temp\
+	Default charset: UTF-8
+
+12 一月 2018 | 10:44:37,090 | INFO  | main | bootLogger |     | Network Info:
+	Card: Software Loopback Interface 1
+		 ->127.0.0.1
+		 ->0:0:0:0:0:0:0:1
+	Card: WAN Miniport (SSTP)
+	Card: WAN Miniport (L2TP)
+	Card: WAN Miniport (PPTP)
+	Card: WAN Miniport (PPPOE)
+	Card: WAN Miniport (IPv6)
+	Card: WAN Miniport (Network Monitor)
+	Card: WAN Miniport (IP)
+	Card: RAS Async Adapter
+	Card: WAN Miniport (IKEv2)
+	Card: Realtek PCIe GBE Family Controller
+		 ->172.18.23.160
+		 ->fe80:0:0:0:5cd2:bee:d76d:61e1%eth3
+	Card: Teredo Tunneling Pseudo-Interface
+		 ->2001:0:9d38:6ab8:38a3:e285:480f:3ba4
+		 ->fe80:0:0:0:38a3:e285:480f:3ba4%net4
+	Card: 802.11n USB Wireless LAN Card
+	Card: Microsoft ISATAP Adapter #2
+		 ->fe80:0:0:0:0:5efe:ac12:17a0%net5
+	Card: 802.11n USB Wireless LAN Card #2
+	Card: Microsoft ISATAP Adapter
+	Card: Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000
+	Card: Realtek PCIe GBE Family Controller-WFP LightWeight Filter-0000
+	Card: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IP)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+
+12 一月 2018 | 10:44:37,096 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@411341bd
+12 一月 2018 | 10:44:37,190 | INFO  | main | bootLogger |     | TCP Selector opened
+12 一月 2018 | 10:44:37,197 | INFO  | main | bootLogger |     | UDP Selector opened
+12 一月 2018 | 10:44:37,201 | INFO  | main | bootLogger |     | AcceptSelector opened
+12 一月 2018 | 10:44:37,206 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9933
+12 一月 2018 | 10:44:37,208 | INFO  | main | bootLogger |     | Added bound udp socket --> 127.0.0.1:9933
+12 一月 2018 | 10:44:37,209 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+12 一月 2018 | 10:44:37,209 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+12 一月 2018 | 10:44:37,209 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+12 一月 2018 | 10:44:37,209 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+12 一月 2018 | 10:44:37,210 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+12 一月 2018 | 10:44:37,222 | INFO  | main | bootLogger |     | Security Manager started
+12 一月 2018 | 10:44:37,225 | INFO  | main | bootLogger |     | DatagramReader started
+12 一月 2018 | 10:44:37,225 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@1af7f54a
+12 一月 2018 | 10:44:37,225 | INFO  | main | bootLogger |     | SocketReader started
+12 一月 2018 | 10:44:37,225 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+12 一月 2018 | 10:44:37,226 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+12 一月 2018 | 10:53:50,022 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+12 一月 2018 | 10:53:50,023 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.51.0 { main }
+12 一月 2018 | 10:53:50,024 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 4
+	VM Max. memory: 1895MB
+	os.name: Windows 7
+	os.arch: amd64
+	os.version: 6.1
+	java.version: 1.8.0_111
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.8
+	java.vm.version: 25.111-b14
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: C:\Users\aaa\AppData\Local\Temp\
+	Default charset: UTF-8
+
+12 一月 2018 | 10:53:50,061 | INFO  | main | bootLogger |     | Network Info:
+	Card: Software Loopback Interface 1
+		 ->127.0.0.1
+		 ->0:0:0:0:0:0:0:1
+	Card: WAN Miniport (SSTP)
+	Card: WAN Miniport (L2TP)
+	Card: WAN Miniport (PPTP)
+	Card: WAN Miniport (PPPOE)
+	Card: WAN Miniport (IPv6)
+	Card: WAN Miniport (Network Monitor)
+	Card: WAN Miniport (IP)
+	Card: RAS Async Adapter
+	Card: WAN Miniport (IKEv2)
+	Card: Realtek PCIe GBE Family Controller
+		 ->172.18.23.160
+		 ->fe80:0:0:0:5cd2:bee:d76d:61e1%eth3
+	Card: Teredo Tunneling Pseudo-Interface
+		 ->2001:0:9d38:6ab8:38a3:e285:480f:3ba4
+		 ->fe80:0:0:0:38a3:e285:480f:3ba4%net4
+	Card: 802.11n USB Wireless LAN Card
+	Card: Microsoft ISATAP Adapter #2
+		 ->fe80:0:0:0:0:5efe:ac12:17a0%net5
+	Card: 802.11n USB Wireless LAN Card #2
+	Card: Microsoft ISATAP Adapter
+	Card: Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000
+	Card: Realtek PCIe GBE Family Controller-WFP LightWeight Filter-0000
+	Card: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IP)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+
+12 一月 2018 | 10:53:50,065 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@210ab13f
+12 一月 2018 | 10:53:50,148 | INFO  | main | bootLogger |     | TCP Selector opened
+12 一月 2018 | 10:53:50,155 | INFO  | main | bootLogger |     | UDP Selector opened
+12 一月 2018 | 10:53:50,158 | INFO  | main | bootLogger |     | AcceptSelector opened
+12 一月 2018 | 10:53:50,162 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9933
+12 一月 2018 | 10:53:50,164 | INFO  | main | bootLogger |     | Added bound udp socket --> 127.0.0.1:9933
+12 一月 2018 | 10:53:50,164 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+12 一月 2018 | 10:53:50,164 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+12 一月 2018 | 10:53:50,164 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+12 一月 2018 | 10:53:50,165 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+12 一月 2018 | 10:53:50,165 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+12 一月 2018 | 10:53:50,166 | INFO  | main | bootLogger |     | Security Manager started
+12 一月 2018 | 10:53:50,167 | INFO  | main | bootLogger |     | DatagramReader started
+12 一月 2018 | 10:53:50,167 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@5f9edf14
+12 一月 2018 | 10:53:50,167 | INFO  | main | bootLogger |     | SocketReader started
+12 一月 2018 | 10:53:50,168 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+12 一月 2018 | 10:53:50,168 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+12 一月 2018 | 11:18:42,719 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+12 一月 2018 | 11:18:42,720 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.51.0 { main }
+12 一月 2018 | 11:18:42,721 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 4
+	VM Max. memory: 1895MB
+	os.name: Windows 7
+	os.arch: amd64
+	os.version: 6.1
+	java.version: 1.8.0_111
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.8
+	java.vm.version: 25.111-b14
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: C:\Users\aaa\AppData\Local\Temp\
+	Default charset: UTF-8
+
+12 一月 2018 | 11:18:42,766 | INFO  | main | bootLogger |     | Network Info:
+	Card: Software Loopback Interface 1
+		 ->127.0.0.1
+		 ->0:0:0:0:0:0:0:1
+	Card: WAN Miniport (SSTP)
+	Card: WAN Miniport (L2TP)
+	Card: WAN Miniport (PPTP)
+	Card: WAN Miniport (PPPOE)
+	Card: WAN Miniport (IPv6)
+	Card: WAN Miniport (Network Monitor)
+	Card: WAN Miniport (IP)
+	Card: RAS Async Adapter
+	Card: WAN Miniport (IKEv2)
+	Card: Realtek PCIe GBE Family Controller
+		 ->172.18.23.160
+		 ->fe80:0:0:0:5cd2:bee:d76d:61e1%eth3
+	Card: Teredo Tunneling Pseudo-Interface
+		 ->2001:0:9d38:6ab8:38a3:e285:480f:3ba4
+		 ->fe80:0:0:0:38a3:e285:480f:3ba4%net4
+	Card: 802.11n USB Wireless LAN Card
+	Card: Microsoft ISATAP Adapter #2
+		 ->fe80:0:0:0:0:5efe:ac12:17a0%net5
+	Card: 802.11n USB Wireless LAN Card #2
+	Card: Microsoft ISATAP Adapter
+	Card: Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000
+	Card: Realtek PCIe GBE Family Controller-WFP LightWeight Filter-0000
+	Card: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IP)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+
+12 一月 2018 | 11:18:42,770 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@411341bd
+12 一月 2018 | 11:18:42,873 | INFO  | main | bootLogger |     | TCP Selector opened
+12 一月 2018 | 11:18:42,881 | INFO  | main | bootLogger |     | UDP Selector opened
+12 一月 2018 | 11:18:42,886 | INFO  | main | bootLogger |     | AcceptSelector opened
+12 一月 2018 | 11:18:42,892 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9933
+12 一月 2018 | 11:18:42,893 | INFO  | main | bootLogger |     | Added bound udp socket --> 127.0.0.1:9933
+12 一月 2018 | 11:18:42,900 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+12 一月 2018 | 11:18:42,900 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+12 一月 2018 | 11:18:42,901 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+12 一月 2018 | 11:18:42,900 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+12 一月 2018 | 11:18:42,902 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+12 一月 2018 | 11:18:42,905 | INFO  | main | bootLogger |     | Security Manager started
+12 一月 2018 | 11:18:42,908 | INFO  | main | bootLogger |     | DatagramReader started
+12 一月 2018 | 11:18:42,908 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@1af7f54a
+12 一月 2018 | 11:18:42,908 | INFO  | main | bootLogger |     | SocketReader started
+12 一月 2018 | 11:18:42,908 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+12 一月 2018 | 11:18:42,908 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+12 一月 2018 | 11:33:43,197 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+12 一月 2018 | 11:33:43,198 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.51.0 { main }
+12 一月 2018 | 11:33:43,199 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 4
+	VM Max. memory: 1895MB
+	os.name: Windows 7
+	os.arch: amd64
+	os.version: 6.1
+	java.version: 1.8.0_111
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.8
+	java.vm.version: 25.111-b14
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: C:\Users\aaa\AppData\Local\Temp\
+	Default charset: UTF-8
+
+12 一月 2018 | 11:33:43,244 | INFO  | main | bootLogger |     | Network Info:
+	Card: Software Loopback Interface 1
+		 ->127.0.0.1
+		 ->0:0:0:0:0:0:0:1
+	Card: WAN Miniport (SSTP)
+	Card: WAN Miniport (L2TP)
+	Card: WAN Miniport (PPTP)
+	Card: WAN Miniport (PPPOE)
+	Card: WAN Miniport (IPv6)
+	Card: WAN Miniport (Network Monitor)
+	Card: WAN Miniport (IP)
+	Card: RAS Async Adapter
+	Card: WAN Miniport (IKEv2)
+	Card: Realtek PCIe GBE Family Controller
+		 ->172.18.23.160
+		 ->fe80:0:0:0:5cd2:bee:d76d:61e1%eth3
+	Card: Teredo Tunneling Pseudo-Interface
+		 ->2001:0:9d38:6ab8:38a3:e285:480f:3ba4
+		 ->fe80:0:0:0:38a3:e285:480f:3ba4%net4
+	Card: 802.11n USB Wireless LAN Card
+	Card: Microsoft ISATAP Adapter #2
+		 ->fe80:0:0:0:0:5efe:ac12:17a0%net5
+	Card: 802.11n USB Wireless LAN Card #2
+	Card: Microsoft ISATAP Adapter
+	Card: Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000
+	Card: Realtek PCIe GBE Family Controller-WFP LightWeight Filter-0000
+	Card: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IP)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+
+12 一月 2018 | 11:33:43,252 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@411341bd
+12 一月 2018 | 11:33:43,349 | INFO  | main | bootLogger |     | TCP Selector opened
+12 一月 2018 | 11:33:43,358 | INFO  | main | bootLogger |     | UDP Selector opened
+12 一月 2018 | 11:33:43,363 | INFO  | main | bootLogger |     | AcceptSelector opened
+12 一月 2018 | 11:33:43,368 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9933
+12 一月 2018 | 11:33:43,370 | INFO  | main | bootLogger |     | Added bound udp socket --> 127.0.0.1:9933
+12 一月 2018 | 11:33:43,371 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+12 一月 2018 | 11:33:43,371 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+12 一月 2018 | 11:33:43,371 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+12 一月 2018 | 11:33:43,371 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+12 一月 2018 | 11:33:43,372 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+12 一月 2018 | 11:33:43,373 | INFO  | main | bootLogger |     | Security Manager started
+12 一月 2018 | 11:33:43,376 | INFO  | main | bootLogger |     | DatagramReader started
+12 一月 2018 | 11:33:43,376 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@1af7f54a
+12 一月 2018 | 11:33:43,377 | INFO  | main | bootLogger |     | SocketReader started
+12 一月 2018 | 11:33:43,377 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+12 一月 2018 | 11:33:43,377 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+12 一月 2018 | 11:34:51,013 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+12 一月 2018 | 11:34:51,015 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.51.0 { main }
+12 一月 2018 | 11:34:51,016 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 4
+	VM Max. memory: 1895MB
+	os.name: Windows 7
+	os.arch: amd64
+	os.version: 6.1
+	java.version: 1.8.0_111
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.8
+	java.vm.version: 25.111-b14
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: C:\Users\aaa\AppData\Local\Temp\
+	Default charset: UTF-8
+
+12 一月 2018 | 11:34:51,058 | INFO  | main | bootLogger |     | Network Info:
+	Card: Software Loopback Interface 1
+		 ->127.0.0.1
+		 ->0:0:0:0:0:0:0:1
+	Card: WAN Miniport (SSTP)
+	Card: WAN Miniport (L2TP)
+	Card: WAN Miniport (PPTP)
+	Card: WAN Miniport (PPPOE)
+	Card: WAN Miniport (IPv6)
+	Card: WAN Miniport (Network Monitor)
+	Card: WAN Miniport (IP)
+	Card: RAS Async Adapter
+	Card: WAN Miniport (IKEv2)
+	Card: Realtek PCIe GBE Family Controller
+		 ->172.18.23.160
+		 ->fe80:0:0:0:5cd2:bee:d76d:61e1%eth3
+	Card: Teredo Tunneling Pseudo-Interface
+		 ->2001:0:9d38:6ab8:38a3:e285:480f:3ba4
+		 ->fe80:0:0:0:38a3:e285:480f:3ba4%net4
+	Card: 802.11n USB Wireless LAN Card
+	Card: Microsoft ISATAP Adapter #2
+		 ->fe80:0:0:0:0:5efe:ac12:17a0%net5
+	Card: 802.11n USB Wireless LAN Card #2
+	Card: Microsoft ISATAP Adapter
+	Card: Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000
+	Card: Realtek PCIe GBE Family Controller-WFP LightWeight Filter-0000
+	Card: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IP)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+
+12 一月 2018 | 11:34:51,063 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@411341bd
+12 一月 2018 | 11:34:51,160 | INFO  | main | bootLogger |     | TCP Selector opened
+12 一月 2018 | 11:34:51,169 | INFO  | main | bootLogger |     | UDP Selector opened
+12 一月 2018 | 11:34:51,173 | INFO  | main | bootLogger |     | AcceptSelector opened
+12 一月 2018 | 11:34:51,179 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9933
+12 一月 2018 | 11:34:51,180 | INFO  | main | bootLogger |     | Added bound udp socket --> 127.0.0.1:9933
+12 一月 2018 | 11:34:51,181 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+12 一月 2018 | 11:34:51,181 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+12 一月 2018 | 11:34:51,181 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+12 一月 2018 | 11:34:51,181 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+12 一月 2018 | 11:34:51,191 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+12 一月 2018 | 11:34:51,194 | INFO  | main | bootLogger |     | Security Manager started
+12 一月 2018 | 11:34:51,196 | INFO  | main | bootLogger |     | DatagramReader started
+12 一月 2018 | 11:34:51,196 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@1af7f54a
+12 一月 2018 | 11:34:51,197 | INFO  | main | bootLogger |     | SocketReader started
+12 一月 2018 | 11:34:51,197 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+12 一月 2018 | 11:34:51,197 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+12 一月 2018 | 11:55:01,930 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+12 一月 2018 | 11:55:01,931 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.51.0 { main }
+12 一月 2018 | 11:55:01,932 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 4
+	VM Max. memory: 1895MB
+	os.name: Windows 7
+	os.arch: amd64
+	os.version: 6.1
+	java.version: 1.8.0_111
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.8
+	java.vm.version: 25.111-b14
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: C:\Users\aaa\AppData\Local\Temp\
+	Default charset: UTF-8
+
+12 一月 2018 | 11:55:01,974 | INFO  | main | bootLogger |     | Network Info:
+	Card: Software Loopback Interface 1
+		 ->127.0.0.1
+		 ->0:0:0:0:0:0:0:1
+	Card: WAN Miniport (SSTP)
+	Card: WAN Miniport (L2TP)
+	Card: WAN Miniport (PPTP)
+	Card: WAN Miniport (PPPOE)
+	Card: WAN Miniport (IPv6)
+	Card: WAN Miniport (Network Monitor)
+	Card: WAN Miniport (IP)
+	Card: RAS Async Adapter
+	Card: WAN Miniport (IKEv2)
+	Card: Realtek PCIe GBE Family Controller
+		 ->172.18.23.160
+		 ->fe80:0:0:0:5cd2:bee:d76d:61e1%eth3
+	Card: Teredo Tunneling Pseudo-Interface
+		 ->2001:0:9d38:6ab8:38a3:e285:480f:3ba4
+		 ->fe80:0:0:0:38a3:e285:480f:3ba4%net4
+	Card: 802.11n USB Wireless LAN Card
+	Card: Microsoft ISATAP Adapter #2
+		 ->fe80:0:0:0:0:5efe:ac12:17a0%net5
+	Card: 802.11n USB Wireless LAN Card #2
+	Card: Microsoft ISATAP Adapter
+	Card: Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000
+	Card: Realtek PCIe GBE Family Controller-WFP LightWeight Filter-0000
+	Card: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IP)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+
+12 一月 2018 | 11:55:01,980 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@411341bd
+12 一月 2018 | 11:55:02,073 | INFO  | main | bootLogger |     | TCP Selector opened
+12 一月 2018 | 11:55:02,080 | INFO  | main | bootLogger |     | UDP Selector opened
+12 一月 2018 | 11:55:02,084 | INFO  | main | bootLogger |     | AcceptSelector opened
+12 一月 2018 | 11:55:02,089 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9933
+12 一月 2018 | 11:55:02,091 | INFO  | main | bootLogger |     | Added bound udp socket --> 127.0.0.1:9933
+12 一月 2018 | 11:55:02,092 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+12 一月 2018 | 11:55:02,092 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+12 一月 2018 | 11:55:02,092 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+12 一月 2018 | 11:55:02,092 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+12 一月 2018 | 11:55:02,109 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+12 一月 2018 | 11:55:02,112 | INFO  | main | bootLogger |     | Security Manager started
+12 一月 2018 | 11:55:02,115 | INFO  | main | bootLogger |     | DatagramReader started
+12 一月 2018 | 11:55:02,116 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@1af7f54a
+12 一月 2018 | 11:55:02,116 | INFO  | main | bootLogger |     | SocketReader started
+12 一月 2018 | 11:55:02,116 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+12 一月 2018 | 11:55:02,116 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]

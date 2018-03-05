@@ -1,0 +1,58 @@
+02 一月 2018 | 15:01:57,121 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 172.18.23.160:62080 } on Server port: 9933 <---> 62080
+02 一月 2018 | 15:02:01,520 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: No, IP: 172.18.23.160:62080 }
+02 一月 2018 | 15:02:03,645 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 172.18.23.160:62085 } on Server port: 9933 <---> 62085
+02 一月 2018 | 15:02:06,240 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户frank登录成功! 
+02 一月 2018 | 15:02:06,243 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 1, Priv: 0, Sess: 172.18.23.160:62085 ) , Type: Unity
+02 一月 2018 | 15:02:06,244 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+02 一月 2018 | 15:02:06,245 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: !---( User Name: frank, Id: 1, Priv: 0, Sess: 172.18.23.160:62085 ) ---! 
+02 一月 2018 | 15:02:06,246 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: do Query【select gold from user where user = frank】 failed: Unknown column 'gold' in 'field list' 
+02 一月 2018 | 15:02:13,076 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 3, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:62085 }
+02 一月 2018 | 15:02:13,077 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 1, Priv: 0, Sess: 172.18.23.160:62085 ) , SessionLen: 6834, Type: Unity
+02 一月 2018 | 15:02:20,193 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 4, Type: DEFAULT, Logged: No, IP: 172.18.23.160:62091 } on Server port: 9933 <---> 62091
+02 一月 2018 | 15:02:23,226 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户frank登录成功! 
+02 一月 2018 | 15:02:23,229 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 2, Priv: 0, Sess: 172.18.23.160:62091 ) , Type: Unity
+02 一月 2018 | 15:02:23,230 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+02 一月 2018 | 15:02:23,231 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: !---( User Name: frank, Id: 2, Priv: 0, Sess: 172.18.23.160:62091 ) ---! 
+02 一月 2018 | 15:02:23,232 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: do Query【select gold from user where user = frank】 failed: Unknown column 'gold' in 'field list' 
+02 一月 2018 | 15:02:25,559 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 4, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:62091 }
+02 一月 2018 | 15:02:25,561 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 2, Priv: 0, Sess: 172.18.23.160:62091 ) , SessionLen: 2332, Type: Unity
+02 一月 2018 | 15:02:27,890 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 5, Type: DEFAULT, Logged: No, IP: 172.18.23.160:62096 } on Server port: 9933 <---> 62096
+02 一月 2018 | 15:02:38,932 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户frank登录成功! 
+02 一月 2018 | 15:02:38,934 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 3, Priv: 0, Sess: 172.18.23.160:62096 ) , Type: Unity
+02 一月 2018 | 15:02:38,934 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+02 一月 2018 | 15:02:38,934 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: !---( User Name: frank, Id: 3, Priv: 0, Sess: 172.18.23.160:62096 ) ---! 
+02 一月 2018 | 15:02:38,935 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: do Query【select gold from user where user = frank】 failed: Unknown column 'gold' in 'field list' 
+02 一月 2018 | 15:03:46,931 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 5, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:62096 }
+02 一月 2018 | 15:03:46,933 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 3, Priv: 0, Sess: 172.18.23.160:62096 ) , SessionLen: 68000, Type: Unity
+02 一月 2018 | 15:03:48,817 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 6, Type: DEFAULT, Logged: No, IP: 172.18.23.160:62109 } on Server port: 9933 <---> 62109
+02 一月 2018 | 15:03:51,311 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户frank登录成功! 
+02 一月 2018 | 15:03:51,313 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 4, Priv: 0, Sess: 172.18.23.160:62109 ) , Type: Unity
+02 一月 2018 | 15:03:51,314 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+02 一月 2018 | 15:03:51,314 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: !---( User Name: frank, Id: 4, Priv: 0, Sess: 172.18.23.160:62109 ) ---! 
+02 一月 2018 | 15:03:51,318 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: do Query【select gold from user where user = frank】 failed: Unknown column 'gold' in 'field list' 
+02 一月 2018 | 15:03:57,664 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 6, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:62109 }
+02 一月 2018 | 15:03:57,665 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 4, Priv: 0, Sess: 172.18.23.160:62109 ) , SessionLen: 6353, Type: Unity
+02 一月 2018 | 15:03:59,684 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 7, Type: DEFAULT, Logged: No, IP: 172.18.23.160:62113 } on Server port: 9933 <---> 62113
+02 一月 2018 | 15:04:27,079 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户frank登录成功! 
+02 一月 2018 | 15:04:27,080 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 5, Priv: 0, Sess: 172.18.23.160:62113 ) , Type: Unity
+02 一月 2018 | 15:04:27,081 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+02 一月 2018 | 15:04:27,081 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: !---( User Name: frank, Id: 5, Priv: 0, Sess: 172.18.23.160:62113 ) ---! 
+02 一月 2018 | 15:04:27,082 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: do Query【select gold from user where user = frank】 failed: Unknown column 'gold' in 'field list' 
+02 一月 2018 | 15:05:27,870 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 7, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:62113 }
+02 一月 2018 | 15:05:27,871 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 5, Priv: 0, Sess: 172.18.23.160:62113 ) , SessionLen: 60791, Type: Unity
+02 一月 2018 | 15:05:29,680 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 8, Type: DEFAULT, Logged: No, IP: 172.18.23.160:62138 } on Server port: 9933 <---> 62138
+02 一月 2018 | 15:05:31,707 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户frank登录成功! 
+02 一月 2018 | 15:05:31,709 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 6, Priv: 0, Sess: 172.18.23.160:62138 ) , Type: Unity
+02 一月 2018 | 15:05:31,709 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+02 一月 2018 | 15:05:31,709 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: !---( User Name: frank, Id: 6, Priv: 0, Sess: 172.18.23.160:62138 ) ---! 
+02 一月 2018 | 15:05:31,710 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: do Query【select gold from user where user = frank】 failed: Unknown column 'gold' in 'field list' 
+02 一月 2018 | 15:07:03,346 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 8, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:62138 }
+02 一月 2018 | 15:07:03,347 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 6, Priv: 0, Sess: 172.18.23.160:62138 ) , SessionLen: 91639, Type: Unity
+02 一月 2018 | 15:07:05,168 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 9, Type: DEFAULT, Logged: No, IP: 172.18.23.160:62408 } on Server port: 9933 <---> 62408
+02 一月 2018 | 15:07:07,419 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户frank登录成功! 
+02 一月 2018 | 15:07:07,420 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 7, Priv: 0, Sess: 172.18.23.160:62408 ) , Type: Unity
+02 一月 2018 | 15:07:07,420 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+02 一月 2018 | 15:07:07,420 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: !---( User Name: frank, Id: 7, Priv: 0, Sess: 172.18.23.160:62408 ) ---! 
+02 一月 2018 | 15:07:07,421 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: do Query【select gold from user where user = frank】 failed: Unknown column 'gold' in 'field list' 
+02 一月 2018 | 15:07:38,500 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 9, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:62408 }
+02 一月 2018 | 15:07:38,501 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 7, Priv: 0, Sess: 172.18.23.160:62408 ) , SessionLen: 31081, Type: Unity

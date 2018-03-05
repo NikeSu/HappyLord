@@ -1,0 +1,65 @@
+[
+   {
+      "cost1" : 6,
+      "hot" : 1,
+      "isShow" : 0,
+      "price1" : 6,
+      "product" : "com.ychd4.dqddz.5w",
+      "prop" : 50112,
+      "showType" : 4
+   },
+   {
+      "cost1" : 12,
+      "hot" : 0,
+      "isShow" : 0,
+      "price1" : 12,
+      "product" : "com.ychd4.dqddz.11w",
+      "prop" : 50113,
+      "showType" : 4
+   },
+   {
+      "cost1" : 30,
+      "hot" : 0,
+      "isShow" : 0,
+      "price1" : 30,
+      "product" : "com.ychd4.dqddz.30w",
+      "prop" : 50114,
+      "showType" : 4
+   },
+   {
+      "cost1" : 98,
+      "hot" : 0,
+      "isShow" : 0,
+      "price1" : 98,
+      "product" : "com.ychd4.dqddz.115w",
+      "prop" : 50115,
+      "showType" : 4
+   },
+   {
+      "cost1" : 198,
+      "hot" : 0,
+      "isShow" : 0,
+      "price1" : 198,
+      "product" : "com.ychd4.dqddz.208w",
+      "prop" : 50116,
+      "showType" : 4
+   },
+   {
+      "cost1" : 328,
+      "hot" : 0,
+      "isShow" : 0,
+      "price1" : 328,
+      "product" : "com.ychd4.dqddz.360w1",
+      "prop" : 50117,
+      "showType" : 4
+   },
+   {
+      "cost1" : 648,
+      "hot" : 0,
+      "isShow" : 0,
+      "price1" : 648,
+      "product" : "com.ychd4.dqddz.777w",
+      "prop" : 50118,
+      "showType" : 4
+   }
+]

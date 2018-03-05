@@ -1,0 +1,12 @@
+28 十二月 2017 | 16:04:17,878 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 24, Type: DEFAULT, Logged: No, IP: 172.18.23.160:21920 } on Server port: 9933 <---> 21920
+28 十二月 2017 | 16:04:18,711 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 20, Priv: 0, Sess: 172.18.23.160:21920 ) , Type: Unity
+28 十二月 2017 | 16:04:57,617 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 24, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:21920 }
+28 十二月 2017 | 16:04:57,617 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 20, Priv: 0, Sess: 172.18.23.160:21920 ) , SessionLen: 38906, Type: Unity
+28 十二月 2017 | 16:54:33,928 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 25, Type: DEFAULT, Logged: No, IP: 172.18.23.160:22866 } on Server port: 9933 <---> 22866
+28 十二月 2017 | 16:54:34,829 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 21, Priv: 0, Sess: 172.18.23.160:22866 ) , Type: Unity
+28 十二月 2017 | 16:54:37,024 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 收到客户端超级VIP用户，您选择了欢乐场进行游戏 
+28 十二月 2017 | 16:55:31,577 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: DouDiZhu }, CCU: 0/1
+28 十二月 2017 | 16:55:31,577 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 1/1
+28 十二月 2017 | 16:55:31,577 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: CCU: 1/2
+28 十二月 2017 | 16:56:41,602 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 25, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:22866 }
+28 十二月 2017 | 16:56:41,603 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 21, Priv: 0, Sess: 172.18.23.160:22866 ) , SessionLen: 126774, Type: Unity

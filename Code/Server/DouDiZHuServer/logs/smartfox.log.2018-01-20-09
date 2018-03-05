@@ -1,0 +1,53 @@
+20 一月 2018 | 09:58:38,846 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+20 一月 2018 | 09:58:39,299 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+20 一月 2018 | 09:58:39,319 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+20 一月 2018 | 09:58:39,408 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+20 一月 2018 | 09:58:39,411 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+20 一月 2018 | 09:58:39,434 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+20 一月 2018 | 09:58:39,442 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+20 一月 2018 | 09:58:39,445 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+20 一月 2018 | 09:58:39,476 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+20 一月 2018 | 09:58:39,501 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+20 一月 2018 | 09:58:39,509 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+20 一月 2018 | 09:58:40,642 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+20 一月 2018 | 09:58:40,645 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: false ], type = SFSRoom
+20 一月 2018 | 09:58:40,646 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+20 一月 2018 | 09:58:40,652 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+20 一月 2018 | 09:58:40,652 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: false ], type = SFSRoom
+20 一月 2018 | 09:58:40,653 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+20 一月 2018 | 09:58:40,658 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+20 一月 2018 | 09:58:40,659 | INFO  | main | Extensions |     | {java}: ==================斗地主服务器初始化========================== 
+20 一月 2018 | 09:58:40,664 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+20 一月 2018 | 09:58:40,667 | INFO  | main | Extensions |     | {java}: ======================================================= 
+20 一月 2018 | 09:58:40,671 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+20 一月 2018 | 09:58:40,704 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+20 一月 2018 | 09:58:40,885 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+20 一月 2018 | 09:58:40,886 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+20 一月 2018 | 09:58:40,886 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+20 一月 2018 | 09:58:42,423 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+20 一月 2018 | 09:59:40,890 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: DouDiZhu }, CCU: 0/0
+20 一月 2018 | 09:59:40,891 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+20 一月 2018 | 09:59:40,892 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/0

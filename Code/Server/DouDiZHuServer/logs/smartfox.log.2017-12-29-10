@@ -1,0 +1,37 @@
+29 十二月 2017 | 10:14:36,789 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 4, Type: DEFAULT, Logged: No, IP: 172.18.23.160:55910 } on Server port: 9933 <---> 55910
+29 十二月 2017 | 10:14:51,778 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 4, Type: DEFAULT, Logged: No, IP: 172.18.23.160:55910 }
+29 十二月 2017 | 10:16:25,405 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 5, Type: DEFAULT, Logged: No, IP: 172.18.23.188:14778 } on Server port: 9933 <---> 14778
+29 十二月 2017 | 10:16:38,607 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 5, Type: DEFAULT, Logged: No, IP: 172.18.23.188:14778 }
+29 十二月 2017 | 10:16:54,524 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 6, Type: DEFAULT, Logged: No, IP: 172.18.23.188:14782 } on Server port: 9933 <---> 14782
+29 十二月 2017 | 10:16:58,789 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 6, Type: DEFAULT, Logged: No, IP: 172.18.23.188:14782 }
+29 十二月 2017 | 10:18:05,645 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 7, Type: DEFAULT, Logged: No, IP: 172.18.23.160:55943 } on Server port: 9933 <---> 55943
+29 十二月 2017 | 10:18:39,753 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 7, Type: DEFAULT, Logged: No, IP: 172.18.23.160:55943 }
+29 十二月 2017 | 10:19:52,589 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 8, Type: DEFAULT, Logged: No, IP: 172.18.23.160:55966 } on Server port: 9933 <---> 55966
+29 十二月 2017 | 10:20:29,759 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 8, Type: DEFAULT, Logged: No, IP: 172.18.23.160:55966 }
+29 十二月 2017 | 10:22:11,384 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 9, Type: DEFAULT, Logged: No, IP: 172.18.23.160:56007 } on Server port: 9933 <---> 56007
+29 十二月 2017 | 10:22:19,347 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 3, Priv: 0, Sess: 172.18.23.160:56007 ) , Type: Unity
+29 十二月 2017 | 10:22:26,568 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 9, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:56007 }
+29 十二月 2017 | 10:22:26,568 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 3, Priv: 0, Sess: 172.18.23.160:56007 ) , SessionLen: 7221, Type: Unity
+29 十二月 2017 | 10:23:30,669 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 10, Type: DEFAULT, Logged: No, IP: 172.18.23.160:56026 } on Server port: 9933 <---> 56026
+29 十二月 2017 | 10:23:37,824 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 4, Priv: 0, Sess: 172.18.23.160:56026 ) , Type: Unity
+29 十二月 2017 | 10:23:39,189 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 收到客户端超级VIP用户，您选择了欢乐场进行游戏 
+29 十二月 2017 | 10:23:43,375 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 10, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:56026 }
+29 十二月 2017 | 10:23:43,376 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 4, Priv: 0, Sess: 172.18.23.160:56026 ) , SessionLen: 5552, Type: Unity
+29 十二月 2017 | 10:24:27,215 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 11, Type: DEFAULT, Logged: No, IP: 172.18.23.160:56038 } on Server port: 9933 <---> 56038
+29 十二月 2017 | 10:24:38,537 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 5, Priv: 0, Sess: 172.18.23.160:56038 ) , Type: Unity
+29 十二月 2017 | 10:24:43,443 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 收到客户端超级VIP用户，您选择了欢乐场进行游戏 
+29 十二月 2017 | 10:25:24,157 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 11, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:56038 }
+29 十二月 2017 | 10:25:24,157 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 5, Priv: 0, Sess: 172.18.23.160:56038 ) , SessionLen: 45620, Type: Unity
+29 十二月 2017 | 10:52:02,231 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 12, Type: DEFAULT, Logged: No, IP: 172.18.23.160:56452 } on Server port: 9933 <---> 56452
+29 十二月 2017 | 10:52:11,553 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 6, Priv: 0, Sess: 172.18.23.160:56452 ) , Type: Unity
+29 十二月 2017 | 10:52:12,847 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 收到客户端超级VIP用户，您选择了欢乐场进行游戏 
+29 十二月 2017 | 10:52:16,432 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 12, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:56452 }
+29 十二月 2017 | 10:52:16,434 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 6, Priv: 0, Sess: 172.18.23.160:56452 ) , SessionLen: 4881, Type: Unity
+29 十二月 2017 | 10:52:35,370 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 13, Type: DEFAULT, Logged: No, IP: 172.18.23.160:56459 } on Server port: 9933 <---> 56459
+29 十二月 2017 | 10:52:42,067 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 7, Priv: 0, Sess: 172.18.23.160:56459 ) , Type: Unity
+29 十二月 2017 | 10:52:43,447 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 收到客户端超级VIP用户，您选择了欢乐场进行游戏 
+29 十二月 2017 | 10:54:49,648 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 13, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:56459 }
+29 十二月 2017 | 10:54:49,650 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 7, Priv: 0, Sess: 172.18.23.160:56459 ) , SessionLen: 127583, Type: Unity
+29 十二月 2017 | 10:55:39,665 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: DouDiZhu }, CCU: 0/1
+29 十二月 2017 | 10:55:39,665 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 1/1
+29 十二月 2017 | 10:55:39,665 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: CCU: 1/2

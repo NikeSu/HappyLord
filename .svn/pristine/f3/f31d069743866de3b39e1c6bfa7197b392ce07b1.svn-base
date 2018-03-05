@@ -1,0 +1,82 @@
+﻿using Sfs2X;
+using Sfs2X.Core;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System;
+using Sfs2X.Requests;
+using Sfs2X.Entities.Data;
+
+public class SFSTest : MonoBehaviour {
+
+    private SmartFox sfs;
+	// Use this for initialization
+	void Start () {
+        sfs = new SmartFox();
+        sfs.AddEventListener(SFSEvent.CONNECTION, onConnection);
+        sfs.AddEventListener(SFSEvent.CONNECTION_LOST, OnConnectionLost);
+
+        sfs.AddEventListener(SFSEvent.LOGIN, onLoginOK);
+        sfs.AddEventListener(SFSEvent.LOGIN_ERROR, onLoginError);
+        sfs.AddEventListener(SFSEvent.EXTENSION_RESPONSE, onExtensionHandler); //监听扩展请求
+        sfs.Connect("172.18.23.154", 9933);
+	}
+    private void onExtensionHandler(BaseEvent evt)
+    {
+        string cmd = evt.Params["cmd"].ToString();
+        SFSObject obj = evt.Params["params"] as SFSObject;
+
+        print(cmd + " ," + obj.GetUtfString("info"));
+    }
+
+    void Update()
+    {
+        if (sfs != null)        {            //刷新内部处理函数
+            sfs.ProcessEvents();        }
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            SFSObject obj = new SFSObject();
+            obj.PutUtfString("nick", "周杰伦");
+            //发送扩展test请求
+            this.sfs.Send(new ExtensionRequest("test", obj));
+            //this.sfs.Send(new JoinRoomRequest("lobby"));
+        }
+    }
+
+
+    private void onLoginError(BaseEvent evt)
+    {
+        print("登录失败");
+    }
+
+    private void onLoginOK(BaseEvent evt)
+    {
+        print("登录成功！"); 
+
+       
+    }
+
+    private void OnConnectionLost(BaseEvent evt)
+    {
+        print("连接Failed");
+    }
+    private void onConnection(BaseEvent evt)
+    {
+        print("连接OK");
+
+        //进行登陆(系统请求)
+        sfs.Send(new LoginRequest("frank", "123", "FPSServer1"));
+    }
+    // Update is called once per frame
+
+
+
+    void OnDestroy()
+    {
+        if (sfs!=null && sfs.IsConnected)
+        {
+            sfs.Disconnect();
+        }
+    }
+}

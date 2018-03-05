@@ -1,0 +1,214 @@
+26 二月 2018 | 20:00:14,103 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+26 二月 2018 | 20:00:14,630 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+26 二月 2018 | 20:00:14,651 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+26 二月 2018 | 20:00:14,714 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+26 二月 2018 | 20:00:14,715 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+26 二月 2018 | 20:00:14,725 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+26 二月 2018 | 20:00:14,732 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+26 二月 2018 | 20:00:14,735 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+26 二月 2018 | 20:00:14,765 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+26 二月 2018 | 20:00:14,790 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+26 二月 2018 | 20:00:14,800 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+26 二月 2018 | 20:00:15,054 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+26 二月 2018 | 20:00:15,058 | ERROR | main | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: Provided Event Handler does not implement IServerEventHandler: class com.ddz.room.SFSUserLeaveRoomHandler, Cmd: USER_LEAVE_ROOM
+Description: Extension initialization failed.
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.extensions.SFSExtension.addEventHandler(SFSExtension.java:123)
+com.ddz.room.RoomExtension.init(RoomExtension.java:19)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.createExtension(SFSExtensionManager.java:303)
+com.smartfoxserver.v2.entities.managers.SFSZoneManager.createRoom(SFSZoneManager.java:721)
+com.smartfoxserver.v2.entities.managers.SFSZoneManager.createZone(SFSZoneManager.java:412)
+com.smartfoxserver.v2.entities.managers.SFSZoneManager.initializeZones(SFSZoneManager.java:239)
+com.smartfoxserver.v2.SmartFoxServer.start(SmartFoxServer.java:297)
+com.smartfoxserver.v2.Main.main(Main.java:14)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+26 二月 2018 | 20:00:15,059 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: false ], type = SFSRoom
+26 二月 2018 | 20:00:15,060 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+26 二月 2018 | 20:00:15,073 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+26 二月 2018 | 20:00:15,074 | ERROR | main | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: Provided Event Handler does not implement IServerEventHandler: class com.ddz.room.SFSUserLeaveRoomHandler, Cmd: USER_LEAVE_ROOM
+Description: Extension initialization failed.
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.extensions.SFSExtension.addEventHandler(SFSExtension.java:123)
+com.ddz.room.RoomExtension.init(RoomExtension.java:19)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.createExtension(SFSExtensionManager.java:303)
+com.smartfoxserver.v2.entities.managers.SFSZoneManager.createRoom(SFSZoneManager.java:721)
+com.smartfoxserver.v2.entities.managers.SFSZoneManager.createZone(SFSZoneManager.java:412)
+com.smartfoxserver.v2.entities.managers.SFSZoneManager.initializeZones(SFSZoneManager.java:239)
+com.smartfoxserver.v2.SmartFoxServer.start(SmartFoxServer.java:297)
+com.smartfoxserver.v2.Main.main(Main.java:14)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+26 二月 2018 | 20:00:15,074 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: false ], type = SFSRoom
+26 二月 2018 | 20:00:15,075 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+26 二月 2018 | 20:00:15,110 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+26 二月 2018 | 20:00:15,111 | ERROR | main | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: Provided Event Handler does not implement IServerEventHandler: class com.ddz.room.SFSUserLeaveRoomHandler, Cmd: USER_LEAVE_ROOM
+Description: Extension initialization failed.
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.extensions.SFSExtension.addEventHandler(SFSExtension.java:123)
+com.ddz.room.RoomExtension.init(RoomExtension.java:19)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.createExtension(SFSExtensionManager.java:303)
+com.smartfoxserver.v2.entities.managers.SFSZoneManager.createRoom(SFSZoneManager.java:721)
+com.smartfoxserver.v2.entities.managers.SFSZoneManager.createZone(SFSZoneManager.java:412)
+com.smartfoxserver.v2.entities.managers.SFSZoneManager.initializeZones(SFSZoneManager.java:239)
+com.smartfoxserver.v2.SmartFoxServer.start(SmartFoxServer.java:297)
+com.smartfoxserver.v2.Main.main(Main.java:14)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+26 二月 2018 | 20:00:15,112 | INFO  | main | Extensions |     | {java}: ==================斗地主服务器初始化========================== 
+26 二月 2018 | 20:00:15,139 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+26 二月 2018 | 20:00:15,141 | INFO  | main | Extensions |     | {java}: ======================================================= 
+26 二月 2018 | 20:00:15,146 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+26 二月 2018 | 20:00:15,185 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+26 二月 2018 | 20:00:15,379 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: 
+26 二月 2018 | 20:00:15,380 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+26 二月 2018 | 20:00:15,381 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+26 二月 2018 | 20:00:17,158 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+26 二月 2018 | 20:00:17,171 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+26 二月 2018 | 20:00:17,173 | INFO  | Thread-0 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+26 二月 2018 | 20:00:17,180 | INFO  | Thread-1 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+26 二月 2018 | 20:05:55,128 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+26 二月 2018 | 20:05:55,832 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+26 二月 2018 | 20:05:55,858 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+26 二月 2018 | 20:05:55,934 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+26 二月 2018 | 20:05:55,935 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+26 二月 2018 | 20:05:55,945 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+26 二月 2018 | 20:05:55,953 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+26 二月 2018 | 20:05:55,956 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+26 二月 2018 | 20:05:55,997 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+26 二月 2018 | 20:05:56,031 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+26 二月 2018 | 20:05:56,039 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+26 二月 2018 | 20:05:56,336 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+26 二月 2018 | 20:05:56,339 | ERROR | main | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: Provided Event Handler does not implement IServerEventHandler: class com.ddz.room.SFSUserLeaveRoomHandler, Cmd: USER_LEAVE_ROOM
+Description: Extension initialization failed.
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.extensions.SFSExtension.addEventHandler(SFSExtension.java:123)
+com.ddz.room.RoomExtension.init(RoomExtension.java:19)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.createExtension(SFSExtensionManager.java:303)
+com.smartfoxserver.v2.entities.managers.SFSZoneManager.createRoom(SFSZoneManager.java:721)
+com.smartfoxserver.v2.entities.managers.SFSZoneManager.createZone(SFSZoneManager.java:412)
+com.smartfoxserver.v2.entities.managers.SFSZoneManager.initializeZones(SFSZoneManager.java:239)
+com.smartfoxserver.v2.SmartFoxServer.start(SmartFoxServer.java:297)
+com.smartfoxserver.v2.Main.main(Main.java:14)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+26 二月 2018 | 20:05:56,340 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: false ], type = SFSRoom
+26 二月 2018 | 20:05:56,341 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+26 二月 2018 | 20:05:56,361 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+26 二月 2018 | 20:05:56,362 | ERROR | main | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: Provided Event Handler does not implement IServerEventHandler: class com.ddz.room.SFSUserLeaveRoomHandler, Cmd: USER_LEAVE_ROOM
+Description: Extension initialization failed.
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.extensions.SFSExtension.addEventHandler(SFSExtension.java:123)
+com.ddz.room.RoomExtension.init(RoomExtension.java:19)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.createExtension(SFSExtensionManager.java:303)
+com.smartfoxserver.v2.entities.managers.SFSZoneManager.createRoom(SFSZoneManager.java:721)
+com.smartfoxserver.v2.entities.managers.SFSZoneManager.createZone(SFSZoneManager.java:412)
+com.smartfoxserver.v2.entities.managers.SFSZoneManager.initializeZones(SFSZoneManager.java:239)
+com.smartfoxserver.v2.SmartFoxServer.start(SmartFoxServer.java:297)
+com.smartfoxserver.v2.Main.main(Main.java:14)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+26 二月 2018 | 20:05:56,363 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: false ], type = SFSRoom
+26 二月 2018 | 20:05:56,364 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+26 二月 2018 | 20:05:56,371 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+26 二月 2018 | 20:05:56,371 | ERROR | main | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: Provided Event Handler does not implement IServerEventHandler: class com.ddz.room.SFSUserLeaveRoomHandler, Cmd: USER_LEAVE_ROOM
+Description: Extension initialization failed.
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.extensions.SFSExtension.addEventHandler(SFSExtension.java:123)
+com.ddz.room.RoomExtension.init(RoomExtension.java:19)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.createExtension(SFSExtensionManager.java:303)
+com.smartfoxserver.v2.entities.managers.SFSZoneManager.createRoom(SFSZoneManager.java:721)
+com.smartfoxserver.v2.entities.managers.SFSZoneManager.createZone(SFSZoneManager.java:412)
+com.smartfoxserver.v2.entities.managers.SFSZoneManager.initializeZones(SFSZoneManager.java:239)
+com.smartfoxserver.v2.SmartFoxServer.start(SmartFoxServer.java:297)
+com.smartfoxserver.v2.Main.main(Main.java:14)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+26 二月 2018 | 20:05:56,373 | INFO  | main | Extensions |     | {java}: ==================斗地主服务器初始化========================== 
+26 二月 2018 | 20:05:56,380 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+26 二月 2018 | 20:05:56,382 | INFO  | main | Extensions |     | {java}: ======================================================= 
+26 二月 2018 | 20:05:56,386 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+26 二月 2018 | 20:05:56,434 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+26 二月 2018 | 20:05:56,707 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+26 二月 2018 | 20:05:56,708 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+26 二月 2018 | 20:05:56,708 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+26 二月 2018 | 20:05:59,338 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+26 二月 2018 | 20:55:56,731 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: DouDiZhu }, CCU: 0/0
+26 二月 2018 | 20:55:56,734 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+26 二月 2018 | 20:55:56,734 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/0

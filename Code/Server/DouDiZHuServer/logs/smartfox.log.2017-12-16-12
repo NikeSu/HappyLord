@@ -1,0 +1,47 @@
+16 十二月 2017 | 12:16:42,996 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:46481 } on Server port: 9933 <---> 46481
+16 十二月 2017 | 12:16:43,018 | WARN  | SFSWorker:Ext:4 | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSLoginException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSLoginException
+Message: Admin login refused to user 'sfsadmin': invalid credentials
+Description: Extension's Login Handler exception
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.admin.handlers.events.LoginEvtHandler.handleServerEvent(LoginEvtHandler.java:93)
+com.smartfoxserver.v2.extensions.SFSExtension.handleServerEvent(SFSExtension.java:259)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchEvent(SFSExtensionManager.java:768)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchZoneLevelEvent(SFSExtensionManager.java:689)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.handleServerEvent(SFSExtensionManager.java:887)
+com.smartfoxserver.v2.core.SFSEventManager$SFSEventRunner.run(SFSEventManager.java:66)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+16 十二月 2017 | 12:16:43,136 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:46481 }
+16 十二月 2017 | 12:16:49,708 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 127.0.0.1:46512 } on Server port: 9933 <---> 46512
+16 十二月 2017 | 12:16:49,720 | INFO  | SFSWorker:Ext:3 | v2.scala.DefLI |     | User already logged in. Disconnecting previous instance : ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:28870 ) 
+16 十二月 2017 | 12:16:49,720 | INFO  | SFSWorker:Ext:3 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:28870 }
+16 十二月 2017 | 12:16:49,721 | INFO  | SFSWorker:Ext:3 | v2.api.SFSApi |     | User disconnected: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:28870 ) , SessionLen: 6872931, Type: Flash ActiveX:WIN 28,0,0,126
+16 十二月 2017 | 12:16:51,724 | INFO  | pool-1-thread-2 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 1, Priv: 0, Sess: 127.0.0.1:46512 ) , Type: Flash ActiveX:WIN 28,0,0,126
+16 十二月 2017 | 12:16:51,738 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 2, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 1, Priv: 0, Sess: 127.0.0.1:46512 ) , asSpect: false
+16 十二月 2017 | 12:31:46,195 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 4, Type: DEFAULT, Logged: No, IP: 127.0.0.1:18490 } on Server port: 9933 <---> 18490
+16 十二月 2017 | 12:31:51,899 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: abc, Id: 2, Priv: 0, Sess: 127.0.0.1:18490 ) , Type: Unity
+16 十二月 2017 | 12:31:51,922 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | Room joined: [ Room: test1, Id: 1, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: abc, Id: 2, Priv: 0, Sess: 127.0.0.1:18490 ) , asSpect: false
+16 十二月 2017 | 12:31:51,922 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户:( User Name: abc, Id: 2, Priv: 0, Sess: 127.0.0.1:18490 )  
+16 十二月 2017 | 12:31:51,923 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 房间[ Room: test1, Id: 1, Group: default, isGame: false ] 
+16 十二月 2017 | 12:32:01,553 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 4, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:18490 }
+16 十二月 2017 | 12:32:01,553 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: abc, Id: 2, Priv: 0, Sess: 127.0.0.1:18490 ) , SessionLen: 9654, Type: Unity
+16 十二月 2017 | 12:32:01,553 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: DisConnectedabc 
+16 十二月 2017 | 12:32:24,973 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 5, Type: DEFAULT, Logged: No, IP: 127.0.0.1:18658 } on Server port: 9933 <---> 18658
+16 十二月 2017 | 12:32:25,062 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: BasicExamples }, ( User Name: abc, Id: 3, Priv: 0, Sess: 127.0.0.1:18658 ) , Type: Unity
+16 十二月 2017 | 12:32:25,077 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | Room joined: [ Room: test1, Id: 1, Group: default, isGame: false ], { Zone: BasicExamples }, ( User Name: abc, Id: 3, Priv: 0, Sess: 127.0.0.1:18658 ) , asSpect: false
+16 十二月 2017 | 12:32:25,077 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户:( User Name: abc, Id: 3, Priv: 0, Sess: 127.0.0.1:18658 )  
+16 十二月 2017 | 12:32:25,077 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 房间[ Room: test1, Id: 1, Group: default, isGame: false ] 
+16 十二月 2017 | 12:37:27,630 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 5, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:18658 }
+16 十二月 2017 | 12:37:27,632 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: BasicExamples }, ( User Name: abc, Id: 3, Priv: 0, Sess: 127.0.0.1:18658 ) , SessionLen: 302570, Type: Unity
+16 十二月 2017 | 12:37:27,632 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: DisConnectedabc 
+16 十二月 2017 | 12:55:07,571 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: FPSGame }, CCU: 0/0
+16 十二月 2017 | 12:55:07,572 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 2/1
+16 十二月 2017 | 12:55:07,572 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/1
+16 十二月 2017 | 12:55:07,573 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: CCU: 2/2

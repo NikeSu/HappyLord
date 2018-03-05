@@ -1,0 +1,195 @@
+29 十二月 2017 | 17:14:27,689 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 4, Type: DEFAULT, Logged: No, IP: 172.18.23.160:64058 } on Server port: 9933 <---> 64058
+29 十二月 2017 | 17:14:29,928 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户frank登录成功! 
+29 十二月 2017 | 17:14:29,930 | INFO  | SFSWorker:Ext:1 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 3, Priv: 0, Sess: 172.18.23.160:64058 ) , Type: Unity
+29 十二月 2017 | 17:14:29,930 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户进入区 
+29 十二月 2017 | 17:14:29,931 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: !---( User Name: frank, Id: 3, Priv: 0, Sess: 172.18.23.160:64058 ) ---! 
+29 十二月 2017 | 17:15:33,341 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 收到客户端超级VIP用户，您选择了欢乐场进行游戏 
+29 十二月 2017 | 17:15:48,079 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: frank, Id: 3, Priv: 0, Sess: 172.18.23.160:64058 ) , asSpect: false
+29 十二月 2017 | 17:16:18,273 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 4, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:64058 }
+29 十二月 2017 | 17:16:18,274 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 3, Priv: 0, Sess: 172.18.23.160:64058 ) , SessionLen: 108344, Type: Unity
+29 十二月 2017 | 17:18:12,877 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 5, Type: DEFAULT, Logged: No, IP: 172.18.23.160:64099 } on Server port: 9933 <---> 64099
+29 十二月 2017 | 17:18:35,865 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户frank登录成功! 
+29 十二月 2017 | 17:18:35,867 | INFO  | SFSWorker:Ext:1 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 4, Priv: 0, Sess: 172.18.23.160:64099 ) , Type: Unity
+29 十二月 2017 | 17:18:35,868 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户进入区 
+29 十二月 2017 | 17:18:35,868 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: !---( User Name: frank, Id: 4, Priv: 0, Sess: 172.18.23.160:64099 ) ---! 
+29 十二月 2017 | 17:20:45,053 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 5, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:64099 }
+29 十二月 2017 | 17:20:45,054 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 4, Priv: 0, Sess: 172.18.23.160:64099 ) , SessionLen: 129187, Type: Unity
+29 十二月 2017 | 17:22:19,173 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 6, Type: DEFAULT, Logged: No, IP: 172.18.23.160:64135 } on Server port: 9933 <---> 64135
+29 十二月 2017 | 17:22:21,092 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户frank登录成功! 
+29 十二月 2017 | 17:22:21,094 | INFO  | SFSWorker:Ext:1 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 5, Priv: 0, Sess: 172.18.23.160:64135 ) , Type: Unity
+29 十二月 2017 | 17:22:21,095 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户进入区 
+29 十二月 2017 | 17:22:21,096 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: !---( User Name: frank, Id: 5, Priv: 0, Sess: 172.18.23.160:64135 ) ---! 
+29 十二月 2017 | 17:22:23,548 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 收到客户端超级VIP用户，您选择了欢乐场进行游戏 
+29 十二月 2017 | 17:24:25,068 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 6, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:64135 }
+29 十二月 2017 | 17:24:25,070 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 5, Priv: 0, Sess: 172.18.23.160:64135 ) , SessionLen: 123976, Type: Unity
+29 十二月 2017 | 17:25:51,402 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 7, Type: DEFAULT, Logged: No, IP: 172.18.23.160:64181 } on Server port: 9933 <---> 64181
+29 十二月 2017 | 17:25:53,759 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户frank登录成功! 
+29 十二月 2017 | 17:25:53,760 | INFO  | SFSWorker:Ext:2 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 6, Priv: 0, Sess: 172.18.23.160:64181 ) , Type: Unity
+29 十二月 2017 | 17:25:53,761 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户进入区 
+29 十二月 2017 | 17:25:53,761 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: !---( User Name: frank, Id: 6, Priv: 0, Sess: 172.18.23.160:64181 ) ---! 
+29 十二月 2017 | 17:25:55,686 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 收到客户端超级VIP用户，您选择了欢乐场进行游戏 
+29 十二月 2017 | 17:28:05,083 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 7, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:64181 }
+29 十二月 2017 | 17:28:05,084 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 6, Priv: 0, Sess: 172.18.23.160:64181 ) , SessionLen: 131324, Type: Unity
+29 十二月 2017 | 17:28:57,162 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 8, Type: DEFAULT, Logged: No, IP: 172.18.23.160:64249 } on Server port: 9933 <---> 64249
+29 十二月 2017 | 17:29:02,792 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户frank登录成功! 
+29 十二月 2017 | 17:29:02,794 | INFO  | SFSWorker:Ext:2 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 7, Priv: 0, Sess: 172.18.23.160:64249 ) , Type: Unity
+29 十二月 2017 | 17:29:02,794 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户进入区 
+29 十二月 2017 | 17:29:02,794 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: !---( User Name: frank, Id: 7, Priv: 0, Sess: 172.18.23.160:64249 ) ---! 
+29 十二月 2017 | 17:29:03,910 | ERROR | SFSWorker:Ext:1 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: Request handler not found: 'nick'. Make sure the handler is registered in your extension using addRequestHandler()
+Description: Error while handling client request in extension: { Ext: java, Type: JAVA, Lev: ZONE, { Zone: DouDiZhu }, {} }
+Extension Cmd: nick
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.extensions.SFSExtension.handleClientRequest(SFSExtension.java:197)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:174)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+29 十二月 2017 | 17:29:05,964 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: frank, Id: 7, Priv: 0, Sess: 172.18.23.160:64249 ) , asSpect: false
+29 十二月 2017 | 17:29:19,380 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 8, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:64249 }
+29 十二月 2017 | 17:29:19,381 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 7, Priv: 0, Sess: 172.18.23.160:64249 ) , SessionLen: 16587, Type: Unity
+29 十二月 2017 | 17:29:20,966 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 9, Type: DEFAULT, Logged: No, IP: 172.18.23.160:64267 } on Server port: 9933 <---> 64267
+29 十二月 2017 | 17:29:23,618 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户frank登录成功! 
+29 十二月 2017 | 17:29:23,621 | INFO  | SFSWorker:Ext:3 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 8, Priv: 0, Sess: 172.18.23.160:64267 ) , Type: Unity
+29 十二月 2017 | 17:29:23,622 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户进入区 
+29 十二月 2017 | 17:29:23,622 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: !---( User Name: frank, Id: 8, Priv: 0, Sess: 172.18.23.160:64267 ) ---! 
+29 十二月 2017 | 17:29:26,451 | ERROR | SFSWorker:Ext:3 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: Request handler not found: 'nick'. Make sure the handler is registered in your extension using addRequestHandler()
+Description: Error while handling client request in extension: { Ext: java, Type: JAVA, Lev: ZONE, { Zone: DouDiZhu }, {} }
+Extension Cmd: nick
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.extensions.SFSExtension.handleClientRequest(SFSExtension.java:197)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:174)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+29 十二月 2017 | 17:30:52,215 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 9, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:64267 }
+29 十二月 2017 | 17:30:52,216 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 8, Priv: 0, Sess: 172.18.23.160:64267 ) , SessionLen: 88595, Type: Unity
+29 十二月 2017 | 17:31:03,127 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 10, Type: DEFAULT, Logged: No, IP: 172.18.23.160:64288 } on Server port: 9933 <---> 64288
+29 十二月 2017 | 17:31:07,214 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户frank登录成功! 
+29 十二月 2017 | 17:31:07,216 | INFO  | SFSWorker:Ext:3 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 9, Priv: 0, Sess: 172.18.23.160:64288 ) , Type: Unity
+29 十二月 2017 | 17:31:07,216 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户进入区 
+29 十二月 2017 | 17:31:07,217 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: !---( User Name: frank, Id: 9, Priv: 0, Sess: 172.18.23.160:64288 ) ---! 
+29 十二月 2017 | 17:32:29,581 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 10, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:64288 }
+29 十二月 2017 | 17:32:29,582 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 9, Priv: 0, Sess: 172.18.23.160:64288 ) , SessionLen: 82366, Type: Unity
+29 十二月 2017 | 17:33:18,880 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 11, Type: DEFAULT, Logged: No, IP: 172.18.23.160:64314 } on Server port: 9933 <---> 64314
+29 十二月 2017 | 17:33:20,887 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户frank登录成功! 
+29 十二月 2017 | 17:33:20,889 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 10, Priv: 0, Sess: 172.18.23.160:64314 ) , Type: Unity
+29 十二月 2017 | 17:33:20,889 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+29 十二月 2017 | 17:33:20,889 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: !---( User Name: frank, Id: 10, Priv: 0, Sess: 172.18.23.160:64314 ) ---! 
+29 十二月 2017 | 17:33:23,196 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 11, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:64314 }
+29 十二月 2017 | 17:33:23,196 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 10, Priv: 0, Sess: 172.18.23.160:64314 ) , SessionLen: 2307, Type: Unity
+29 十二月 2017 | 17:36:27,275 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 12, Type: DEFAULT, Logged: No, IP: 172.18.23.160:64361 } on Server port: 9933 <---> 64361
+29 十二月 2017 | 17:36:28,704 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户frank登录成功! 
+29 十二月 2017 | 17:36:28,705 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 11, Priv: 0, Sess: 172.18.23.160:64361 ) , Type: Unity
+29 十二月 2017 | 17:36:28,706 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+29 十二月 2017 | 17:36:28,706 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: !---( User Name: frank, Id: 11, Priv: 0, Sess: 172.18.23.160:64361 ) ---! 
+29 十二月 2017 | 17:36:30,719 | ERROR | SFSWorker:Ext:3 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: Request handler not found: 'nick'. Make sure the handler is registered in your extension using addRequestHandler()
+Description: Error while handling client request in extension: { Ext: java, Type: JAVA, Lev: ZONE, { Zone: DouDiZhu }, {} }
+Extension Cmd: nick
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.extensions.SFSExtension.handleClientRequest(SFSExtension.java:197)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:174)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+29 十二月 2017 | 17:36:39,123 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 12, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:64361 }
+29 十二月 2017 | 17:36:39,123 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 11, Priv: 0, Sess: 172.18.23.160:64361 ) , SessionLen: 10418, Type: Unity
+29 十二月 2017 | 17:47:26,436 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 13, Type: DEFAULT, Logged: No, IP: 172.18.23.160:64499 } on Server port: 9933 <---> 64499
+29 十二月 2017 | 17:47:28,419 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户frank登录成功! 
+29 十二月 2017 | 17:47:28,421 | INFO  | SFSWorker:Ext:1 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 12, Priv: 0, Sess: 172.18.23.160:64499 ) , Type: Unity
+29 十二月 2017 | 17:47:46,828 | ERROR | SFSWorker:Ext:3 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: Request handler not found: 'nick'. Make sure the handler is registered in your extension using addRequestHandler()
+Description: Error while handling client request in extension: { Ext: java, Type: JAVA, Lev: ZONE, { Zone: DouDiZhu }, {} }
+Extension Cmd: nick
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.extensions.SFSExtension.handleClientRequest(SFSExtension.java:197)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:174)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+29 十二月 2017 | 17:47:49,001 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: frank, Id: 12, Priv: 0, Sess: 172.18.23.160:64499 ) , asSpect: false
+29 十二月 2017 | 17:47:54,443 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 13, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:64499 }
+29 十二月 2017 | 17:47:54,444 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 12, Priv: 0, Sess: 172.18.23.160:64499 ) , SessionLen: 26023, Type: Unity
+29 十二月 2017 | 17:47:56,771 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 14, Type: DEFAULT, Logged: No, IP: 172.18.23.160:64532 } on Server port: 9933 <---> 64532
+29 十二月 2017 | 17:48:35,169 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 14, Type: DEFAULT, Logged: No, IP: 172.18.23.160:64532 }
+29 十二月 2017 | 17:48:44,343 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 15, Type: DEFAULT, Logged: No, IP: 172.18.23.160:64544 } on Server port: 9933 <---> 64544
+29 十二月 2017 | 17:48:45,692 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户frank登录成功! 
+29 十二月 2017 | 17:48:45,695 | INFO  | SFSWorker:Ext:3 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 13, Priv: 0, Sess: 172.18.23.160:64544 ) , Type: Unity
+29 十二月 2017 | 17:48:45,696 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户进入区 
+29 十二月 2017 | 17:48:45,696 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: !---( User Name: frank, Id: 13, Priv: 0, Sess: 172.18.23.160:64544 ) ---! 
+29 十二月 2017 | 17:48:47,429 | ERROR | SFSWorker:Ext:3 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: Request handler not found: 'nick'. Make sure the handler is registered in your extension using addRequestHandler()
+Description: Error while handling client request in extension: { Ext: java, Type: JAVA, Lev: ZONE, { Zone: DouDiZhu }, {} }
+Extension Cmd: nick
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.extensions.SFSExtension.handleClientRequest(SFSExtension.java:197)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:174)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+29 十二月 2017 | 17:50:55,188 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 15, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:64544 }
+29 十二月 2017 | 17:50:55,191 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 13, Priv: 0, Sess: 172.18.23.160:64544 ) , SessionLen: 129496, Type: Unity
+29 十二月 2017 | 17:55:45,050 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: DouDiZhu }, CCU: 0/1
+29 十二月 2017 | 17:55:45,050 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 1/1
+29 十二月 2017 | 17:55:45,050 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: CCU: 1/2
+29 十二月 2017 | 17:57:25,330 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 16, Type: DEFAULT, Logged: No, IP: 172.18.23.160:64635 } on Server port: 9933 <---> 64635
+29 十二月 2017 | 17:57:27,537 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户frank登录成功! 
+29 十二月 2017 | 17:57:27,541 | INFO  | SFSWorker:Ext:2 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 14, Priv: 0, Sess: 172.18.23.160:64635 ) , Type: Unity
+29 十二月 2017 | 17:57:27,541 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户进入区 
+29 十二月 2017 | 17:57:27,542 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: !---( User Name: frank, Id: 14, Priv: 0, Sess: 172.18.23.160:64635 ) ---! 
+29 十二月 2017 | 17:57:28,835 | ERROR | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: Request handler not found: 'nick'. Make sure the handler is registered in your extension using addRequestHandler()
+Description: Error while handling client request in extension: { Ext: java, Type: JAVA, Lev: ZONE, { Zone: DouDiZhu }, {} }
+Extension Cmd: nick
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.extensions.SFSExtension.handleClientRequest(SFSExtension.java:197)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:174)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+29 十二月 2017 | 17:59:34,976 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 16, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:64635 }
+29 十二月 2017 | 17:59:34,978 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 14, Priv: 0, Sess: 172.18.23.160:64635 ) , SessionLen: 127438, Type: Unity

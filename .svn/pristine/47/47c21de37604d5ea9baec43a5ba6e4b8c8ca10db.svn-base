@@ -1,0 +1,15 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Audiojb : MonoBehaviour {
+
+    public void syk() {
+        GameObject.Find("Main Camera").GetComponent<AudioSource>().Play();
+    }
+    public void syg() {
+        GameObject.Find("Main Camera").GetComponent<AudioSource>().Stop();
+    }
+
+        
+}

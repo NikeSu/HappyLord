@@ -1,0 +1,266 @@
+09 一月 2018 | 11:04:24,149 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 172.18.23.218:2095 } on Server port: 9933 <---> 2095
+09 一月 2018 | 11:06:33,803 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 3, Type: DEFAULT, Logged: No, IP: 172.18.23.218:2095 }
+09 一月 2018 | 11:06:45,285 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 4, Type: DEFAULT, Logged: No, IP: 172.18.23.218:2285 } on Server port: 9933 <---> 2285
+09 一月 2018 | 11:06:51,039 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户admin登录成功! 
+09 一月 2018 | 11:06:51,042 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 2, Priv: 0, Sess: 172.18.23.218:2285 ) , Type: Unity
+09 一月 2018 | 11:06:51,042 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+09 一月 2018 | 11:06:52,266 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 获取用户信息 
+09 一月 2018 | 11:06:52,269 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: !---------{Max_mult=256, honor_title=难民, quan=199, usernick=杨海龙, sex=女, headpicture=picture1, userpwd=admin123, Vitory=null, gold=233, gamelv=15, game_count=7, viplv=1, vipEXP=null, ID=2, Defeat=null, personalwords=Hello,Admin!, gameEXP=null, username=admin}-----------! 
+09 一月 2018 | 11:06:52,269 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: admin 
+09 一月 2018 | 11:07:03,947 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 4, Type: DEFAULT, Logged: Yes, IP: 172.18.23.218:2285 }
+09 一月 2018 | 11:07:03,948 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 2, Priv: 0, Sess: 172.18.23.218:2285 ) , SessionLen: 12906, Type: Unity
+09 一月 2018 | 11:07:06,347 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 5, Type: DEFAULT, Logged: No, IP: 172.18.23.218:2339 } on Server port: 9933 <---> 2339
+09 一月 2018 | 11:07:07,699 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户admin登录成功! 
+09 一月 2018 | 11:07:07,701 | INFO  | SFSWorker:Ext:1 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 3, Priv: 0, Sess: 172.18.23.218:2339 ) , Type: Unity
+09 一月 2018 | 11:07:07,702 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户进入区 
+09 一月 2018 | 11:07:07,992 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 获取用户信息 
+09 一月 2018 | 11:07:07,995 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: !---------{Max_mult=256, honor_title=难民, quan=199, usernick=杨海龙, sex=女, headpicture=picture1, userpwd=admin123, Vitory=null, gold=233, gamelv=15, game_count=7, viplv=1, vipEXP=null, ID=2, Defeat=null, personalwords=Hello,Admin!, gameEXP=null, username=admin}-----------! 
+09 一月 2018 | 11:07:07,995 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: admin 
+09 一月 2018 | 11:07:11,357 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 收到邮箱拓展 
+09 一月 2018 | 11:07:11,358 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 返回客户端消息 
+09 一月 2018 | 11:07:18,723 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 5, Type: DEFAULT, Logged: Yes, IP: 172.18.23.218:2339 }
+09 一月 2018 | 11:07:18,724 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 3, Priv: 0, Sess: 172.18.23.218:2339 ) , SessionLen: 11023, Type: Unity
+09 一月 2018 | 11:14:46,546 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 6, Type: DEFAULT, Logged: No, IP: 172.18.23.218:3033 } on Server port: 9933 <---> 3033
+09 一月 2018 | 11:14:57,248 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 6, Type: DEFAULT, Logged: No, IP: 172.18.23.218:3033 }
+09 一月 2018 | 11:20:53,731 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 7, Type: DEFAULT, Logged: No, IP: 172.18.23.218:3347 } on Server port: 9933 <---> 3347
+09 一月 2018 | 11:21:03,487 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 7, Type: DEFAULT, Logged: No, IP: 172.18.23.218:3347 }
+09 一月 2018 | 11:29:10,329 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 8, Type: DEFAULT, Logged: No, IP: 172.18.23.160:5085 } on Server port: 9933 <---> 5085
+09 一月 2018 | 11:29:11,315 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户admin登录成功! 
+09 一月 2018 | 11:29:11,316 | INFO  | SFSWorker:Ext:2 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 4, Priv: 0, Sess: 172.18.23.160:5085 ) , Type: Unity
+09 一月 2018 | 11:29:11,316 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户进入区 
+09 一月 2018 | 11:29:11,614 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 获取用户信息 
+09 一月 2018 | 11:29:11,615 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: !---------{Max_mult=256, honor_title=难民, quan=199, usernick=杨海龙, sex=女, headpicture=picture1, userpwd=admin123, Vitory=null, gold=233, gamelv=15, game_count=7, viplv=1, vipEXP=null, ID=2, Defeat=null, personalwords=Hello,Admin!, gameEXP=null, username=admin}-----------! 
+09 一月 2018 | 11:29:11,615 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: admin 
+09 一月 2018 | 11:29:12,920 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: admin, Id: 4, Priv: 0, Sess: 172.18.23.160:5085 ) , asSpect: false
+09 一月 2018 | 11:29:12,920 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户进入房间 
+09 一月 2018 | 11:29:12,921 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 房间信息发送客户端成功 
+09 一月 2018 | 11:29:13,912 | WARN  | SFSWorker:Sys:1 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: admin, Id: 4, Priv: 0, Sess: 172.18.23.160:5085 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+09 一月 2018 | 11:29:14,094 | WARN  | SFSWorker:Sys:4 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: admin, Id: 4, Priv: 0, Sess: 172.18.23.160:5085 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+09 一月 2018 | 11:29:14,889 | WARN  | SFSWorker:Sys:2 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: admin, Id: 4, Priv: 0, Sess: 172.18.23.160:5085 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+09 一月 2018 | 11:29:15,089 | WARN  | SFSWorker:Sys:1 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: admin, Id: 4, Priv: 0, Sess: 172.18.23.160:5085 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+09 一月 2018 | 11:29:15,254 | WARN  | SFSWorker:Sys:3 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: admin, Id: 4, Priv: 0, Sess: 172.18.23.160:5085 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+09 一月 2018 | 11:29:15,419 | WARN  | SFSWorker:Sys:4 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: admin, Id: 4, Priv: 0, Sess: 172.18.23.160:5085 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+09 一月 2018 | 11:29:30,609 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 8, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:5085 }
+09 一月 2018 | 11:29:30,610 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 4, Priv: 0, Sess: 172.18.23.160:5085 ) , SessionLen: 19294, Type: Unity
+09 一月 2018 | 11:34:57,307 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 9, Type: DEFAULT, Logged: No, IP: 172.18.23.160:5256 } on Server port: 9933 <---> 5256
+09 一月 2018 | 11:34:58,475 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户admin登录成功! 
+09 一月 2018 | 11:34:58,476 | INFO  | SFSWorker:Ext:3 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 5, Priv: 0, Sess: 172.18.23.160:5256 ) , Type: Unity
+09 一月 2018 | 11:34:58,476 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户进入区 
+09 一月 2018 | 11:34:58,798 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 获取用户信息 
+09 一月 2018 | 11:34:58,799 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: !---------{Max_mult=256, honor_title=难民, quan=199, usernick=杨海龙, sex=女, headpicture=picture1, userpwd=admin123, Vitory=null, gold=233, gamelv=15, game_count=7, viplv=1, vipEXP=null, ID=2, Defeat=null, personalwords=Hello,Admin!, gameEXP=null, username=admin}-----------! 
+09 一月 2018 | 11:34:58,799 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: admin 
+09 一月 2018 | 11:34:59,928 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: admin, Id: 5, Priv: 0, Sess: 172.18.23.160:5256 ) , asSpect: false
+09 一月 2018 | 11:34:59,929 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入房间 
+09 一月 2018 | 11:34:59,929 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 房间信息发送客户端成功 
+09 一月 2018 | 11:35:02,058 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 房间拓展回调成功 
+09 一月 2018 | 11:35:02,058 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 1 
+09 一月 2018 | 11:35:02,058 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 有人抢地主，倍数*2，现在倍数为：2 
+09 一月 2018 | 11:35:02,638 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 房间拓展回调成功 
+09 一月 2018 | 11:35:02,638 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 2 
+09 一月 2018 | 11:35:02,638 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 有人抢地主，倍数*2，现在倍数为：4 
+09 一月 2018 | 11:35:02,883 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 房间拓展回调成功 
+09 一月 2018 | 11:35:02,883 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 4 
+09 一月 2018 | 11:35:02,883 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 有人抢地主，倍数*2，现在倍数为：8 
+09 一月 2018 | 11:35:03,068 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 房间拓展回调成功 
+09 一月 2018 | 11:35:03,068 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 8 
+09 一月 2018 | 11:35:03,068 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 有人抢地主，倍数*2，现在倍数为：16 
+09 一月 2018 | 11:35:03,248 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 房间拓展回调成功 
+09 一月 2018 | 11:35:03,248 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 16 
+09 一月 2018 | 11:35:03,248 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 有人抢地主，倍数*2，现在倍数为：32 
+09 一月 2018 | 11:35:03,980 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 房间拓展回调成功 
+09 一月 2018 | 11:35:03,980 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 32 
+09 一月 2018 | 11:35:03,980 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 有人抢地主，倍数*2，现在倍数为：64 
+09 一月 2018 | 11:35:04,145 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 房间拓展回调成功 
+09 一月 2018 | 11:35:04,145 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 64 
+09 一月 2018 | 11:35:04,145 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 有人抢地主，倍数*2，现在倍数为：128 
+09 一月 2018 | 11:35:05,200 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 房间拓展回调成功 
+09 一月 2018 | 11:35:05,200 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 128 
+09 一月 2018 | 11:35:05,200 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 有人抢地主，倍数*2，现在倍数为：256 
+09 一月 2018 | 11:35:05,370 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 房间拓展回调成功 
+09 一月 2018 | 11:35:05,370 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 256 
+09 一月 2018 | 11:35:05,370 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 有人抢地主，倍数*2，现在倍数为：512 
+09 一月 2018 | 11:35:06,196 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 房间拓展回调成功 
+09 一月 2018 | 11:35:06,196 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 512 
+09 一月 2018 | 11:35:06,196 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 有人抢地主，倍数*2，现在倍数为：1024 
+09 一月 2018 | 11:35:06,381 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 房间拓展回调成功 
+09 一月 2018 | 11:35:06,381 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 1024 
+09 一月 2018 | 11:35:06,381 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 有人抢地主，倍数*2，现在倍数为：2048 
+09 一月 2018 | 11:35:06,531 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 房间拓展回调成功 
+09 一月 2018 | 11:35:06,531 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 2048 
+09 一月 2018 | 11:35:06,531 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 有人抢地主，倍数*2，现在倍数为：4096 
+09 一月 2018 | 11:35:07,441 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 9, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:5256 }
+09 一月 2018 | 11:35:07,441 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 5, Priv: 0, Sess: 172.18.23.160:5256 ) , SessionLen: 8965, Type: Unity
+09 一月 2018 | 11:36:06,204 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 10, Type: DEFAULT, Logged: No, IP: 172.18.23.188:40286 } on Server port: 9933 <---> 40286
+09 一月 2018 | 11:36:17,360 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 10, Type: DEFAULT, Logged: No, IP: 172.18.23.188:40286 }
+09 一月 2018 | 11:37:33,710 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 11, Type: DEFAULT, Logged: No, IP: 172.18.23.188:40295 } on Server port: 9933 <---> 40295
+09 一月 2018 | 11:37:46,467 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 11, Type: DEFAULT, Logged: No, IP: 172.18.23.188:40295 }
+09 一月 2018 | 11:38:40,050 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 12, Type: DEFAULT, Logged: No, IP: 172.18.23.188:40329 } on Server port: 9933 <---> 40329
+09 一月 2018 | 11:38:46,306 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 12, Type: DEFAULT, Logged: No, IP: 172.18.23.188:40329 }
+09 一月 2018 | 11:38:49,302 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 13, Type: DEFAULT, Logged: No, IP: 172.18.23.188:40335 } on Server port: 9933 <---> 40335
+09 一月 2018 | 11:39:15,983 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 13, Type: DEFAULT, Logged: No, IP: 172.18.23.188:40335 }
+09 一月 2018 | 11:53:40,430 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 14, Type: DEFAULT, Logged: No, IP: 172.18.23.218:4150 } on Server port: 9933 <---> 4150
+09 一月 2018 | 11:53:41,577 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户admin登录成功! 
+09 一月 2018 | 11:53:41,578 | INFO  | SFSWorker:Ext:2 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 6, Priv: 0, Sess: 172.18.23.218:4150 ) , Type: Unity
+09 一月 2018 | 11:53:41,579 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户进入区 
+09 一月 2018 | 11:53:41,889 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 获取用户信息 
+09 一月 2018 | 11:53:41,892 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: !---------{Max_mult=256, honor_title=难民, quan=199, usernick=杨海龙, sex=女, headpicture=picture1, userpwd=admin123, Vitory=null, gold=233, gamelv=15, game_count=7, viplv=1, vipEXP=null, ID=2, Defeat=null, personalwords=Hello,Admin!, gameEXP=null, username=admin}-----------! 
+09 一月 2018 | 11:53:41,892 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: admin 
+09 一月 2018 | 11:53:43,149 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: admin, Id: 6, Priv: 0, Sess: 172.18.23.218:4150 ) , asSpect: false
+09 一月 2018 | 11:53:43,150 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户进入房间 
+09 一月 2018 | 11:53:43,150 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 房间信息发送客户端成功 
+09 一月 2018 | 11:53:49,920 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 14, Type: DEFAULT, Logged: Yes, IP: 172.18.23.218:4150 }
+09 一月 2018 | 11:53:49,920 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 6, Priv: 0, Sess: 172.18.23.218:4150 ) , SessionLen: 8342, Type: Unity
+09 一月 2018 | 11:55:13,735 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: DouDiZhu }, CCU: 0/1
+09 一月 2018 | 11:55:13,735 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 1/1
+09 一月 2018 | 11:55:13,735 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: CCU: 1/2
+09 一月 2018 | 11:55:40,967 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 15, Type: DEFAULT, Logged: No, IP: 172.18.23.218:4217 } on Server port: 9933 <---> 4217
+09 一月 2018 | 11:55:42,399 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户admin登录成功! 
+09 一月 2018 | 11:55:42,399 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 7, Priv: 0, Sess: 172.18.23.218:4217 ) , Type: Unity
+09 一月 2018 | 11:55:42,399 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+09 一月 2018 | 11:55:42,718 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 获取用户信息 
+09 一月 2018 | 11:55:42,720 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: !---------{Max_mult=256, honor_title=难民, quan=199, usernick=杨海龙, sex=女, headpicture=picture1, userpwd=admin123, Vitory=null, gold=233, gamelv=15, game_count=7, viplv=1, vipEXP=null, ID=2, Defeat=null, personalwords=Hello,Admin!, gameEXP=null, username=admin}-----------! 
+09 一月 2018 | 11:55:42,721 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: admin 
+09 一月 2018 | 11:55:44,168 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: admin, Id: 7, Priv: 0, Sess: 172.18.23.218:4217 ) , asSpect: false
+09 一月 2018 | 11:55:44,168 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入房间 
+09 一月 2018 | 11:55:44,168 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 房间信息发送客户端成功 
+09 一月 2018 | 11:55:45,309 | WARN  | SFSWorker:Sys:2 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: admin, Id: 7, Priv: 0, Sess: 172.18.23.218:4217 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+09 一月 2018 | 11:55:45,479 | WARN  | SFSWorker:Sys:1 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: admin, Id: 7, Priv: 0, Sess: 172.18.23.218:4217 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+09 一月 2018 | 11:55:52,918 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 15, Type: DEFAULT, Logged: Yes, IP: 172.18.23.218:4217 }
+09 一月 2018 | 11:55:52,919 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 7, Priv: 0, Sess: 172.18.23.218:4217 ) , SessionLen: 10520, Type: Unity
+09 一月 2018 | 11:56:44,513 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 16, Type: DEFAULT, Logged: No, IP: 172.18.23.218:4249 } on Server port: 9933 <---> 4249
+09 一月 2018 | 11:56:45,675 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户admin登录成功! 
+09 一月 2018 | 11:56:45,677 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 8, Priv: 0, Sess: 172.18.23.218:4249 ) , Type: Unity
+09 一月 2018 | 11:56:45,678 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+09 一月 2018 | 11:56:45,993 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 获取用户信息 
+09 一月 2018 | 11:56:45,995 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: !---------{Max_mult=256, honor_title=难民, quan=199, usernick=杨海龙, sex=女, headpicture=picture1, userpwd=admin123, Vitory=null, gold=233, gamelv=15, game_count=7, viplv=1, vipEXP=null, ID=2, Defeat=null, personalwords=Hello,Admin!, gameEXP=null, username=admin}-----------! 
+09 一月 2018 | 11:56:45,996 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: admin 
+09 一月 2018 | 11:56:47,588 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: admin, Id: 8, Priv: 0, Sess: 172.18.23.218:4249 ) , asSpect: false
+09 一月 2018 | 11:56:47,589 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户进入房间 
+09 一月 2018 | 11:56:47,589 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 房间信息发送客户端成功 
+09 一月 2018 | 11:56:50,554 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 16, Type: DEFAULT, Logged: Yes, IP: 172.18.23.218:4249 }
+09 一月 2018 | 11:56:50,555 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 8, Priv: 0, Sess: 172.18.23.218:4249 ) , SessionLen: 4878, Type: Unity
+09 一月 2018 | 11:58:41,916 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 17, Type: DEFAULT, Logged: No, IP: 172.18.23.160:5540 } on Server port: 9933 <---> 5540
+09 一月 2018 | 11:58:43,042 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户admin登录成功! 
+09 一月 2018 | 11:58:43,042 | INFO  | SFSWorker:Ext:3 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 9, Priv: 0, Sess: 172.18.23.160:5540 ) , Type: Unity
+09 一月 2018 | 11:58:43,043 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户进入区 
+09 一月 2018 | 11:58:43,346 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 获取用户信息 
+09 一月 2018 | 11:58:43,347 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: !---------{Max_mult=256, honor_title=难民, quan=199, usernick=杨海龙, sex=女, headpicture=picture1, userpwd=admin123, Vitory=null, gold=233, gamelv=15, game_count=7, viplv=1, vipEXP=null, ID=2, Defeat=null, personalwords=Hello,Admin!, gameEXP=null, username=admin}-----------! 
+09 一月 2018 | 11:58:43,347 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: admin 
+09 一月 2018 | 11:58:45,146 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: admin, Id: 9, Priv: 0, Sess: 172.18.23.160:5540 ) , asSpect: false
+09 一月 2018 | 11:58:45,146 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户进入房间 
+09 一月 2018 | 11:58:45,146 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 房间信息发送客户端成功 
+09 一月 2018 | 11:58:53,458 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 17, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:5540 }
+09 一月 2018 | 11:58:53,458 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 9, Priv: 0, Sess: 172.18.23.160:5540 ) , SessionLen: 10416, Type: Unity
+09 一月 2018 | 11:58:58,383 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 18, Type: DEFAULT, Logged: No, IP: 172.18.23.160:5550 } on Server port: 9933 <---> 5550
+09 一月 2018 | 11:59:00,544 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户admin登录成功! 
+09 一月 2018 | 11:59:00,545 | INFO  | SFSWorker:Ext:1 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 10, Priv: 0, Sess: 172.18.23.160:5550 ) , Type: Unity
+09 一月 2018 | 11:59:00,545 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户进入区 
+09 一月 2018 | 11:59:00,838 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 获取用户信息 
+09 一月 2018 | 11:59:00,839 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: !---------{Max_mult=256, honor_title=难民, quan=199, usernick=杨海龙, sex=女, headpicture=picture1, userpwd=admin123, Vitory=null, gold=233, gamelv=15, game_count=7, viplv=1, vipEXP=null, ID=2, Defeat=null, personalwords=Hello,Admin!, gameEXP=null, username=admin}-----------! 
+09 一月 2018 | 11:59:00,840 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: admin 
+09 一月 2018 | 11:59:45,295 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 18, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:5550 }
+09 一月 2018 | 11:59:45,295 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 10, Priv: 0, Sess: 172.18.23.160:5550 ) , SessionLen: 44750, Type: Unity

@@ -1,0 +1,97 @@
+
+shunzi.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bolang
+  rotate: false
+  xy: 765, 409
+  size: 162, 80
+  orig: 162, 80
+  offset: 0, 0
+  index: -1
+chuanshen
+  rotate: false
+  xy: 376, 293
+  size: 185, 196
+  orig: 185, 196
+  offset: 0, 0
+  index: -1
+guang_ld
+  rotate: false
+  xy: 2, 93
+  size: 372, 396
+  orig: 372, 396
+  offset: 0, 0
+  index: -1
+houshangfan
+  rotate: false
+  xy: 165, 13
+  size: 90, 78
+  orig: 90, 78
+  offset: 0, 0
+  index: -1
+houxiafan
+  rotate: false
+  xy: 376, 178
+  size: 164, 113
+  orig: 164, 113
+  offset: 0, 0
+  index: -1
+pao2
+  rotate: false
+  xy: 376, 105
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+qianfan
+  rotate: true
+  xy: 563, 314
+  size: 175, 200
+  orig: 175, 200
+  offset: 0, 0
+  index: -1
+qiangan
+  rotate: true
+  xy: 376, 133
+  size: 43, 132
+  orig: 43, 132
+  offset: 0, 0
+  index: -1
+qianxian
+  rotate: true
+  xy: 765, 348
+  size: 59, 103
+  orig: 59, 103
+  offset: 0, 0
+  index: -1
+shunzi
+  rotate: false
+  xy: 2, 2
+  size: 161, 89
+  orig: 161, 89
+  offset: 0, 0
+  index: -1
+star_ld
+  rotate: false
+  xy: 929, 417
+  size: 70, 72
+  orig: 70, 72
+  offset: 0, 0
+  index: -1
+star_ld2
+  rotate: false
+  xy: 257, 46
+  size: 46, 45
+  orig: 46, 45
+  offset: 0, 0
+  index: -1
+xian2
+  rotate: true
+  xy: 563, 299
+  size: 13, 59
+  orig: 13, 59
+  offset: 0, 0
+  index: -1

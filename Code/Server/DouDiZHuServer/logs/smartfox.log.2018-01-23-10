@@ -1,0 +1,1332 @@
+23 一月 2018 | 10:07:43,341 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 172.18.23.188:3704 } on Server port: 9933 <---> 3704
+23 一月 2018 | 10:07:54,768 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户sblzm登录成功! 
+23 一月 2018 | 10:07:54,779 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: sblzm, Id: 0, Priv: 0, Sess: 172.18.23.188:3704 ) , Type: Unity
+23 一月 2018 | 10:07:54,782 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+23 一月 2018 | 10:07:55,103 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 获取用户信息 
+23 一月 2018 | 10:07:55,106 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: !---------{Max_mult=null, honor_title=null, quan=null, usernick=null, sex=null, headpicture=null, userpwd=sblzm, Vitory=null, gold=null, gamelv=1, game_count=null, viplv=0, vipEXP=null, ID=12, Defeat=null, personalwords=null, gameEXP=null, username=sblzm}-----------! 
+23 一月 2018 | 10:07:55,109 | ERROR | SFSWorker:Ext:1 | controllers.v290.ExtensionReqController |     | java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: { Ext: java, Type: JAVA, Lev: ZONE, { Zone: DouDiZhu }, {} }
+Extension Cmd: GetUserInfo
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.ddz.zone.UserInfo.handleClientRequest(UserInfo.java:32)
+com.smartfoxserver.v2.extensions.SFSExtension.handleClientRequest(SFSExtension.java:208)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:174)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+23 一月 2018 | 10:08:08,209 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 172.18.23.188:3704 }
+23 一月 2018 | 10:08:08,212 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: sblzm, Id: 0, Priv: 0, Sess: 172.18.23.188:3704 ) , SessionLen: 13433, Type: Unity
+23 一月 2018 | 10:08:10,094 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 172.18.23.188:3710 } on Server port: 9933 <---> 3710
+23 一月 2018 | 10:08:12,037 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户test登录成功! 
+23 一月 2018 | 10:08:12,039 | INFO  | SFSWorker:Ext:1 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: test, Id: 1, Priv: 0, Sess: 172.18.23.188:3710 ) , Type: Unity
+23 一月 2018 | 10:08:12,040 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户进入区 
+23 一月 2018 | 10:08:12,289 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 获取用户信息 
+23 一月 2018 | 10:08:12,290 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: !---------{Max_mult=888, honor_title=大富豪, quan=99, usernick=哈哈哈, sex=未知, headpicture=picture2, userpwd=test, Vitory=null, gold=1000, gamelv=99, game_count=9999, viplv=99, vipEXP=null, ID=3, Defeat=null, personalwords=, gameEXP=null, username=test}-----------! 
+23 一月 2018 | 10:08:12,290 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: test 
+23 一月 2018 | 10:08:14,128 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: test, Id: 1, Priv: 0, Sess: 172.18.23.188:3710 ) , asSpect: false
+23 一月 2018 | 10:08:14,131 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户进入房间 
+23 一月 2018 | 10:08:14,132 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: [ Room: lobby, Id: 0, Group: default, isGame: false ] 
+23 一月 2018 | 10:08:14,133 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: [( User Name: test, Id: 1, Priv: 0, Sess: 172.18.23.188:3710 ) ] 
+23 一月 2018 | 10:08:14,133 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: !-----1-----! 
+23 一月 2018 | 10:08:14,134 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 房间信息发送客户端成功,等待游戏开始 
+23 一月 2018 | 10:08:15,257 | WARN  | SFSWorker:Sys:1 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 1, Priv: 0, Sess: 172.18.23.188:3710 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:08:15,482 | WARN  | SFSWorker:Sys:2 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 1, Priv: 0, Sess: 172.18.23.188:3710 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:08:15,747 | WARN  | SFSWorker:Sys:3 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 1, Priv: 0, Sess: 172.18.23.188:3710 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:08:15,981 | WARN  | SFSWorker:Sys:4 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 1, Priv: 0, Sess: 172.18.23.188:3710 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:08:16,194 | WARN  | SFSWorker:Sys:1 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 1, Priv: 0, Sess: 172.18.23.188:3710 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:08:16,426 | WARN  | SFSWorker:Sys:2 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 1, Priv: 0, Sess: 172.18.23.188:3710 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:08:16,658 | WARN  | SFSWorker:Sys:3 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 1, Priv: 0, Sess: 172.18.23.188:3710 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:08:22,936 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 172.18.23.188:3710 }
+23 一月 2018 | 10:08:22,939 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: test, Id: 1, Priv: 0, Sess: 172.18.23.188:3710 ) , SessionLen: 10900, Type: Unity
+23 一月 2018 | 10:08:25,193 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 172.18.23.188:3713 } on Server port: 9933 <---> 3713
+23 一月 2018 | 10:09:01,620 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 3, Type: DEFAULT, Logged: No, IP: 172.18.23.188:3713 }
+23 一月 2018 | 10:11:46,527 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 4, Type: DEFAULT, Logged: No, IP: 172.18.23.188:3746 } on Server port: 9933 <---> 3746
+23 一月 2018 | 10:11:58,737 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户sblzm登录成功! 
+23 一月 2018 | 10:11:58,740 | INFO  | SFSWorker:Ext:3 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: sblzm, Id: 2, Priv: 0, Sess: 172.18.23.188:3746 ) , Type: Unity
+23 一月 2018 | 10:11:58,741 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户进入区 
+23 一月 2018 | 10:11:58,990 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 获取用户信息 
+23 一月 2018 | 10:11:58,992 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: !---------{Max_mult=null, honor_title=null, quan=null, usernick=null, sex=null, headpicture=null, userpwd=sblzm, Vitory=null, gold=null, gamelv=1, game_count=null, viplv=0, vipEXP=null, ID=12, Defeat=null, personalwords=null, gameEXP=null, username=sblzm}-----------! 
+23 一月 2018 | 10:11:58,993 | ERROR | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: { Ext: java, Type: JAVA, Lev: ZONE, { Zone: DouDiZhu }, {} }
+Extension Cmd: GetUserInfo
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.ddz.zone.UserInfo.handleClientRequest(UserInfo.java:32)
+com.smartfoxserver.v2.extensions.SFSExtension.handleClientRequest(SFSExtension.java:208)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:174)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+23 一月 2018 | 10:12:05,645 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: ChangeInfo 
+23 一月 2018 | 10:12:05,646 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: sblzm 
+23 一月 2018 | 10:12:05,646 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 123 
+23 一月 2018 | 10:12:46,017 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: sblzm, Id: 2, Priv: 0, Sess: 172.18.23.188:3746 ) , asSpect: false
+23 一月 2018 | 10:12:46,019 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户进入房间 
+23 一月 2018 | 10:12:46,020 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: [ Room: lobby, Id: 0, Group: default, isGame: false ] 
+23 一月 2018 | 10:12:46,020 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: [( User Name: sblzm, Id: 2, Priv: 0, Sess: 172.18.23.188:3746 ) ] 
+23 一月 2018 | 10:12:46,020 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: !-----1-----! 
+23 一月 2018 | 10:12:46,021 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 房间信息发送客户端成功,等待游戏开始 
+23 一月 2018 | 10:13:00,640 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 5, Type: DEFAULT, Logged: No, IP: 172.18.23.188:3753 } on Server port: 9933 <---> 3753
+23 一月 2018 | 10:13:08,540 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户test登录成功! 
+23 一月 2018 | 10:13:08,543 | INFO  | SFSWorker:Ext:3 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: test, Id: 3, Priv: 0, Sess: 172.18.23.188:3753 ) , Type: Unity
+23 一月 2018 | 10:13:08,544 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户进入区 
+23 一月 2018 | 10:13:08,772 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 获取用户信息 
+23 一月 2018 | 10:13:08,775 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: !---------{Max_mult=888, honor_title=大富豪, quan=99, usernick=哈哈哈, sex=未知, headpicture=picture2, userpwd=test, Vitory=null, gold=1000, gamelv=99, game_count=9999, viplv=99, vipEXP=null, ID=3, Defeat=null, personalwords=, gameEXP=null, username=test}-----------! 
+23 一月 2018 | 10:13:08,775 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: test 
+23 一月 2018 | 10:13:09,753 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: test, Id: 3, Priv: 0, Sess: 172.18.23.188:3753 ) , asSpect: false
+23 一月 2018 | 10:13:09,754 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户进入房间 
+23 一月 2018 | 10:13:09,755 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: [ Room: lobby, Id: 0, Group: default, isGame: false ] 
+23 一月 2018 | 10:13:09,755 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: [( User Name: sblzm, Id: 2, Priv: 0, Sess: 172.18.23.188:3746 ) , ( User Name: test, Id: 3, Priv: 0, Sess: 172.18.23.188:3753 ) ] 
+23 一月 2018 | 10:13:09,756 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: !-----2-----! 
+23 一月 2018 | 10:13:09,756 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 房间信息发送客户端成功,等待游戏开始 
+23 一月 2018 | 10:13:23,482 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 6, Type: DEFAULT, Logged: No, IP: 172.18.23.188:3776 } on Server port: 9933 <---> 3776
+23 一月 2018 | 10:13:44,543 | WARN  | SFSWorker:Ext:2 | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSLoginException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSLoginException
+Message: 账户{admin123} 不存在
+Description: Extension's Login Handler exception
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.ddz.zone.SFSLoginHandler.handleServerEvent(SFSLoginHandler.java:36)
+com.smartfoxserver.v2.extensions.SFSExtension.handleServerEvent(SFSExtension.java:259)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchEvent(SFSExtensionManager.java:768)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchZoneLevelEvent(SFSExtensionManager.java:689)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.handleServerEvent(SFSExtensionManager.java:887)
+com.smartfoxserver.v2.core.SFSEventManager$SFSEventRunner.run(SFSEventManager.java:66)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+23 一月 2018 | 10:13:48,943 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户admin登录成功! 
+23 一月 2018 | 10:13:48,945 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 4, Priv: 0, Sess: 172.18.23.188:3776 ) , Type: Unity
+23 一月 2018 | 10:13:48,946 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+23 一月 2018 | 10:13:49,176 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 获取用户信息 
+23 一月 2018 | 10:13:49,180 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: !---------{Max_mult=256, honor_title=难民, quan=199, usernick=23333333333, sex=女, headpicture=picture1, userpwd=admin123, Vitory=null, gold=1000, gamelv=15, game_count=7, viplv=1, vipEXP=null, ID=2, Defeat=null, personalwords=, gameEXP=null, username=admin}-----------! 
+23 一月 2018 | 10:13:49,181 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: admin 
+23 一月 2018 | 10:13:50,641 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: admin, Id: 4, Priv: 0, Sess: 172.18.23.188:3776 ) , asSpect: false
+23 一月 2018 | 10:13:50,643 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户进入房间 
+23 一月 2018 | 10:13:50,643 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: [ Room: lobby, Id: 0, Group: default, isGame: false ] 
+23 一月 2018 | 10:13:50,644 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: [( User Name: sblzm, Id: 2, Priv: 0, Sess: 172.18.23.188:3746 ) , ( User Name: test, Id: 3, Priv: 0, Sess: 172.18.23.188:3753 ) , ( User Name: admin, Id: 4, Priv: 0, Sess: 172.18.23.188:3776 ) ] 
+23 一月 2018 | 10:13:50,644 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: !-----3-----! 
+23 一月 2018 | 10:13:50,645 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 房间信息发送客户端成功,等待游戏开始 
+23 一月 2018 | 10:13:50,645 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 游戏即将开始 
+23 一月 2018 | 10:13:50,659 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: [35, 31, 18] 
+23 一月 2018 | 10:13:50,671 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: StartGameHandler 
+23 一月 2018 | 10:13:50,671 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: StartGameHandler 
+23 一月 2018 | 10:13:50,676 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: test 
+23 一月 2018 | 10:13:50,676 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: sblzm 
+23 一月 2018 | 10:13:50,676 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: ( User Name: sblzm, Id: 2, Priv: 0, Sess: 172.18.23.188:3746 )  
+23 一月 2018 | 10:13:50,676 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: ( User Name: sblzm, Id: 2, Priv: 0, Sess: 172.18.23.188:3746 )  
+23 一月 2018 | 10:13:50,676 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 给玩家 2 发牌 
+23 一月 2018 | 10:13:50,676 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 玩家2手牌[17, 41, 29, 08, 13, 32, 1B, 0B, 02, 11, 01, 0A, 3C, 3D, 22, 38, 39] 
+23 一月 2018 | 10:13:50,676 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 给玩家 1 发牌 
+23 一月 2018 | 10:13:50,677 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 玩家1手牌[12, 27, 05, 15, 16, 21, 3B, 51, 0D, 14, 2A, 1A, 09, 23, 2D, 03, 04] 
+23 一月 2018 | 10:13:50,745 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: StartGameHandler 
+23 一月 2018 | 10:13:50,747 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: admin 
+23 一月 2018 | 10:13:50,748 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: ( User Name: sblzm, Id: 2, Priv: 0, Sess: 172.18.23.188:3746 )  
+23 一月 2018 | 10:13:50,750 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 玩家3手牌[33, 1C, 2C, 28, 25, 1D, 0C, 37, 26, 19, 2B, 07, 3A, 24, 34, 06, 36] 
+23 一月 2018 | 10:13:50,750 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 给玩家 3 发牌 
+23 一月 2018 | 10:14:20,024 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 抢地主拓展回调成功 
+23 一月 2018 | 10:14:20,024 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: Index=0 
+23 一月 2018 | 10:14:20,025 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: YesOrNo=true 
+23 一月 2018 | 10:14:20,025 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 有人抢地主搞事情，倍数*2，现在倍数为：6 
+23 一月 2018 | 10:14:23,488 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 抢地主拓展回调成功 
+23 一月 2018 | 10:14:23,489 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: Index=1 
+23 一月 2018 | 10:14:23,489 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: YesOrNo=true 
+23 一月 2018 | 10:14:23,490 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 有人抢地主搞事情，倍数*2，现在倍数为：12 
+23 一月 2018 | 10:14:25,338 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 抢地主拓展回调成功 
+23 一月 2018 | 10:14:25,339 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: Index=2 
+23 一月 2018 | 10:14:25,339 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: YesOrNo=true 
+23 一月 2018 | 10:14:25,340 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 有人抢地主搞事情，倍数*2，现在倍数为：24 
+23 一月 2018 | 10:14:25,340 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: ----!---- 
+23 一月 2018 | 10:14:25,341 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: ( User Name: admin, Id: 4, Priv: 0, Sess: 172.18.23.188:3776 ) 拿到地主 
+23 一月 2018 | 10:15:20,911 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 6, Type: DEFAULT, Logged: Yes, IP: 172.18.23.188:3776 }
+23 一月 2018 | 10:15:20,914 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 4, Priv: 0, Sess: 172.18.23.188:3776 ) , SessionLen: 91969, Type: Unity
+23 一月 2018 | 10:15:23,092 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 4, Type: DEFAULT, Logged: Yes, IP: 172.18.23.188:3746 }
+23 一月 2018 | 10:15:23,093 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: sblzm, Id: 2, Priv: 0, Sess: 172.18.23.188:3746 ) , SessionLen: 204354, Type: Unity
+23 一月 2018 | 10:16:15,526 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 5, Type: DEFAULT, Logged: Yes, IP: 172.18.23.188:3753 }
+23 一月 2018 | 10:16:15,528 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: test, Id: 3, Priv: 0, Sess: 172.18.23.188:3753 ) , SessionLen: 186985, Type: Unity
+23 一月 2018 | 10:17:53,658 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 7, Type: DEFAULT, Logged: No, IP: 172.18.23.188:3821 } on Server port: 9933 <---> 3821
+23 一月 2018 | 10:18:15,043 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户test登录成功! 
+23 一月 2018 | 10:18:15,046 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: test, Id: 5, Priv: 0, Sess: 172.18.23.188:3821 ) , Type: Unity
+23 一月 2018 | 10:18:15,047 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+23 一月 2018 | 10:18:15,301 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 获取用户信息 
+23 一月 2018 | 10:18:15,303 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: !---------{Max_mult=888, honor_title=大富豪, quan=99, usernick=哈哈哈, sex=未知, headpicture=picture2, userpwd=test, Vitory=null, gold=1000, gamelv=99, game_count=9999, viplv=99, vipEXP=null, ID=3, Defeat=null, personalwords=, gameEXP=null, username=test}-----------! 
+23 一月 2018 | 10:18:15,304 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: test 
+23 一月 2018 | 10:18:17,320 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: test, Id: 5, Priv: 0, Sess: 172.18.23.188:3821 ) , asSpect: false
+23 一月 2018 | 10:18:17,322 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户进入房间 
+23 一月 2018 | 10:18:17,322 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: [ Room: lobby, Id: 0, Group: default, isGame: false ] 
+23 一月 2018 | 10:18:17,323 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: [( User Name: test, Id: 5, Priv: 0, Sess: 172.18.23.188:3821 ) ] 
+23 一月 2018 | 10:18:17,323 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: !-----1-----! 
+23 一月 2018 | 10:18:17,324 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 房间信息发送客户端成功,等待游戏开始 
+23 一月 2018 | 10:18:23,926 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 8, Type: DEFAULT, Logged: No, IP: 172.18.23.188:3825 } on Server port: 9933 <---> 3825
+23 一月 2018 | 10:18:35,473 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户sblzm登录成功! 
+23 一月 2018 | 10:18:35,474 | INFO  | SFSWorker:Ext:2 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: sblzm, Id: 6, Priv: 0, Sess: 172.18.23.188:3825 ) , Type: Unity
+23 一月 2018 | 10:18:35,474 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户进入区 
+23 一月 2018 | 10:18:35,698 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 获取用户信息 
+23 一月 2018 | 10:18:35,700 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: !---------{Max_mult=null, honor_title=null, quan=null, usernick=123, sex=null, headpicture=null, userpwd=sblzm, Vitory=null, gold=null, gamelv=1, game_count=null, viplv=0, vipEXP=null, ID=12, Defeat=null, personalwords=, gameEXP=null, username=sblzm}-----------! 
+23 一月 2018 | 10:18:35,701 | ERROR | SFSWorker:Ext:4 | controllers.v290.ExtensionReqController |     | java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: { Ext: java, Type: JAVA, Lev: ZONE, { Zone: DouDiZhu }, {} }
+Extension Cmd: GetUserInfo
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.ddz.zone.UserInfo.handleClientRequest(UserInfo.java:32)
+com.smartfoxserver.v2.extensions.SFSExtension.handleClientRequest(SFSExtension.java:208)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:174)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+23 一月 2018 | 10:18:40,338 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: sblzm, Id: 6, Priv: 0, Sess: 172.18.23.188:3825 ) , asSpect: false
+23 一月 2018 | 10:18:40,339 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户进入房间 
+23 一月 2018 | 10:18:40,340 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: [ Room: lobby, Id: 0, Group: default, isGame: false ] 
+23 一月 2018 | 10:18:40,341 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: [( User Name: test, Id: 5, Priv: 0, Sess: 172.18.23.188:3821 ) , ( User Name: sblzm, Id: 6, Priv: 0, Sess: 172.18.23.188:3825 ) ] 
+23 一月 2018 | 10:18:40,341 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: !-----2-----! 
+23 一月 2018 | 10:18:40,342 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 房间信息发送客户端成功,等待游戏开始 
+23 一月 2018 | 10:18:53,788 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 9, Type: DEFAULT, Logged: No, IP: 172.18.23.184:15708 } on Server port: 9933 <---> 15708
+23 一月 2018 | 10:18:56,281 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户test登录成功! 
+23 一月 2018 | 10:18:56,282 | INFO  | SFSWorker:Ext:4 | v2.scala.DefLI |     | User already logged in. Disconnecting previous instance : ( User Name: test, Id: 5, Priv: 0, Sess: 172.18.23.188:3821 ) 
+23 一月 2018 | 10:18:56,284 | INFO  | SFSWorker:Ext:4 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 7, Type: DEFAULT, Logged: Yes, IP: 172.18.23.188:3821 }
+23 一月 2018 | 10:18:56,285 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: test, Id: 5, Priv: 0, Sess: 172.18.23.188:3821 ) , SessionLen: 41239, Type: Unity
+23 一月 2018 | 10:18:58,288 | INFO  | pool-1-thread-2 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: test, Id: 7, Priv: 0, Sess: 172.18.23.184:15708 ) , Type: Unity
+23 一月 2018 | 10:18:58,289 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户进入区 
+23 一月 2018 | 10:18:58,545 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 获取用户信息 
+23 一月 2018 | 10:18:58,547 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: !---------{Max_mult=888, honor_title=大富豪, quan=99, usernick=哈哈哈, sex=未知, headpicture=picture2, userpwd=test, Vitory=null, gold=1000, gamelv=99, game_count=9999, viplv=99, vipEXP=null, ID=3, Defeat=null, personalwords=, gameEXP=null, username=test}-----------! 
+23 一月 2018 | 10:18:58,547 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: test 
+23 一月 2018 | 10:19:02,746 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: test, Id: 7, Priv: 0, Sess: 172.18.23.184:15708 ) , asSpect: false
+23 一月 2018 | 10:19:02,747 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户进入房间 
+23 一月 2018 | 10:19:02,748 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: [ Room: lobby, Id: 0, Group: default, isGame: false ] 
+23 一月 2018 | 10:19:02,748 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: [( User Name: sblzm, Id: 6, Priv: 0, Sess: 172.18.23.188:3825 ) , ( User Name: test, Id: 7, Priv: 0, Sess: 172.18.23.184:15708 ) ] 
+23 一月 2018 | 10:19:02,748 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: !-----2-----! 
+23 一月 2018 | 10:19:02,749 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 房间信息发送客户端成功,等待游戏开始 
+23 一月 2018 | 10:19:14,775 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 9, Type: DEFAULT, Logged: Yes, IP: 172.18.23.184:15708 }
+23 一月 2018 | 10:19:14,777 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: test, Id: 7, Priv: 0, Sess: 172.18.23.184:15708 ) , SessionLen: 16489, Type: Unity
+23 一月 2018 | 10:19:21,577 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 10, Type: DEFAULT, Logged: No, IP: 172.18.23.184:15779 } on Server port: 9933 <---> 15779
+23 一月 2018 | 10:19:40,252 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户lu123登录成功! 
+23 一月 2018 | 10:19:40,255 | INFO  | SFSWorker:Ext:3 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: lu123, Id: 8, Priv: 0, Sess: 172.18.23.184:15779 ) , Type: Unity
+23 一月 2018 | 10:19:40,256 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户进入区 
+23 一月 2018 | 10:19:40,515 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 获取用户信息 
+23 一月 2018 | 10:19:40,518 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: !---------{Max_mult=null, honor_title=null, quan=null, usernick=null, sex=null, headpicture=null, userpwd=123, Vitory=null, gold=1000, gamelv=1, game_count=null, viplv=0, vipEXP=null, ID=14, Defeat=null, personalwords=null, gameEXP=null, username=lu123}-----------! 
+23 一月 2018 | 10:19:40,518 | ERROR | SFSWorker:Ext:1 | controllers.v290.ExtensionReqController |     | java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: { Ext: java, Type: JAVA, Lev: ZONE, { Zone: DouDiZhu }, {} }
+Extension Cmd: GetUserInfo
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.ddz.zone.UserInfo.handleClientRequest(UserInfo.java:33)
+com.smartfoxserver.v2.extensions.SFSExtension.handleClientRequest(SFSExtension.java:208)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:174)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+23 一月 2018 | 10:19:42,539 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: lu123, Id: 8, Priv: 0, Sess: 172.18.23.184:15779 ) , asSpect: false
+23 一月 2018 | 10:19:42,541 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户进入房间 
+23 一月 2018 | 10:19:42,542 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: [ Room: lobby, Id: 0, Group: default, isGame: false ] 
+23 一月 2018 | 10:19:42,542 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: [( User Name: sblzm, Id: 6, Priv: 0, Sess: 172.18.23.188:3825 ) , ( User Name: lu123, Id: 8, Priv: 0, Sess: 172.18.23.184:15779 ) ] 
+23 一月 2018 | 10:19:42,542 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: !-----2-----! 
+23 一月 2018 | 10:19:42,543 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 房间信息发送客户端成功,等待游戏开始 
+23 一月 2018 | 10:19:55,000 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 10, Type: DEFAULT, Logged: Yes, IP: 172.18.23.184:15779 }
+23 一月 2018 | 10:19:55,002 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: lu123, Id: 8, Priv: 0, Sess: 172.18.23.184:15779 ) , SessionLen: 14747, Type: Unity
+23 一月 2018 | 10:20:06,471 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 11, Type: DEFAULT, Logged: No, IP: 172.18.23.184:15898 } on Server port: 9933 <---> 15898
+23 一月 2018 | 10:20:08,968 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 8, Type: DEFAULT, Logged: Yes, IP: 172.18.23.188:3825 }
+23 一月 2018 | 10:20:08,969 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: sblzm, Id: 6, Priv: 0, Sess: 172.18.23.188:3825 ) , SessionLen: 93495, Type: Unity
+23 一月 2018 | 10:20:18,716 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户lu123登录成功! 
+23 一月 2018 | 10:20:18,718 | INFO  | SFSWorker:Ext:1 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: lu123, Id: 9, Priv: 0, Sess: 172.18.23.184:15898 ) , Type: Unity
+23 一月 2018 | 10:20:18,719 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户进入区 
+23 一月 2018 | 10:20:18,974 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 获取用户信息 
+23 一月 2018 | 10:20:18,976 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: !---------{Max_mult=null, honor_title=null, quan=null, usernick=null, sex=null, headpicture=null, userpwd=123, Vitory=null, gold=1000, gamelv=1, game_count=null, viplv=0, vipEXP=null, ID=14, Defeat=null, personalwords=null, gameEXP=null, username=lu123}-----------! 
+23 一月 2018 | 10:20:18,977 | ERROR | SFSWorker:Ext:3 | controllers.v290.ExtensionReqController |     | java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: { Ext: java, Type: JAVA, Lev: ZONE, { Zone: DouDiZhu }, {} }
+Extension Cmd: GetUserInfo
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.ddz.zone.UserInfo.handleClientRequest(UserInfo.java:33)
+com.smartfoxserver.v2.extensions.SFSExtension.handleClientRequest(SFSExtension.java:208)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:174)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+23 一月 2018 | 10:20:21,323 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: lu123, Id: 9, Priv: 0, Sess: 172.18.23.184:15898 ) , asSpect: false
+23 一月 2018 | 10:20:21,325 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户进入房间 
+23 一月 2018 | 10:20:21,326 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: [ Room: lobby, Id: 0, Group: default, isGame: false ] 
+23 一月 2018 | 10:20:21,326 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: [( User Name: lu123, Id: 9, Priv: 0, Sess: 172.18.23.184:15898 ) ] 
+23 一月 2018 | 10:20:21,327 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: !-----1-----! 
+23 一月 2018 | 10:20:21,327 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 房间信息发送客户端成功,等待游戏开始 
+23 一月 2018 | 10:20:26,944 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 11, Type: DEFAULT, Logged: Yes, IP: 172.18.23.184:15898 }
+23 一月 2018 | 10:20:26,946 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: lu123, Id: 9, Priv: 0, Sess: 172.18.23.184:15898 ) , SessionLen: 8228, Type: Unity
+23 一月 2018 | 10:21:02,066 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 12, Type: DEFAULT, Logged: No, IP: 172.18.23.188:3841 } on Server port: 9933 <---> 3841
+23 一月 2018 | 10:21:07,569 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户test登录成功! 
+23 一月 2018 | 10:21:07,572 | INFO  | SFSWorker:Ext:2 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: test, Id: 10, Priv: 0, Sess: 172.18.23.188:3841 ) , Type: Unity
+23 一月 2018 | 10:21:07,572 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户进入区 
+23 一月 2018 | 10:21:07,808 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 获取用户信息 
+23 一月 2018 | 10:21:07,810 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: !---------{Max_mult=888, honor_title=大富豪, quan=99, usernick=哈哈哈, sex=未知, headpicture=picture2, userpwd=test, Vitory=null, gold=1000, gamelv=99, game_count=9999, viplv=99, vipEXP=null, ID=3, Defeat=null, personalwords=, gameEXP=null, username=test}-----------! 
+23 一月 2018 | 10:21:07,810 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: test 
+23 一月 2018 | 10:21:14,107 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 13, Type: DEFAULT, Logged: No, IP: 172.18.23.188:3847 } on Server port: 9933 <---> 3847
+23 一月 2018 | 10:21:14,848 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: test, Id: 10, Priv: 0, Sess: 172.18.23.188:3841 ) , asSpect: false
+23 一月 2018 | 10:21:14,849 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户进入房间 
+23 一月 2018 | 10:21:14,849 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: [ Room: lobby, Id: 0, Group: default, isGame: false ] 
+23 一月 2018 | 10:21:14,849 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: [( User Name: test, Id: 10, Priv: 0, Sess: 172.18.23.188:3841 ) ] 
+23 一月 2018 | 10:21:14,849 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: !-----1-----! 
+23 一月 2018 | 10:21:14,849 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 房间信息发送客户端成功,等待游戏开始 
+23 一月 2018 | 10:21:26,337 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户admin登录成功! 
+23 一月 2018 | 10:21:26,341 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 11, Priv: 0, Sess: 172.18.23.188:3847 ) , Type: Unity
+23 一月 2018 | 10:21:26,342 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+23 一月 2018 | 10:21:26,574 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 获取用户信息 
+23 一月 2018 | 10:21:26,575 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: !---------{Max_mult=256, honor_title=难民, quan=199, usernick=23333333333, sex=女, headpicture=picture1, userpwd=admin123, Vitory=null, gold=1000, gamelv=15, game_count=7, viplv=1, vipEXP=null, ID=2, Defeat=null, personalwords=, gameEXP=null, username=admin}-----------! 
+23 一月 2018 | 10:21:26,576 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: admin 
+23 一月 2018 | 10:21:27,785 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: admin, Id: 11, Priv: 0, Sess: 172.18.23.188:3847 ) , asSpect: false
+23 一月 2018 | 10:21:27,786 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入房间 
+23 一月 2018 | 10:21:27,786 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: [ Room: lobby, Id: 0, Group: default, isGame: false ] 
+23 一月 2018 | 10:21:27,787 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: [( User Name: test, Id: 10, Priv: 0, Sess: 172.18.23.188:3841 ) , ( User Name: admin, Id: 11, Priv: 0, Sess: 172.18.23.188:3847 ) ] 
+23 一月 2018 | 10:21:27,787 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: !-----2-----! 
+23 一月 2018 | 10:21:27,787 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 房间信息发送客户端成功,等待游戏开始 
+23 一月 2018 | 10:21:59,031 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 14, Type: DEFAULT, Logged: No, IP: 172.18.23.184:16269 } on Server port: 9933 <---> 16269
+23 一月 2018 | 10:22:12,401 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户lu123登录成功! 
+23 一月 2018 | 10:22:12,404 | INFO  | SFSWorker:Ext:2 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: lu123, Id: 12, Priv: 0, Sess: 172.18.23.184:16269 ) , Type: Unity
+23 一月 2018 | 10:22:12,405 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户进入区 
+23 一月 2018 | 10:22:12,669 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 获取用户信息 
+23 一月 2018 | 10:22:12,671 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: !---------{Max_mult=null, honor_title=null, quan=null, usernick=null, sex=null, headpicture=null, userpwd=123, Vitory=null, gold=1000, gamelv=1, game_count=null, viplv=0, vipEXP=null, ID=14, Defeat=null, personalwords=null, gameEXP=null, username=lu123}-----------! 
+23 一月 2018 | 10:22:12,671 | ERROR | SFSWorker:Ext:1 | controllers.v290.ExtensionReqController |     | java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: { Ext: java, Type: JAVA, Lev: ZONE, { Zone: DouDiZhu }, {} }
+Extension Cmd: GetUserInfo
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.ddz.zone.UserInfo.handleClientRequest(UserInfo.java:33)
+com.smartfoxserver.v2.extensions.SFSExtension.handleClientRequest(SFSExtension.java:208)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:174)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+23 一月 2018 | 10:22:14,173 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: lu123, Id: 12, Priv: 0, Sess: 172.18.23.184:16269 ) , asSpect: false
+23 一月 2018 | 10:22:14,175 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户进入房间 
+23 一月 2018 | 10:22:14,176 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: [ Room: lobby, Id: 0, Group: default, isGame: false ] 
+23 一月 2018 | 10:22:14,176 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: [( User Name: test, Id: 10, Priv: 0, Sess: 172.18.23.188:3841 ) , ( User Name: admin, Id: 11, Priv: 0, Sess: 172.18.23.188:3847 ) , ( User Name: lu123, Id: 12, Priv: 0, Sess: 172.18.23.184:16269 ) ] 
+23 一月 2018 | 10:22:14,176 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: !-----3-----! 
+23 一月 2018 | 10:22:14,177 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 房间信息发送客户端成功,等待游戏开始 
+23 一月 2018 | 10:22:14,177 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 游戏即将开始 
+23 一月 2018 | 10:22:14,179 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: [35, 31, 18] 
+23 一月 2018 | 10:22:14,183 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: StartGameHandler 
+23 一月 2018 | 10:22:14,184 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: admin 
+23 一月 2018 | 10:22:14,184 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: ( User Name: test, Id: 10, Priv: 0, Sess: 172.18.23.188:3841 )  
+23 一月 2018 | 10:22:14,184 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 给玩家 2 发牌 
+23 一月 2018 | 10:22:14,185 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 玩家2手牌[17, 41, 29, 08, 13, 32, 1B, 0B, 02, 11, 01, 0A, 3C, 3D, 22, 38, 39] 
+23 一月 2018 | 10:22:14,188 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: StartGameHandler 
+23 一月 2018 | 10:22:14,189 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: test 
+23 一月 2018 | 10:22:14,189 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: ( User Name: test, Id: 10, Priv: 0, Sess: 172.18.23.188:3841 )  
+23 一月 2018 | 10:22:14,189 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 给玩家 1 发牌 
+23 一月 2018 | 10:22:14,190 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 玩家1手牌[12, 27, 05, 15, 16, 21, 3B, 51, 0D, 14, 2A, 1A, 09, 23, 2D, 03, 04] 
+23 一月 2018 | 10:22:16,123 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 抢地主拓展回调成功 
+23 一月 2018 | 10:22:16,124 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: Index=0 
+23 一月 2018 | 10:22:16,124 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: YesOrNo=true 
+23 一月 2018 | 10:22:16,124 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 有人抢地主搞事情，倍数*2，现在倍数为：6 
+23 一月 2018 | 10:22:17,184 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 14, Type: DEFAULT, Logged: Yes, IP: 172.18.23.184:16269 }
+23 一月 2018 | 10:22:17,184 | INFO  | SocketReader | bitswarm.core.SocketReader |     | Socket closed: java.nio.channels.SocketChannel[closed]
+23 一月 2018 | 10:22:17,185 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: lu123, Id: 12, Priv: 0, Sess: 172.18.23.184:16269 ) , SessionLen: 4781, Type: Unity
+23 一月 2018 | 10:22:26,804 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 抢地主拓展回调成功 
+23 一月 2018 | 10:22:26,805 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: Index=1 
+23 一月 2018 | 10:22:26,805 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: YesOrNo=true 
+23 一月 2018 | 10:22:26,805 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 有人抢地主搞事情，倍数*2，现在倍数为：12 
+23 一月 2018 | 10:22:26,806 | ERROR | SFSWorker:Ext:2 | controllers.v290.ExtensionReqController |     | java.lang.IndexOutOfBoundsException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.IndexOutOfBoundsException
+Message: Index: 2, Size: 2
+Description: Error while handling client request in extension: { Ext: java, Type: JAVA, Lev: ROOM, { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ] }
+Extension Cmd: test
++--- --- ---+
+Stack Trace:
++--- --- ---+
+java.util.ArrayList.rangeCheck(Unknown Source)
+java.util.ArrayList.get(Unknown Source)
+com.ddz.zone.TestExt.handleClientRequest(TestExt.java:72)
+com.smartfoxserver.v2.extensions.SFSExtension.handleClientRequest(SFSExtension.java:208)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:174)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+23 一月 2018 | 10:23:20,352 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 13, Type: DEFAULT, Logged: Yes, IP: 172.18.23.188:3847 }
+23 一月 2018 | 10:23:20,353 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 11, Priv: 0, Sess: 172.18.23.188:3847 ) , SessionLen: 114012, Type: Unity
+23 一月 2018 | 10:23:21,568 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 12, Type: DEFAULT, Logged: Yes, IP: 172.18.23.188:3841 }
+23 一月 2018 | 10:23:21,569 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: test, Id: 10, Priv: 0, Sess: 172.18.23.188:3841 ) , SessionLen: 133998, Type: Unity
+23 一月 2018 | 10:26:09,784 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 15, Type: DEFAULT, Logged: No, IP: 172.18.23.188:3879 } on Server port: 9933 <---> 3879
+23 一月 2018 | 10:26:11,028 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户test登录成功! 
+23 一月 2018 | 10:26:11,031 | INFO  | SFSWorker:Ext:3 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Type: Unity
+23 一月 2018 | 10:26:11,032 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户进入区 
+23 一月 2018 | 10:26:11,286 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 获取用户信息 
+23 一月 2018 | 10:26:11,288 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: !---------{Max_mult=888, honor_title=大富豪, quan=99, usernick=哈哈哈, sex=未知, headpicture=picture2, userpwd=test, Vitory=null, gold=1000, gamelv=99, game_count=9999, viplv=99, vipEXP=null, ID=3, Defeat=null, personalwords=, gameEXP=null, username=test}-----------! 
+23 一月 2018 | 10:26:11,289 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: test 
+23 一月 2018 | 10:26:12,590 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , asSpect: false
+23 一月 2018 | 10:26:12,592 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户进入房间 
+23 一月 2018 | 10:26:12,592 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: [ Room: lobby, Id: 0, Group: default, isGame: false ] 
+23 一月 2018 | 10:26:12,592 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: [( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) ] 
+23 一月 2018 | 10:26:12,592 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: !-----1-----! 
+23 一月 2018 | 10:26:12,593 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 房间信息发送客户端成功,等待游戏开始 
+23 一月 2018 | 10:26:13,136 | WARN  | SFSWorker:Sys:2 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:13,351 | WARN  | SFSWorker:Sys:4 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:13,516 | WARN  | SFSWorker:Sys:3 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:13,716 | WARN  | SFSWorker:Sys:1 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:13,951 | WARN  | SFSWorker:Sys:2 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:14,166 | WARN  | SFSWorker:Sys:4 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:14,346 | WARN  | SFSWorker:Sys:3 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:14,561 | WARN  | SFSWorker:Sys:1 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:14,796 | WARN  | SFSWorker:Sys:2 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:14,991 | WARN  | SFSWorker:Sys:4 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:15,226 | WARN  | SFSWorker:Sys:3 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:15,420 | WARN  | SFSWorker:Sys:1 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:16,071 | WARN  | SFSWorker:Sys:2 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:16,251 | WARN  | SFSWorker:Sys:4 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:16,436 | WARN  | SFSWorker:Sys:3 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:16,631 | WARN  | SFSWorker:Sys:1 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:17,261 | WARN  | SFSWorker:Sys:2 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:17,446 | WARN  | SFSWorker:Sys:4 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:17,676 | WARN  | SFSWorker:Sys:3 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:17,906 | WARN  | SFSWorker:Sys:1 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:18,090 | WARN  | SFSWorker:Sys:2 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:18,321 | WARN  | SFSWorker:Sys:4 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:18,521 | WARN  | SFSWorker:Sys:3 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:18,736 | WARN  | SFSWorker:Sys:1 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:18,936 | WARN  | SFSWorker:Sys:2 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:19,151 | WARN  | SFSWorker:Sys:4 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:20,906 | WARN  | SFSWorker:Sys:1 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:21,106 | WARN  | SFSWorker:Sys:2 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:21,286 | WARN  | SFSWorker:Sys:4 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:26,556 | WARN  | SFSWorker:Sys:3 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:27,051 | WARN  | SFSWorker:Sys:1 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:27,266 | WARN  | SFSWorker:Sys:2 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:27,481 | WARN  | SFSWorker:Sys:4 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:50,661 | WARN  | SFSWorker:Sys:4 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:26:50,877 | WARN  | SFSWorker:Sys:3 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:28:04,801 | WARN  | SFSWorker:Sys:3 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:28:04,966 | WARN  | SFSWorker:Sys:1 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:28:05,842 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 16, Type: DEFAULT, Logged: No, IP: 172.18.23.184:17171 } on Server port: 9933 <---> 17171
+23 一月 2018 | 10:28:06,692 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 15, Type: DEFAULT, Logged: Yes, IP: 172.18.23.188:3879 }
+23 一月 2018 | 10:28:06,693 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: test, Id: 13, Priv: 0, Sess: 172.18.23.188:3879 ) , SessionLen: 115662, Type: Unity
+23 一月 2018 | 10:28:08,910 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 17, Type: DEFAULT, Logged: No, IP: 172.18.23.188:3897 } on Server port: 9933 <---> 3897
+23 一月 2018 | 10:28:11,369 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户test登录成功! 
+23 一月 2018 | 10:28:11,372 | INFO  | SFSWorker:Ext:1 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: test, Id: 14, Priv: 0, Sess: 172.18.23.188:3897 ) , Type: Unity
+23 一月 2018 | 10:28:11,373 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户进入区 
+23 一月 2018 | 10:28:11,627 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 获取用户信息 
+23 一月 2018 | 10:28:11,629 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: !---------{Max_mult=888, honor_title=大富豪, quan=99, usernick=哈哈哈, sex=未知, headpicture=picture2, userpwd=test, Vitory=null, gold=1000, gamelv=99, game_count=9999, viplv=99, vipEXP=null, ID=3, Defeat=null, personalwords=, gameEXP=null, username=test}-----------! 
+23 一月 2018 | 10:28:11,629 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: test 
+23 一月 2018 | 10:28:12,771 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: test, Id: 14, Priv: 0, Sess: 172.18.23.188:3897 ) , asSpect: false
+23 一月 2018 | 10:28:12,772 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户进入房间 
+23 一月 2018 | 10:28:12,773 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: [ Room: lobby, Id: 0, Group: default, isGame: false ] 
+23 一月 2018 | 10:28:12,773 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: [( User Name: test, Id: 14, Priv: 0, Sess: 172.18.23.188:3897 ) ] 
+23 一月 2018 | 10:28:12,773 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: !-----1-----! 
+23 一月 2018 | 10:28:12,774 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 房间信息发送客户端成功,等待游戏开始 
+23 一月 2018 | 10:28:16,484 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户lu123登录成功! 
+23 一月 2018 | 10:28:16,489 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: lu123, Id: 15, Priv: 0, Sess: 172.18.23.184:17171 ) , Type: Unity
+23 一月 2018 | 10:28:16,490 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+23 一月 2018 | 10:28:16,577 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 17, Type: DEFAULT, Logged: Yes, IP: 172.18.23.188:3897 }
+23 一月 2018 | 10:28:16,578 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: test, Id: 14, Priv: 0, Sess: 172.18.23.188:3897 ) , SessionLen: 5206, Type: Unity
+23 一月 2018 | 10:28:16,825 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 获取用户信息 
+23 一月 2018 | 10:28:16,827 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: !---------{Max_mult=null, honor_title=null, quan=null, usernick=null, sex=null, headpicture=null, userpwd=123, Vitory=null, gold=1000, gamelv=1, game_count=null, viplv=0, vipEXP=null, ID=14, Defeat=null, personalwords=null, gameEXP=null, username=lu123}-----------! 
+23 一月 2018 | 10:28:16,828 | ERROR | SFSWorker:Ext:3 | controllers.v290.ExtensionReqController |     | java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: { Ext: java, Type: JAVA, Lev: ZONE, { Zone: DouDiZhu }, {} }
+Extension Cmd: GetUserInfo
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.ddz.zone.UserInfo.handleClientRequest(UserInfo.java:33)
+com.smartfoxserver.v2.extensions.SFSExtension.handleClientRequest(SFSExtension.java:208)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:174)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+23 一月 2018 | 10:28:26,496 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 18, Type: DEFAULT, Logged: No, IP: 172.18.23.188:3900 } on Server port: 9933 <---> 3900
+23 一月 2018 | 10:28:28,251 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户test登录成功! 
+23 一月 2018 | 10:28:28,254 | INFO  | SFSWorker:Ext:2 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: test, Id: 16, Priv: 0, Sess: 172.18.23.188:3900 ) , Type: Unity
+23 一月 2018 | 10:28:28,255 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户进入区 
+23 一月 2018 | 10:28:28,469 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 获取用户信息 
+23 一月 2018 | 10:28:28,471 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: !---------{Max_mult=888, honor_title=大富豪, quan=99, usernick=哈哈哈, sex=未知, headpicture=picture2, userpwd=test, Vitory=null, gold=1000, gamelv=99, game_count=9999, viplv=99, vipEXP=null, ID=3, Defeat=null, personalwords=, gameEXP=null, username=test}-----------! 
+23 一月 2018 | 10:28:28,471 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: test 
+23 一月 2018 | 10:28:29,845 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: test, Id: 16, Priv: 0, Sess: 172.18.23.188:3900 ) , asSpect: false
+23 一月 2018 | 10:28:29,847 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户进入房间 
+23 一月 2018 | 10:28:29,847 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: [ Room: lobby, Id: 0, Group: default, isGame: false ] 
+23 一月 2018 | 10:28:29,847 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: [( User Name: test, Id: 16, Priv: 0, Sess: 172.18.23.188:3900 ) ] 
+23 一月 2018 | 10:28:29,847 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: !-----1-----! 
+23 一月 2018 | 10:28:29,848 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 房间信息发送客户端成功,等待游戏开始 
+23 一月 2018 | 10:28:37,514 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 19, Type: DEFAULT, Logged: No, IP: 172.18.23.188:3907 } on Server port: 9933 <---> 3907
+23 一月 2018 | 10:28:46,717 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户sblzm登录成功! 
+23 一月 2018 | 10:28:46,720 | INFO  | SFSWorker:Ext:3 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: sblzm, Id: 17, Priv: 0, Sess: 172.18.23.188:3907 ) , Type: Unity
+23 一月 2018 | 10:28:46,720 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户进入区 
+23 一月 2018 | 10:28:46,949 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 获取用户信息 
+23 一月 2018 | 10:28:46,950 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: !---------{Max_mult=null, honor_title=null, quan=null, usernick=123, sex=null, headpicture=null, userpwd=sblzm, Vitory=null, gold=null, gamelv=1, game_count=null, viplv=0, vipEXP=null, ID=12, Defeat=null, personalwords=, gameEXP=null, username=sblzm}-----------! 
+23 一月 2018 | 10:28:46,950 | ERROR | SFSWorker:Ext:1 | controllers.v290.ExtensionReqController |     | java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: { Ext: java, Type: JAVA, Lev: ZONE, { Zone: DouDiZhu }, {} }
+Extension Cmd: GetUserInfo
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.ddz.zone.UserInfo.handleClientRequest(UserInfo.java:32)
+com.smartfoxserver.v2.extensions.SFSExtension.handleClientRequest(SFSExtension.java:208)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController.processRequest(ExtensionReqController.java:174)
+com.smartfoxserver.v2.controllers.v290.ExtensionReqController$1.run(ExtensionReqController.java:68)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+23 一月 2018 | 10:28:48,430 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: sblzm, Id: 17, Priv: 0, Sess: 172.18.23.188:3907 ) , asSpect: false
+23 一月 2018 | 10:28:48,432 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入房间 
+23 一月 2018 | 10:28:48,433 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: [ Room: lobby, Id: 0, Group: default, isGame: false ] 
+23 一月 2018 | 10:28:48,433 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: [( User Name: test, Id: 16, Priv: 0, Sess: 172.18.23.188:3900 ) , ( User Name: sblzm, Id: 17, Priv: 0, Sess: 172.18.23.188:3907 ) ] 
+23 一月 2018 | 10:28:48,433 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: !-----2-----! 
+23 一月 2018 | 10:28:48,433 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 房间信息发送客户端成功,等待游戏开始 
+23 一月 2018 | 10:28:56,389 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: lu123, Id: 15, Priv: 0, Sess: 172.18.23.184:17171 ) , asSpect: false
+23 一月 2018 | 10:28:56,391 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户进入房间 
+23 一月 2018 | 10:28:56,391 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: [ Room: lobby, Id: 0, Group: default, isGame: false ] 
+23 一月 2018 | 10:28:56,391 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: [( User Name: test, Id: 16, Priv: 0, Sess: 172.18.23.188:3900 ) , ( User Name: sblzm, Id: 17, Priv: 0, Sess: 172.18.23.188:3907 ) , ( User Name: lu123, Id: 15, Priv: 0, Sess: 172.18.23.184:17171 ) ] 
+23 一月 2018 | 10:28:56,391 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: !-----3-----! 
+23 一月 2018 | 10:28:56,392 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 房间信息发送客户端成功,等待游戏开始 
+23 一月 2018 | 10:28:56,392 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 游戏即将开始 
+23 一月 2018 | 10:28:56,393 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: [35, 31, 18] 
+23 一月 2018 | 10:28:56,416 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: StartGameHandler 
+23 一月 2018 | 10:28:56,416 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: StartGameHandler 
+23 一月 2018 | 10:28:56,417 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: test 
+23 一月 2018 | 10:28:56,417 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: sblzm 
+23 一月 2018 | 10:28:56,417 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: ( User Name: test, Id: 16, Priv: 0, Sess: 172.18.23.188:3900 )  
+23 一月 2018 | 10:28:56,418 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: ( User Name: test, Id: 16, Priv: 0, Sess: 172.18.23.188:3900 )  
+23 一月 2018 | 10:28:56,418 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 给玩家 1 发牌 
+23 一月 2018 | 10:28:56,418 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 给玩家 2 发牌 
+23 一月 2018 | 10:28:56,418 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 玩家1手牌[12, 27, 05, 15, 16, 21, 3B, 51, 0D, 14, 2A, 1A, 09, 23, 2D, 03, 04] 
+23 一月 2018 | 10:28:56,418 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 玩家2手牌[17, 41, 29, 08, 13, 32, 1B, 0B, 02, 11, 01, 0A, 3C, 3D, 22, 38, 39] 
+23 一月 2018 | 10:28:56,506 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: StartGameHandler 
+23 一月 2018 | 10:28:56,508 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: lu123 
+23 一月 2018 | 10:28:56,508 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: ( User Name: test, Id: 16, Priv: 0, Sess: 172.18.23.188:3900 )  
+23 一月 2018 | 10:28:56,509 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 玩家3手牌[33, 1C, 2C, 28, 25, 1D, 0C, 37, 26, 19, 2B, 07, 3A, 24, 34, 06, 36] 
+23 一月 2018 | 10:28:56,509 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 给玩家 3 发牌 
+23 一月 2018 | 10:28:57,950 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 抢地主拓展回调成功 
+23 一月 2018 | 10:28:57,950 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: Index=2 
+23 一月 2018 | 10:28:57,951 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: YesOrNo=true 
+23 一月 2018 | 10:28:57,951 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 有人抢地主搞事情，倍数*2，现在倍数为：24 
+23 一月 2018 | 10:28:57,951 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: ----!---- 
+23 一月 2018 | 10:28:57,951 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: ( User Name: test, Id: 16, Priv: 0, Sess: 172.18.23.188:3900 ) 拿到地主 
+23 一月 2018 | 10:29:10,013 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: GameExtends 
+23 一月 2018 | 10:29:10,013 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: !---GameExt:[03, 23, 14, 04, 05, 15]---! 
+23 一月 2018 | 10:29:10,014 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: !-SendCardsOnDesk-! 
+23 一月 2018 | 10:29:19,051 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: GameExtends 
+23 一月 2018 | 10:29:19,052 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: cards=null 
+23 一月 2018 | 10:29:19,891 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: GameExtends 
+23 一月 2018 | 10:29:19,891 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: cards=null 
+23 一月 2018 | 10:29:20,414 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: GameExtends 
+23 一月 2018 | 10:29:20,415 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: cards=null 
+23 一月 2018 | 10:29:21,684 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: GameExtends 
+23 一月 2018 | 10:29:21,684 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: cards=null 
+23 一月 2018 | 10:29:21,964 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: GameExtends 
+23 一月 2018 | 10:29:21,964 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: cards=null 
+23 一月 2018 | 10:29:22,215 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: GameExtends 
+23 一月 2018 | 10:29:22,215 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: cards=null 
+23 一月 2018 | 10:29:29,471 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: GameExtends 
+23 一月 2018 | 10:29:29,472 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: cards=null 
+23 一月 2018 | 10:29:34,782 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: GameExtends 
+23 一月 2018 | 10:29:34,782 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: !---GameExt:[35, 16, 27, 18, 09, 1A, 3B]---! 
+23 一月 2018 | 10:29:34,783 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: !-SendCardsOnDesk-! 
+23 一月 2018 | 10:29:48,332 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: GameExtends 
+23 一月 2018 | 10:29:48,333 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: !---GameExt:[17, 38, 39, 0A, 0B, 3C, 3D]---! 
+23 一月 2018 | 10:29:48,333 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: !-SendCardsOnDesk-! 
+23 一月 2018 | 10:29:50,492 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: GameExtends 
+23 一月 2018 | 10:29:50,493 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: cards=null 
+23 一月 2018 | 10:29:53,369 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: GameExtends 
+23 一月 2018 | 10:29:53,369 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: cards=null 
+23 一月 2018 | 10:30:07,585 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: GameExtends 
+23 一月 2018 | 10:30:07,585 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: cards=null 
+23 一月 2018 | 10:30:13,488 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: GameExtends 
+23 一月 2018 | 10:30:13,488 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: cards=null 
+23 一月 2018 | 10:30:17,488 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: GameExtends 
+23 一月 2018 | 10:30:17,488 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: !---GameExt:[51, 2A, 0D, 2D, 21, 31, 12]---! 
+23 一月 2018 | 10:30:17,489 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: !-SendCardsOnDesk-! 
+23 一月 2018 | 10:30:43,957 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 19, Type: DEFAULT, Logged: Yes, IP: 172.18.23.188:3907 }
+23 一月 2018 | 10:30:43,958 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: sblzm, Id: 17, Priv: 0, Sess: 172.18.23.188:3907 ) , SessionLen: 117239, Type: Unity
+23 一月 2018 | 10:30:47,810 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 发送任务到客户端成功 
+23 一月 2018 | 10:30:51,930 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 发送任务到客户端成功 
+23 一月 2018 | 10:32:19,309 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 18, Type: DEFAULT, Logged: Yes, IP: 172.18.23.188:3900 }
+23 一月 2018 | 10:32:19,310 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: test, Id: 16, Priv: 0, Sess: 172.18.23.188:3900 ) , SessionLen: 231056, Type: Unity
+23 一月 2018 | 10:32:59,307 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 16, Type: DEFAULT, Logged: Yes, IP: 172.18.23.184:17171 }
+23 一月 2018 | 10:32:59,308 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: lu123, Id: 15, Priv: 0, Sess: 172.18.23.184:17171 ) , SessionLen: 282820, Type: Unity
+23 一月 2018 | 10:43:50,325 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 20, Type: DEFAULT, Logged: No, IP: 172.18.23.188:3928 } on Server port: 9933 <---> 3928
+23 一月 2018 | 10:43:52,813 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户test登录成功! 
+23 一月 2018 | 10:43:52,816 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: test, Id: 18, Priv: 0, Sess: 172.18.23.188:3928 ) , Type: Unity
+23 一月 2018 | 10:43:52,817 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+23 一月 2018 | 10:43:53,071 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 获取用户信息 
+23 一月 2018 | 10:43:53,073 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: !---------{Max_mult=888, honor_title=大富豪, quan=99, usernick=哈哈哈, sex=未知, headpicture=picture2, userpwd=test, Vitory=null, gold=1000, gamelv=99, game_count=9999, viplv=99, vipEXP=null, ID=3, Defeat=null, personalwords=, gameEXP=null, username=test}-----------! 
+23 一月 2018 | 10:43:53,073 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: test 
+23 一月 2018 | 10:43:55,800 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: test, Id: 18, Priv: 0, Sess: 172.18.23.188:3928 ) , asSpect: false
+23 一月 2018 | 10:43:55,801 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户进入房间 
+23 一月 2018 | 10:43:55,802 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: [ Room: lobby, Id: 0, Group: default, isGame: false ] 
+23 一月 2018 | 10:43:55,802 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: [( User Name: test, Id: 18, Priv: 0, Sess: 172.18.23.188:3928 ) ] 
+23 一月 2018 | 10:43:55,802 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: !-----1-----! 
+23 一月 2018 | 10:43:55,802 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 房间信息发送客户端成功,等待游戏开始 
+23 一月 2018 | 10:43:57,526 | WARN  | SFSWorker:Sys:1 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 18, Priv: 0, Sess: 172.18.23.188:3928 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:43:58,089 | WARN  | SFSWorker:Sys:2 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 18, Priv: 0, Sess: 172.18.23.188:3928 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:43:58,899 | WARN  | SFSWorker:Sys:3 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 18, Priv: 0, Sess: 172.18.23.188:3928 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:43:59,079 | WARN  | SFSWorker:Sys:4 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 18, Priv: 0, Sess: 172.18.23.188:3928 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:43:59,248 | WARN  | SFSWorker:Sys:2 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 18, Priv: 0, Sess: 172.18.23.188:3928 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:43:59,415 | WARN  | SFSWorker:Sys:3 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 18, Priv: 0, Sess: 172.18.23.188:3928 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:43:59,597 | WARN  | SFSWorker:Sys:4 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 18, Priv: 0, Sess: 172.18.23.188:3928 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:43:59,779 | WARN  | SFSWorker:Sys:1 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 18, Priv: 0, Sess: 172.18.23.188:3928 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:43:59,949 | WARN  | SFSWorker:Sys:2 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 18, Priv: 0, Sess: 172.18.23.188:3928 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:44:00,093 | WARN  | SFSWorker:Sys:3 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: test, Id: 18, Priv: 0, Sess: 172.18.23.188:3928 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+23 一月 2018 | 10:44:21,809 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 21, Type: DEFAULT, Logged: No, IP: 172.18.23.184:19794 } on Server port: 9933 <---> 19794
+23 一月 2018 | 10:44:28,970 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 20, Type: DEFAULT, Logged: Yes, IP: 172.18.23.188:3928 }
+23 一月 2018 | 10:44:28,971 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: test, Id: 18, Priv: 0, Sess: 172.18.23.188:3928 ) , SessionLen: 36155, Type: Unity
+23 一月 2018 | 10:46:29,106 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 21, Type: DEFAULT, Logged: No, IP: 172.18.23.184:19794 }
+23 一月 2018 | 10:55:19,109 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: DouDiZhu }, CCU: 0/3
+23 一月 2018 | 10:55:19,109 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+23 一月 2018 | 10:55:19,109 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/3

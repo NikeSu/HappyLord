@@ -1,0 +1,13 @@
+
+t_yinzhang2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+t_yinzhang
+  rotate: false
+  xy: 2, 2
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,116 @@
+27 一月 2018 | 13:33:51,783 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+27 一月 2018 | 13:33:52,240 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+27 一月 2018 | 13:33:52,259 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+27 一月 2018 | 13:33:52,313 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+27 一月 2018 | 13:33:52,314 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+27 一月 2018 | 13:33:52,322 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+27 一月 2018 | 13:33:52,327 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+27 一月 2018 | 13:33:52,331 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+27 一月 2018 | 13:33:52,359 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+27 一月 2018 | 13:33:52,383 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+27 一月 2018 | 13:33:52,390 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+27 一月 2018 | 13:33:52,605 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+27 一月 2018 | 13:33:52,608 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: false ], type = SFSRoom
+27 一月 2018 | 13:33:52,608 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+27 一月 2018 | 13:33:52,613 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+27 一月 2018 | 13:33:52,614 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: false ], type = SFSRoom
+27 一月 2018 | 13:33:52,614 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+27 一月 2018 | 13:33:52,619 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+27 一月 2018 | 13:33:52,620 | INFO  | main | Extensions |     | {java}: ==================斗地主服务器初始化========================== 
+27 一月 2018 | 13:33:52,624 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+27 一月 2018 | 13:33:52,625 | INFO  | main | Extensions |     | {java}: ======================================================= 
+27 一月 2018 | 13:33:52,629 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+27 一月 2018 | 13:33:52,661 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+27 一月 2018 | 13:33:52,798 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+27 一月 2018 | 13:33:52,799 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+27 一月 2018 | 13:33:52,799 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+27 一月 2018 | 13:33:54,183 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+27 一月 2018 | 13:33:57,633 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:1843 } on Server port: 9933 <---> 1843
+27 一月 2018 | 13:34:49,592 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:1843 }
+27 一月 2018 | 13:35:05,347 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:1871 } on Server port: 9933 <---> 1871
+27 一月 2018 | 13:35:09,486 | WARN  | SFSWorker:Ext:4 | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSLoginException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSLoginException
+Message: 账户{} 不存在
+Description: Extension's Login Handler exception
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.ddz.zone.SFSLoginHandler.handleServerEvent(SFSLoginHandler.java:36)
+com.smartfoxserver.v2.extensions.SFSExtension.handleServerEvent(SFSExtension.java:259)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchEvent(SFSExtensionManager.java:768)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchZoneLevelEvent(SFSExtensionManager.java:689)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.handleServerEvent(SFSExtensionManager.java:887)
+com.smartfoxserver.v2.core.SFSEventManager$SFSEventRunner.run(SFSEventManager.java:66)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+27 一月 2018 | 13:37:12,889 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:1871 }
+27 一月 2018 | 13:44:12,058 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 127.0.0.1:1956 } on Server port: 9933 <---> 1956
+27 一月 2018 | 13:44:25,754 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户admin登录成功! 
+27 一月 2018 | 13:44:25,758 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户frank登录成功! 
+27 一月 2018 | 13:44:25,760 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户test登录成功! 
+27 一月 2018 | 13:44:25,761 | INFO  | SFSWorker:Ext:3 | v2.api.SFSApi |     | Login error: Duplicate login: ( User Name: frank, Id: 1, Priv: 0, Sess: 127.0.0.1:1956 ) . Requested by: { Id: 3, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:1956 }
+27 一月 2018 | 13:44:25,762 | INFO  | SFSWorker:Ext:2 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 0, Priv: 0, Sess: 127.0.0.1:1956 ) , Type: Unity
+27 一月 2018 | 13:44:25,763 | INFO  | SFSWorker:Ext:1 | v2.api.SFSApi |     | Login error: Duplicate login: ( User Name: test, Id: 2, Priv: 0, Sess: 127.0.0.1:1956 ) . Requested by: { Id: 3, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:1956 }
+27 一月 2018 | 13:44:25,763 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户进入区 
+27 一月 2018 | 13:44:44,022 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: admin, Id: 0, Priv: 0, Sess: 127.0.0.1:1956 ) , asSpect: false
+27 一月 2018 | 13:44:44,024 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户进入房间 
+27 一月 2018 | 13:44:44,024 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: !------! 
+27 一月 2018 | 13:44:44,024 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: [( User Name: admin, Id: 0, Priv: 0, Sess: 127.0.0.1:1956 ) ] 
+27 一月 2018 | 13:44:44,024 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: !-----1-----! 
+27 一月 2018 | 13:44:44,025 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 房间信息发送客户端成功,等待游戏开始 
+27 一月 2018 | 13:44:55,987 | WARN  | SFSWorker:Sys:1 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSJoinRoomException: Join Error - User already joined: ( User Name: admin, Id: 0, Priv: 0, Sess: 127.0.0.1:1956 ) , Room: [ Room: lobby, Id: 0, Group: default, isGame: false ], Zone: { Zone: DouDiZhu }
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:992)
+	com.smartfoxserver.v2.api.SFSApi.joinRoom(SFSApi.java:810)
+	com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:87)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+	com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+	com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+	com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+	com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	java.lang.Thread.run(Unknown Source)
+
+27 一月 2018 | 13:45:38,103 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 3, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:1956 }
+27 一月 2018 | 13:45:38,104 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 0, Priv: 0, Sess: 127.0.0.1:1956 ) , SessionLen: 72343, Type: Unity
+27 一月 2018 | 13:45:49,176 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 4, Type: DEFAULT, Logged: No, IP: 127.0.0.1:1968 } on Server port: 9933 <---> 1968
+27 一月 2018 | 13:46:05,603 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户frank登录成功! 
+27 一月 2018 | 13:46:05,603 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户admin登录成功! 
+27 一月 2018 | 13:46:05,603 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户test登录成功! 
+27 一月 2018 | 13:46:05,604 | INFO  | SFSWorker:Ext:1 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 3, Priv: 0, Sess: 127.0.0.1:1968 ) , Type: Unity
+27 一月 2018 | 13:46:05,604 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | Login error: Duplicate login: ( User Name: test, Id: 4, Priv: 0, Sess: 127.0.0.1:1968 ) . Requested by: { Id: 4, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:1968 }
+27 一月 2018 | 13:46:05,604 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户进入区 
+27 一月 2018 | 13:46:05,604 | INFO  | SFSWorker:Ext:2 | v2.api.SFSApi |     | Login error: Duplicate login: ( User Name: admin, Id: 5, Priv: 0, Sess: 127.0.0.1:1968 ) . Requested by: { Id: 4, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:1968 }
+27 一月 2018 | 13:46:37,450 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 4, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:1968 }
+27 一月 2018 | 13:46:37,451 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 3, Priv: 0, Sess: 127.0.0.1:1968 ) , SessionLen: 31847, Type: Unity
+27 一月 2018 | 13:55:52,820 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: DouDiZhu }, CCU: 0/1
+27 一月 2018 | 13:55:52,820 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+27 一月 2018 | 13:55:52,820 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1

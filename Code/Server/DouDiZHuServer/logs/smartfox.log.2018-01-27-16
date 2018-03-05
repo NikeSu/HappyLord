@@ -1,0 +1,27 @@
+27 一月 2018 | 16:28:21,019 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 7, Type: DEFAULT, Logged: No, IP: 127.0.0.1:2579 } on Server port: 9933 <---> 2579
+27 一月 2018 | 16:28:31,471 | WARN  | SFSWorker:Sys:2 | controllers.v290.SystemReqController |     | com.smartfoxserver.v2.exceptions.SFSRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSRuntimeException
+Message: System Request rejected: { Id: 7, Type: DEFAULT, Logged: No, IP: 127.0.0.1:2579 }, Client is not logged in.
+Description: Runtime error while processing request
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.controllers.BaseControllerCommand.checkRequestPermissions(BaseControllerCommand.java:112)
+com.smartfoxserver.v2.controllers.BaseControllerCommand.checkRequestPermissions(BaseControllerCommand.java:197)
+com.smartfoxserver.v2.controllers.system.JoinRoom.execute(JoinRoom.java:46)
+com.smartfoxserver.v2.controllers.v290.SystemReqController.processRequest(SystemReqController.java:172)
+com.smartfoxserver.v2.controllers.v290.SystemReqController.enqueueRequest(SystemReqController.java:127)
+com.smartfoxserver.bitswarm.io.protocols.AbstractProtocolCodec.dispatchRequestToController(AbstractProtocolCodec.java:39)
+com.smartfoxserver.v2.protocol.SFSProtocolCodec.dispatchRequest(SFSProtocolCodec.java:133)
+com.smartfoxserver.v2.protocol.SFSProtocolCodec.onPacketRead(SFSProtocolCodec.java:90)
+com.smartfoxserver.v2.protocol.binary.BinaryIoHandler$1.run(BinaryIoHandler.java:477)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+27 一月 2018 | 16:30:32,958 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 7, Type: DEFAULT, Logged: No, IP: 127.0.0.1:2579 }
+27 一月 2018 | 16:55:52,961 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: DouDiZhu }, CCU: 2/2
+27 一月 2018 | 16:55:52,962 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+27 一月 2018 | 16:55:52,962 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: CCU: 2/2

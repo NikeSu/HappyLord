@@ -1,0 +1,69 @@
+02 一月 2018 | 08:47:44,682 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+02 一月 2018 | 08:47:45,124 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+02 一月 2018 | 08:47:45,145 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+02 一月 2018 | 08:47:45,205 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+02 一月 2018 | 08:47:45,206 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+02 一月 2018 | 08:47:45,215 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+02 一月 2018 | 08:47:45,222 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+02 一月 2018 | 08:47:45,225 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+02 一月 2018 | 08:47:45,254 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 08:47:45,503 | ERROR | main | v2.db.SFSDBManager |     | java.sql.SQLException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.sql.SQLException
+Message: Access denied for user 'root'@'localhost' (using password: YES)
+Description: The DBManager Test SQL failed: select * from account
+Please double check your SQL code and make sure that Database server is running.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 08:47:45,511 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 08:47:45,511 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 08:47:45,512 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 08:47:45,519 | INFO  | main | Extensions |     | {java}: ==================斗地主服务器初始化========================== 
+02 一月 2018 | 08:47:45,553 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://localhost:3306/doudizhu 
+02 一月 2018 | 08:47:45,556 | INFO  | main | Extensions |     | {java}: ======================================================= 
+02 一月 2018 | 08:47:45,560 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 08:47:45,594 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+02 一月 2018 | 08:47:45,767 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+02 一月 2018 | 08:47:45,768 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+02 一月 2018 | 08:47:45,768 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+02 一月 2018 | 08:47:47,215 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+02 一月 2018 | 08:48:01,772 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 172.18.23.160:1514 } on Server port: 9933 <---> 1514
+02 一月 2018 | 08:48:07,560 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户frank登录成功! 
+02 一月 2018 | 08:48:07,573 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 0, Priv: 0, Sess: 172.18.23.160:1514 ) , Type: Unity
+02 一月 2018 | 08:48:07,574 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+02 一月 2018 | 08:48:07,574 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: !---( User Name: frank, Id: 0, Priv: 0, Sess: 172.18.23.160:1514 ) ---! 
+02 一月 2018 | 08:50:15,825 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:1514 }
+02 一月 2018 | 08:50:15,827 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 0, Priv: 0, Sess: 172.18.23.160:1514 ) , SessionLen: 128254, Type: Unity
+02 一月 2018 | 08:52:55,440 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 172.18.23.160:1660 } on Server port: 9933 <---> 1660
+02 一月 2018 | 08:53:02,705 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户frank登录成功! 
+02 一月 2018 | 08:53:02,707 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 1, Priv: 0, Sess: 172.18.23.160:1660 ) , Type: Unity
+02 一月 2018 | 08:53:02,707 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+02 一月 2018 | 08:53:02,708 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: !---( User Name: frank, Id: 1, Priv: 0, Sess: 172.18.23.160:1660 ) ---! 
+02 一月 2018 | 08:55:05,850 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:1660 }
+02 一月 2018 | 08:55:05,852 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 1, Priv: 0, Sess: 172.18.23.160:1660 ) , SessionLen: 123145, Type: Unity
+02 一月 2018 | 08:55:45,778 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: DouDiZhu }, CCU: 0/1
+02 一月 2018 | 08:55:45,779 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+02 一月 2018 | 08:55:45,779 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1

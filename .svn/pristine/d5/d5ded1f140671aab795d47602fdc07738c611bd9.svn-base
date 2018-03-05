@@ -1,0 +1,65 @@
+package com.fps.db;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class DBManager {
+	private static DBManager _instance = null;
+
+	public static DBManager GetInstance() {
+		if (_instance == null) {
+			_instance = new DBManager();
+
+		}
+		return _instance;
+	}
+
+	private Connection conn;
+	private String driver = "com.mysql.jdbc.Driver";
+	// URL指向要访问的数据库名db_eworld
+	private String url = "jdbc:mysql://localhost:3306/db_eworld";
+	private String user = "root";
+	private String password = "0540744hb";
+
+	public void Init() throws SQLException {
+		try {
+			// 驱动程序名
+			Class.forName(driver);
+			conn = DriverManager.getConnection(url, user, password);
+			if (!conn.isClosed())
+				System.out.println("Succeeded connecting to the Database!");
+
+		} catch (ClassNotFoundException e) {
+
+		}
+	}
+
+	public ResultSet doSelect(String sql) {
+		try {
+			// 測試鏈接
+			Statement statement = conn.createStatement();
+			// ResultSet类，用来存放获取的结果集！！
+			ResultSet rs = statement.executeQuery(sql);
+
+			String accName;
+			String accPwd;
+			while (rs.next()) {
+				// 获取stuname这列数据
+				accName = rs.getString("acc_name");
+				// 获取stuid这列数据
+				accPwd = rs.getString("acc_nick");
+
+				// 输出结果
+				System.out.println(accName + "\t" + accPwd);
+			}
+			return rs;
+		} catch (SQLException e) {
+
+		}
+		return null;
+	}
+
+}

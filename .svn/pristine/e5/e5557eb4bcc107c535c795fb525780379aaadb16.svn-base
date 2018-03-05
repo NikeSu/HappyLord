@@ -1,0 +1,97 @@
+
+vs.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang22
+  rotate: true
+  xy: 906, 76
+  size: 164, 71
+  orig: 164, 71
+  offset: 0, 0
+  index: -1
+s
+  rotate: false
+  xy: 979, 189
+  size: 41, 51
+  orig: 41, 51
+  offset: 0, 0
+  index: -1
+shandian0001
+  rotate: false
+  xy: 628, 94
+  size: 251, 71
+  orig: 251, 71
+  offset: 0, 0
+  index: -1
+shandian0002
+  rotate: false
+  xy: 589, 32
+  size: 225, 60
+  orig: 225, 60
+  offset: 0, 0
+  index: -1
+shandian0003
+  rotate: false
+  xy: 2, 68
+  size: 294, 61
+  orig: 294, 61
+  offset: 0, 0
+  index: -1
+shandian0004
+  rotate: false
+  xy: 648, 167
+  size: 256, 73
+  orig: 256, 73
+  offset: 0, 0
+  index: -1
+shandian0005
+  rotate: false
+  xy: 339, 135
+  size: 287, 55
+  orig: 287, 55
+  offset: 0, 0
+  index: -1
+shandian0006
+  rotate: false
+  xy: 339, 192
+  size: 307, 48
+  orig: 307, 48
+  offset: 0, 0
+  index: -1
+shandian0007
+  rotate: false
+  xy: 339, 62
+  size: 248, 71
+  orig: 248, 71
+  offset: 0, 0
+  index: -1
+shandian0008
+  rotate: false
+  xy: 2, 8
+  size: 293, 58
+  orig: 293, 58
+  offset: 0, 0
+  index: -1
+shandian0009
+  rotate: false
+  xy: 297, 2
+  size: 239, 58
+  orig: 239, 58
+  offset: 0, 0
+  index: -1
+v
+  rotate: false
+  xy: 538, 10
+  size: 47, 50
+  orig: 47, 50
+  offset: 0, 0
+  index: -1
+xiaguang
+  rotate: false
+  xy: 2, 131
+  size: 335, 109
+  orig: 335, 109
+  offset: 0, 0
+  index: -1

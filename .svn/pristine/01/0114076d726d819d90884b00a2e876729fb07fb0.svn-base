@@ -1,0 +1,24 @@
+package com.ddz.zone;
+
+import com.smartfoxserver.v2.entities.User;
+import com.smartfoxserver.v2.entities.data.ISFSObject;
+import com.smartfoxserver.v2.entities.data.SFSObject;
+import com.smartfoxserver.v2.extensions.BaseClientRequestHandler;
+
+public class TestExt extends BaseClientRequestHandler {
+
+	public void handleClientRequest(User arg0, ISFSObject arg1) {
+		// TODO Auto-generated method stub
+
+		String nick=arg1.getUtfString("nick");
+		
+		SFSObject obj=new SFSObject();
+		obj.putUtfString("info", "欢迎"+nick+"你到来");
+		
+		trace("收到客户端"+nick);
+		this.send("test", obj, arg0);
+		
+		
+	}
+
+}

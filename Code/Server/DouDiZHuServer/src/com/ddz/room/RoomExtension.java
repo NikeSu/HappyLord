@@ -1,0 +1,28 @@
+package com.ddz.room;
+
+import com.ddz.Global;
+import com.ddz.zone.TestExt;
+import com.smartfoxserver.v2.core.SFSEvent;
+import com.smartfoxserver.v2.core.SFSEventType;
+import com.smartfoxserver.v2.extensions.SFSExtension;
+
+public class RoomExtension extends SFSExtension {
+
+	public void init() {
+		// TODO Auto-generated method stub
+		trace("--------RoomExtension---------");
+	
+		Global.Init(this, getParentZone().getDBManager());
+		
+		
+		this.addEventHandler(SFSEventType.USER_JOIN_ROOM, SFSUserJoinRoomHandler.class);
+		this.addEventHandler(SFSEventType.USER_LEAVE_ROOM, SFSUserLeaveRoomHandler.class);
+	
+		this.addRequestHandler("test", TestExt.class);
+		this.addRequestHandler("GetMaskInfo", MaskInfoHandler.class);
+		this.addRequestHandler("StartGame", StartGameHandler.class);
+		this.addRequestHandler("GameExtends", GameExtendsHandler.class);
+		this.addRequestHandler("GameOverExtends", GameOverExtendsHandler.class);
+	}
+
+}

@@ -1,0 +1,13 @@
+05 一月 2018 | 10:13:57,940 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 12, Type: DEFAULT, Logged: No, IP: 172.18.23.160:29310 } on Server port: 9933 <---> 29310
+05 一月 2018 | 10:13:59,049 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户admin登录成功! 
+05 一月 2018 | 10:13:59,050 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 10, Priv: 0, Sess: 172.18.23.160:29310 ) , Type: Unity
+05 一月 2018 | 10:13:59,050 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+05 一月 2018 | 10:13:59,343 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 获取用户信息 
+05 一月 2018 | 10:13:59,344 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: admin 
+05 一月 2018 | 10:14:07,573 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 获取用户信息 
+05 一月 2018 | 10:14:07,574 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: admin 
+05 一月 2018 | 10:14:15,709 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 12, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:29310 }
+05 一月 2018 | 10:14:15,709 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 10, Priv: 0, Sess: 172.18.23.160:29310 ) , SessionLen: 16659, Type: Unity
+05 一月 2018 | 10:55:34,858 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: DouDiZhu }, CCU: 0/0
+05 一月 2018 | 10:55:34,858 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 1/1
+05 一月 2018 | 10:55:34,859 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: CCU: 1/1

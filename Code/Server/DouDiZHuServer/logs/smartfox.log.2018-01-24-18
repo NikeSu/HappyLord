@@ -1,0 +1,10 @@
+24 一月 2018 | 18:00:53,555 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 7, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:31967 }
+24 一月 2018 | 18:00:53,563 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 4, Priv: 0, Sess: 127.0.0.1:31967 ) , SessionLen: 138377, Type: Unity
+24 一月 2018 | 18:00:53,568 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 6, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:31964 }
+24 一月 2018 | 18:00:53,569 | INFO  | SocketReader | bitswarm.core.SocketReader |     | Socket closed: java.nio.channels.SocketChannel[closed]
+24 一月 2018 | 18:00:53,574 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 5, Priv: 0, Sess: 127.0.0.1:31964 ) , SessionLen: 130511, Type: Unity
+24 一月 2018 | 18:01:03,553 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 5, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:31961 }
+24 一月 2018 | 18:01:03,554 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: test, Id: 6, Priv: 0, Sess: 127.0.0.1:31961 ) , SessionLen: 137066, Type: Unity
+24 一月 2018 | 18:55:13,521 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: DouDiZhu }, CCU: 0/3
+24 一月 2018 | 18:55:13,521 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+24 一月 2018 | 18:55:13,522 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/3

@@ -1,0 +1,1029 @@
+02 一月 2018 | 09:13:40,377 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 127.0.0.1:2897 } on Server port: 9933 <---> 2897
+02 一月 2018 | 09:13:40,484 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 2, Priv: 0, Sess: 127.0.0.1:2897 ) , Type: Flash ActiveX:WIN 24,0,0,221
+02 一月 2018 | 09:13:40,507 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 2, Priv: 0, Sess: 127.0.0.1:2897 ) , asSpect: false
+02 一月 2018 | 09:29:16,381 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+02 一月 2018 | 09:29:16,824 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+02 一月 2018 | 09:29:16,846 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+02 一月 2018 | 09:29:16,907 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+02 一月 2018 | 09:29:16,908 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+02 一月 2018 | 09:29:16,918 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+02 一月 2018 | 09:29:16,924 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+02 一月 2018 | 09:29:16,927 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+02 一月 2018 | 09:29:16,956 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 09:29:17,182 | ERROR | main | v2.db.SFSDBManager |     | java.sql.SQLException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.sql.SQLException
+Message: Access denied for user 'root'@'localhost' (using password: YES)
+Description: The DBManager Test SQL failed: select * from account
+Please double check your SQL code and make sure that Database server is running.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 09:29:17,189 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 09:29:17,190 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 09:29:17,190 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 09:29:17,197 | INFO  | main | Extensions |     | {java}: ==================斗地主服务器初始化========================== 
+02 一月 2018 | 09:29:17,202 | WARN  | main | Extensions |     | {java}: 初始化数据库失败jdbc:mysql://localhost:3306/db_eworld: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES) 
+02 一月 2018 | 09:29:17,204 | INFO  | main | Extensions |     | {java}: ======================================================= 
+02 一月 2018 | 09:29:17,208 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 09:29:17,243 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+02 一月 2018 | 09:29:17,400 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+02 一月 2018 | 09:29:17,405 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+02 一月 2018 | 09:29:17,405 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+02 一月 2018 | 09:29:18,939 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+02 一月 2018 | 09:33:58,676 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+02 一月 2018 | 09:33:59,118 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+02 一月 2018 | 09:33:59,140 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+02 一月 2018 | 09:33:59,198 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+02 一月 2018 | 09:33:59,199 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+02 一月 2018 | 09:33:59,208 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+02 一月 2018 | 09:33:59,215 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+02 一月 2018 | 09:33:59,218 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+02 一月 2018 | 09:33:59,247 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 09:33:59,477 | ERROR | main | v2.db.SFSDBManager |     | java.sql.SQLException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.sql.SQLException
+Message: Access denied for user 'root'@'localhost' (using password: YES)
+Description: The DBManager Test SQL failed: select * from account
+Please double check your SQL code and make sure that Database server is running.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 09:33:59,485 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 09:33:59,485 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 09:33:59,486 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 09:33:59,492 | INFO  | main | Extensions |     | {java}: ==================斗地主服务器初始化========================== 
+02 一月 2018 | 09:33:59,497 | WARN  | main | Extensions |     | {java}: 初始化数据库失败jdbc:mysql://localhost:3306/db_eworld: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES) 
+02 一月 2018 | 09:33:59,500 | INFO  | main | Extensions |     | {java}: ======================================================= 
+02 一月 2018 | 09:33:59,505 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 09:33:59,541 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+02 一月 2018 | 09:33:59,705 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+02 一月 2018 | 09:33:59,712 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+02 一月 2018 | 09:33:59,712 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+02 一月 2018 | 09:34:01,155 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+02 一月 2018 | 09:45:18,688 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:60361 } on Server port: 9933 <---> 60361
+02 一月 2018 | 09:45:18,729 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:60361 ) , Type: Flash ActiveX:WIN 24,0,0,221
+02 一月 2018 | 09:45:18,735 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:60361 ) , asSpect: false
+02 一月 2018 | 09:47:40,639 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+02 一月 2018 | 09:47:41,086 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+02 一月 2018 | 09:47:41,107 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+02 一月 2018 | 09:47:41,164 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+02 一月 2018 | 09:47:41,165 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+02 一月 2018 | 09:47:41,175 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+02 一月 2018 | 09:47:41,181 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+02 一月 2018 | 09:47:41,184 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+02 一月 2018 | 09:47:41,215 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 09:47:41,434 | ERROR | main | v2.db.SFSDBManager |     | java.sql.SQLException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.sql.SQLException
+Message: Access denied for user 'root'@'localhost' (using password: YES)
+Description: The DBManager Test SQL failed: select * from account
+Please double check your SQL code and make sure that Database server is running.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 09:47:41,442 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 09:47:41,443 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 09:47:41,443 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 09:47:41,443 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room3, Id: 3, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 09:47:41,450 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 09:47:41,451 | INFO  | main | Extensions |     | {java}: ==================斗地主服务器初始化========================== 
+02 一月 2018 | 09:47:41,455 | WARN  | main | Extensions |     | {java}: 初始化数据库失败jdbc:mysql://localhost:3306/db_eworld: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES) 
+02 一月 2018 | 09:47:41,457 | INFO  | main | Extensions |     | {java}: ======================================================= 
+02 一月 2018 | 09:47:41,461 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 4, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 09:47:41,495 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+02 一月 2018 | 09:47:41,665 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+02 一月 2018 | 09:47:41,665 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+02 一月 2018 | 09:47:41,666 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+02 一月 2018 | 09:47:43,105 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+02 一月 2018 | 09:50:07,702 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+02 一月 2018 | 09:50:08,153 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+02 一月 2018 | 09:50:08,175 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+02 一月 2018 | 09:50:08,233 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+02 一月 2018 | 09:50:08,234 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+02 一月 2018 | 09:50:08,243 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+02 一月 2018 | 09:50:08,250 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+02 一月 2018 | 09:50:08,254 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+02 一月 2018 | 09:50:08,283 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 09:50:08,516 | ERROR | main | v2.db.SFSDBManager |     | java.sql.SQLException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.sql.SQLException
+Message: Access denied for user 'root'@'localhost' (using password: YES)
+Description: The DBManager Test SQL failed: select * from account
+Please double check your SQL code and make sure that Database server is running.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 09:50:08,524 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 09:50:08,525 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 09:50:08,525 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 09:50:08,525 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room3, Id: 3, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 09:50:08,532 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 09:50:08,534 | INFO  | main | Extensions |     | {java}: ==================斗地主服务器初始化========================== 
+02 一月 2018 | 09:50:08,539 | WARN  | main | Extensions |     | {java}: 初始化数据库失败jdbc:mysql://localhost:3306/doudizhu: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES) 
+02 一月 2018 | 09:50:08,542 | INFO  | main | Extensions |     | {java}: ======================================================= 
+02 一月 2018 | 09:50:08,546 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 4, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 09:50:08,581 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+02 一月 2018 | 09:50:08,746 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+02 一月 2018 | 09:50:08,747 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+02 一月 2018 | 09:50:08,747 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+02 一月 2018 | 09:50:10,167 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+02 一月 2018 | 09:50:52,826 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:60460 } on Server port: 9933 <---> 60460
+02 一月 2018 | 09:50:52,898 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:60460 ) , Type: Flash ActiveX:WIN 24,0,0,221
+02 一月 2018 | 09:50:52,903 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 4, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:60460 ) , asSpect: false
+02 一月 2018 | 09:52:31,671 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+02 一月 2018 | 09:52:32,113 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+02 一月 2018 | 09:52:32,134 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+02 一月 2018 | 09:52:32,192 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+02 一月 2018 | 09:52:32,193 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+02 一月 2018 | 09:52:32,202 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+02 一月 2018 | 09:52:32,208 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+02 一月 2018 | 09:52:32,211 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+02 一月 2018 | 09:52:32,241 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 09:52:32,469 | ERROR | main | v2.db.SFSDBManager |     | java.sql.SQLException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.sql.SQLException
+Message: Access denied for user 'root'@'localhost' (using password: YES)
+Description: The DBManager Test SQL failed: select * from account
+Please double check your SQL code and make sure that Database server is running.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 09:52:32,478 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 09:52:32,478 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 09:52:32,479 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 09:52:32,479 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room3, Id: 3, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 09:52:32,486 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 09:52:32,487 | INFO  | main | Extensions |     | {java}: ==================斗地主服务器初始化========================== 
+02 一月 2018 | 09:52:32,491 | WARN  | main | Extensions |     | {java}: 初始化数据库失败jdbc:mysql://localhost:3306/doudizhu: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES) 
+02 一月 2018 | 09:52:32,493 | INFO  | main | Extensions |     | {java}: ======================================================= 
+02 一月 2018 | 09:52:32,498 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 4, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 09:52:32,535 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+02 一月 2018 | 09:52:32,704 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+02 一月 2018 | 09:52:32,705 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+02 一月 2018 | 09:52:32,705 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+02 一月 2018 | 09:52:34,180 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+02 一月 2018 | 09:53:17,722 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:60496 } on Server port: 9933 <---> 60496
+02 一月 2018 | 09:53:17,797 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:60496 ) , Type: Flash ActiveX:WIN 24,0,0,221
+02 一月 2018 | 09:53:17,807 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 4, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:60496 ) , asSpect: false
+02 一月 2018 | 09:55:12,995 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:60496 }
+02 一月 2018 | 09:55:12,999 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:60496 ) , SessionLen: 115203, Type: Flash ActiveX:WIN 24,0,0,221
+02 一月 2018 | 09:55:26,028 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:60520 } on Server port: 9933 <---> 60520
+02 一月 2018 | 09:55:26,064 | INFO  | SFSWorker:Ext:3 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 1, Priv: 0, Sess: 127.0.0.1:60520 ) , Type: Flash ActiveX:WIN 24,0,0,221
+02 一月 2018 | 09:55:26,067 | INFO  | SFSWorker:Ext:3 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 4, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 1, Priv: 0, Sess: 127.0.0.1:60520 ) , asSpect: false
+02 一月 2018 | 09:55:32,711 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: DouDiZhu }, CCU: 0/0
+02 一月 2018 | 09:55:32,711 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/1
+02 一月 2018 | 09:55:32,712 | INFO  | pool-1-thread-1 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1
+02 一月 2018 | 09:56:45,247 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+02 一月 2018 | 09:56:45,695 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+02 一月 2018 | 09:56:45,716 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+02 一月 2018 | 09:56:45,781 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+02 一月 2018 | 09:56:45,783 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+02 一月 2018 | 09:56:45,792 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+02 一月 2018 | 09:56:45,799 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+02 一月 2018 | 09:56:45,802 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+02 一月 2018 | 09:56:45,830 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 09:56:48,573 | ERROR | main | v2.db.SFSDBManager |     | com.mysql.jdbc.exceptions.jdbc4.CommunicationsException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+Message: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Description: The DBManager Test SQL failed: select * from account
+Please double check your SQL code and make sure that Database server is running.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 09:56:48,594 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 09:56:48,595 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 09:56:48,596 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 09:56:48,596 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room3, Id: 3, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 09:56:48,610 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 09:56:48,611 | INFO  | main | Extensions |     | {java}: ==================斗地主服务器初始化========================== 
+02 一月 2018 | 09:56:48,614 | WARN  | main | Extensions |     | {java}: 初始化数据库失败jdbc:mysql://Home/doudizhu: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server. 
+02 一月 2018 | 09:56:48,617 | INFO  | main | Extensions |     | {java}: ======================================================= 
+02 一月 2018 | 09:56:48,622 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 4, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 09:56:48,659 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+02 一月 2018 | 09:56:48,818 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+02 一月 2018 | 09:56:48,819 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+02 一月 2018 | 09:56:48,823 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+02 一月 2018 | 09:56:50,313 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+02 一月 2018 | 09:57:31,909 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:60559 } on Server port: 9933 <---> 60559
+02 一月 2018 | 09:57:31,971 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:60559 ) , Type: Flash ActiveX:WIN 24,0,0,221
+02 一月 2018 | 09:57:31,978 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 4, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:60559 ) , asSpect: false
+02 一月 2018 | 09:57:48,829 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: DouDiZhu }, CCU: 0/0
+02 一月 2018 | 09:57:48,830 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/1
+02 一月 2018 | 09:57:48,831 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1
+02 一月 2018 | 09:59:47,115 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+02 一月 2018 | 09:59:47,492 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+02 一月 2018 | 09:59:47,511 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+02 一月 2018 | 09:59:47,561 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+02 一月 2018 | 09:59:47,562 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+02 一月 2018 | 09:59:47,570 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+02 一月 2018 | 09:59:47,576 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+02 一月 2018 | 09:59:47,578 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+02 一月 2018 | 09:59:47,606 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 09:59:50,314 | ERROR | main | v2.db.SFSDBManager |     | com.mysql.jdbc.exceptions.jdbc4.CommunicationsException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+Message: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Description: The DBManager Test SQL failed: select * from account
+Please double check your SQL code and make sure that Database server is running.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 09:59:50,333 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 09:59:50,334 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 09:59:50,335 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 09:59:50,336 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room3, Id: 3, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 09:59:50,352 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 09:59:50,355 | INFO  | main | Extensions |     | {java}: ==================斗地主服务器初始化========================== 
+02 一月 2018 | 09:59:50,359 | WARN  | main | Extensions |     | {java}: 初始化数据库失败jdbc:mysql://Home/doudizhu: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server. 
+02 一月 2018 | 09:59:50,364 | INFO  | main | Extensions |     | {java}: ======================================================= 
+02 一月 2018 | 09:59:50,373 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 4, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 09:59:50,415 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+02 一月 2018 | 09:59:50,552 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+02 一月 2018 | 09:59:50,552 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+02 一月 2018 | 09:59:50,553 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+02 一月 2018 | 09:59:51,783 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+02 一月 2018 | 10:02:59,563 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+02 一月 2018 | 10:02:59,946 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+02 一月 2018 | 10:02:59,964 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+02 一月 2018 | 10:03:00,012 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+02 一月 2018 | 10:03:00,013 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+02 一月 2018 | 10:03:00,022 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+02 一月 2018 | 10:03:00,027 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+02 一月 2018 | 10:03:00,030 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+02 一月 2018 | 10:03:00,059 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 10:03:02,767 | ERROR | main | v2.db.SFSDBManager |     | com.mysql.jdbc.exceptions.jdbc4.CommunicationsException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+Message: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Description: The DBManager Test SQL failed: select * from account
+Please double check your SQL code and make sure that Database server is running.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 10:03:02,786 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:03:02,787 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 10:03:02,788 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 10:03:02,789 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room3, Id: 3, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:03:02,801 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 10:03:02,802 | INFO  | main | Extensions |     | {java}: ==================斗地主服务器初始化========================== 
+02 一月 2018 | 10:03:02,805 | WARN  | main | Extensions |     | {java}: 初始化数据库失败jdbc:mysql://Home/doudizhu: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server. 
+02 一月 2018 | 10:03:02,808 | INFO  | main | Extensions |     | {java}: ======================================================= 
+02 一月 2018 | 10:03:02,814 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 4, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:03:02,848 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+02 一月 2018 | 10:03:02,983 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+02 一月 2018 | 10:03:02,984 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+02 一月 2018 | 10:03:02,984 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+02 一月 2018 | 10:03:04,248 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+02 一月 2018 | 10:03:17,258 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+02 一月 2018 | 10:03:17,700 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+02 一月 2018 | 10:03:17,722 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+02 一月 2018 | 10:03:17,781 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+02 一月 2018 | 10:03:17,782 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+02 一月 2018 | 10:03:17,792 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+02 一月 2018 | 10:03:17,799 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+02 一月 2018 | 10:03:17,803 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+02 一月 2018 | 10:03:17,834 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 10:03:20,551 | ERROR | main | v2.db.SFSDBManager |     | com.mysql.jdbc.exceptions.jdbc4.CommunicationsException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+Message: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Description: The DBManager Test SQL failed: select * from account
+Please double check your SQL code and make sure that Database server is running.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 10:03:20,565 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:03:20,566 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 10:03:20,567 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 10:03:20,567 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room3, Id: 3, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:03:20,577 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 10:03:20,579 | INFO  | main | Extensions |     | {java}: ==================斗地主服务器初始化========================== 
+02 一月 2018 | 10:03:20,582 | WARN  | main | Extensions |     | {java}: 初始化数据库失败jdbc:mysql://Home/doudizhu: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server. 
+02 一月 2018 | 10:03:20,585 | INFO  | main | Extensions |     | {java}: ======================================================= 
+02 一月 2018 | 10:03:20,589 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 4, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:03:20,624 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+02 一月 2018 | 10:03:20,781 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+02 一月 2018 | 10:03:20,782 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+02 一月 2018 | 10:03:20,782 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+02 一月 2018 | 10:03:22,325 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+02 一月 2018 | 10:08:20,457 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+02 一月 2018 | 10:08:20,899 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+02 一月 2018 | 10:08:20,921 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+02 一月 2018 | 10:08:20,980 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+02 一月 2018 | 10:08:20,982 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+02 一月 2018 | 10:08:20,992 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+02 一月 2018 | 10:08:21,000 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+02 一月 2018 | 10:08:21,003 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+02 一月 2018 | 10:08:21,034 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 10:08:21,200 | ERROR | main | v2.db.SFSDBManager |     | com.mysql.jdbc.exceptions.jdbc4.CommunicationsException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+Message: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Description: The DBManager Test SQL failed: select * from account
+Please double check your SQL code and make sure that Database server is running.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 10:08:21,208 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:08:21,208 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 10:08:21,209 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 10:08:21,209 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room3, Id: 3, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:08:21,216 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 10:08:21,218 | INFO  | main | Extensions |     | {java}: ==================斗地主服务器初始化========================== 
+02 一月 2018 | 10:08:21,220 | WARN  | main | Extensions |     | {java}: 初始化数据库失败jdbc:mysql://local_host@3306/doudizhu: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server. 
+02 一月 2018 | 10:08:21,222 | INFO  | main | Extensions |     | {java}: ======================================================= 
+02 一月 2018 | 10:08:21,226 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 4, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:08:21,261 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+02 一月 2018 | 10:08:21,432 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+02 一月 2018 | 10:08:21,433 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+02 一月 2018 | 10:08:21,435 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+02 一月 2018 | 10:08:22,831 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+02 一月 2018 | 10:09:08,553 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+02 一月 2018 | 10:09:08,999 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+02 一月 2018 | 10:09:09,020 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+02 一月 2018 | 10:09:09,079 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+02 一月 2018 | 10:09:09,080 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+02 一月 2018 | 10:09:09,090 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+02 一月 2018 | 10:09:09,097 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+02 一月 2018 | 10:09:09,101 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+02 一月 2018 | 10:09:09,133 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 10:09:11,867 | ERROR | main | v2.db.SFSDBManager |     | com.mysql.jdbc.exceptions.jdbc4.CommunicationsException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+Message: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Description: The DBManager Test SQL failed: select * from account
+Please double check your SQL code and make sure that Database server is running.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 10:09:11,893 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:09:11,894 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 10:09:11,895 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 10:09:11,896 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room3, Id: 3, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:09:11,913 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 10:09:11,915 | INFO  | main | Extensions |     | {java}: ==================斗地主服务器初始化========================== 
+02 一月 2018 | 10:09:11,918 | WARN  | main | Extensions |     | {java}: 初始化数据库失败jdbc:mysql://Home/doudizhu: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server. 
+02 一月 2018 | 10:09:11,921 | INFO  | main | Extensions |     | {java}: ======================================================= 
+02 一月 2018 | 10:09:11,925 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 4, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:09:11,963 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+02 一月 2018 | 10:09:12,220 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+02 一月 2018 | 10:09:12,221 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+02 一月 2018 | 10:09:12,222 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+02 一月 2018 | 10:09:13,739 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+02 一月 2018 | 10:10:21,740 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 172.18.23.160:21432 } on Server port: 9933 <---> 21432
+02 一月 2018 | 10:10:25,020 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: do Query【select * from user where user='frank'】 failed: null 
+02 一月 2018 | 10:10:25,023 | WARN  | SFSWorker:Ext:4 | entities.managers.SFSExtensionManager |     | java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error during event handling: java.lang.NullPointerException, Listener: { Ext: java, Type: JAVA, Lev: ZONE, { Zone: DouDiZhu }, {} }
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.ddz.zone.SFSLoginHandler.handleServerEvent(SFSLoginHandler.java:31)
+com.smartfoxserver.v2.extensions.SFSExtension.handleServerEvent(SFSExtension.java:259)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchEvent(SFSExtensionManager.java:768)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchZoneLevelEvent(SFSExtensionManager.java:689)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.handleServerEvent(SFSExtensionManager.java:887)
+com.smartfoxserver.v2.core.SFSEventManager$SFSEventRunner.run(SFSEventManager.java:66)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 10:10:26,950 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: do Query【select * from user where user='frank'】 failed: null 
+02 一月 2018 | 10:10:26,951 | WARN  | SFSWorker:Ext:3 | entities.managers.SFSExtensionManager |     | java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error during event handling: java.lang.NullPointerException, Listener: { Ext: java, Type: JAVA, Lev: ZONE, { Zone: DouDiZhu }, {} }
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.ddz.zone.SFSLoginHandler.handleServerEvent(SFSLoginHandler.java:31)
+com.smartfoxserver.v2.extensions.SFSExtension.handleServerEvent(SFSExtension.java:259)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchEvent(SFSExtensionManager.java:768)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchZoneLevelEvent(SFSExtensionManager.java:689)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.handleServerEvent(SFSExtensionManager.java:887)
+com.smartfoxserver.v2.core.SFSEventManager$SFSEventRunner.run(SFSEventManager.java:66)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 10:10:34,896 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: No, IP: 172.18.23.160:21432 }
+02 一月 2018 | 10:11:03,711 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+02 一月 2018 | 10:11:04,154 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+02 一月 2018 | 10:11:04,175 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+02 一月 2018 | 10:11:04,236 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+02 一月 2018 | 10:11:04,237 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+02 一月 2018 | 10:11:04,247 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+02 一月 2018 | 10:11:04,254 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+02 一月 2018 | 10:11:04,257 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+02 一月 2018 | 10:11:04,287 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 10:11:07,012 | ERROR | main | v2.db.SFSDBManager |     | com.mysql.jdbc.exceptions.jdbc4.CommunicationsException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+Message: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Description: The DBManager Test SQL failed: select * from account
+Please double check your SQL code and make sure that Database server is running.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 10:11:07,043 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:11:07,044 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 10:11:07,046 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 10:11:07,047 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room3, Id: 3, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:11:07,065 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 10:11:07,069 | INFO  | main | Extensions |     | {java}: ==================斗地主服务器初始化========================== 
+02 一月 2018 | 10:11:07,073 | WARN  | main | Extensions |     | {java}: 初始化数据库失败jdbc:mysql://Home/doudizhu: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server. 
+02 一月 2018 | 10:11:07,078 | INFO  | main | Extensions |     | {java}: ======================================================= 
+02 一月 2018 | 10:11:07,085 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 4, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:11:07,124 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+02 一月 2018 | 10:11:07,286 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+02 一月 2018 | 10:11:07,287 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+02 一月 2018 | 10:11:07,287 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+02 一月 2018 | 10:11:08,843 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+02 一月 2018 | 10:23:08,443 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+02 一月 2018 | 10:23:08,957 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+02 一月 2018 | 10:23:08,978 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+02 一月 2018 | 10:23:09,040 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+02 一月 2018 | 10:23:09,042 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+02 一月 2018 | 10:23:09,051 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+02 一月 2018 | 10:23:09,057 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+02 一月 2018 | 10:23:09,060 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+02 一月 2018 | 10:23:09,093 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 10:23:09,316 | ERROR | main | v2.db.SFSDBManager |     | java.sql.SQLException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.sql.SQLException
+Message: Access denied for user 'root'@'localhost' (using password: YES)
+Description: The DBManager Test SQL failed: select * from account
+Please double check your SQL code and make sure that Database server is running.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 10:23:09,325 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:23:09,325 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 10:23:09,326 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 10:23:09,326 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room3, Id: 3, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:23:09,333 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 10:23:09,335 | INFO  | main | Extensions |     | {java}: ==================斗地主服务器初始化========================== 
+02 一月 2018 | 10:23:09,339 | WARN  | main | Extensions |     | {java}: 初始化数据库失败jdbc:mysql://127.0.0.1:3306/doudizhu: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES) 
+02 一月 2018 | 10:23:09,341 | INFO  | main | Extensions |     | {java}: ======================================================= 
+02 一月 2018 | 10:23:09,345 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 4, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:23:09,381 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+02 一月 2018 | 10:23:09,554 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+02 一月 2018 | 10:23:09,554 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+02 一月 2018 | 10:23:09,555 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+02 一月 2018 | 10:23:11,054 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+02 一月 2018 | 10:23:59,968 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+02 一月 2018 | 10:24:00,419 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+02 一月 2018 | 10:24:00,440 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+02 一月 2018 | 10:24:00,498 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+02 一月 2018 | 10:24:00,500 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+02 一月 2018 | 10:24:00,509 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+02 一月 2018 | 10:24:00,515 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+02 一月 2018 | 10:24:00,518 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+02 一月 2018 | 10:24:00,548 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 10:24:03,270 | ERROR | main | v2.db.SFSDBManager |     | com.mysql.jdbc.exceptions.jdbc4.CommunicationsException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+Message: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Description: The DBManager Test SQL failed: select * from account
+Please double check your SQL code and make sure that Database server is running.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 10:24:03,302 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:24:03,304 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 10:24:03,305 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 10:24:03,306 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room3, Id: 3, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:24:03,320 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 10:24:03,323 | INFO  | main | Extensions |     | {java}: ==================斗地主服务器初始化========================== 
+02 一月 2018 | 10:24:03,328 | WARN  | main | Extensions |     | {java}: 初始化数据库失败jdbc:mysql://Home/doudizhu: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server. 
+02 一月 2018 | 10:24:03,333 | INFO  | main | Extensions |     | {java}: ======================================================= 
+02 一月 2018 | 10:24:03,338 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 4, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:24:03,372 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+02 一月 2018 | 10:24:03,524 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+02 一月 2018 | 10:24:03,525 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+02 一月 2018 | 10:24:03,527 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+02 一月 2018 | 10:24:04,994 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+02 一月 2018 | 10:25:02,798 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+02 一月 2018 | 10:25:03,261 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+02 一月 2018 | 10:25:03,283 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+02 一月 2018 | 10:25:03,343 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+02 一月 2018 | 10:25:03,344 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+02 一月 2018 | 10:25:03,353 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+02 一月 2018 | 10:25:03,359 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+02 一月 2018 | 10:25:03,362 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+02 一月 2018 | 10:25:03,394 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 10:25:06,122 | ERROR | main | v2.db.SFSDBManager |     | com.mysql.jdbc.exceptions.jdbc4.CommunicationsException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+Message: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Description: The DBManager Test SQL failed: select * from account
+Please double check your SQL code and make sure that Database server is running.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 10:25:06,142 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:25:06,143 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 10:25:06,144 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 10:25:06,145 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room3, Id: 3, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:25:06,159 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 10:25:06,161 | INFO  | main | Extensions |     | {java}: ==================斗地主服务器初始化========================== 
+02 一月 2018 | 10:25:06,165 | WARN  | main | Extensions |     | {java}: 初始化数据库失败jdbc:mysql://Home/doudizhu: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server. 
+02 一月 2018 | 10:25:06,169 | INFO  | main | Extensions |     | {java}: ======================================================= 
+02 一月 2018 | 10:25:06,174 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 4, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:25:06,215 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+02 一月 2018 | 10:25:06,374 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: 
+02 一月 2018 | 10:25:06,375 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+02 一月 2018 | 10:25:06,376 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+02 一月 2018 | 10:25:07,844 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+02 一月 2018 | 10:25:07,850 | INFO  | Thread-0 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+02 一月 2018 | 10:25:07,866 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+02 一月 2018 | 10:25:07,868 | INFO  | Thread-1 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+02 一月 2018 | 10:25:33,361 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+02 一月 2018 | 10:25:33,812 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+02 一月 2018 | 10:25:33,833 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+02 一月 2018 | 10:25:33,892 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+02 一月 2018 | 10:25:33,893 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+02 一月 2018 | 10:25:33,903 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+02 一月 2018 | 10:25:33,909 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+02 一月 2018 | 10:25:33,912 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+02 一月 2018 | 10:25:33,942 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 10:25:36,674 | ERROR | main | v2.db.SFSDBManager |     | com.mysql.jdbc.exceptions.jdbc4.CommunicationsException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+Message: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Description: The DBManager Test SQL failed: select * from account
+Please double check your SQL code and make sure that Database server is running.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 10:25:36,689 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:25:36,690 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 10:25:36,690 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 10:25:36,691 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room3, Id: 3, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:25:36,701 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 10:25:36,703 | INFO  | main | Extensions |     | {java}: ==================斗地主服务器初始化========================== 
+02 一月 2018 | 10:25:36,705 | WARN  | main | Extensions |     | {java}: 初始化数据库失败jdbc:mysql://Home/doudizhu: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server. 
+02 一月 2018 | 10:25:36,707 | INFO  | main | Extensions |     | {java}: ======================================================= 
+02 一月 2018 | 10:25:36,711 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 4, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:25:36,746 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+02 一月 2018 | 10:25:36,924 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+02 一月 2018 | 10:25:36,925 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+02 一月 2018 | 10:25:36,925 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+02 一月 2018 | 10:25:38,490 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+02 一月 2018 | 10:30:25,171 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+02 一月 2018 | 10:30:25,612 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+02 一月 2018 | 10:30:25,634 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+02 一月 2018 | 10:30:25,692 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+02 一月 2018 | 10:30:25,693 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+02 一月 2018 | 10:30:25,703 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+02 一月 2018 | 10:30:25,710 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+02 一月 2018 | 10:30:25,713 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+02 一月 2018 | 10:30:25,743 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 10:30:28,167 | ERROR | main | v2.db.SFSDBManager |     | com.mysql.jdbc.exceptions.jdbc4.CommunicationsException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+Message: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Description: The DBManager Test SQL failed: select * from account
+Please double check your SQL code and make sure that Database server is running.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+02 一月 2018 | 10:30:28,186 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:30:28,186 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 10:30:28,187 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+02 一月 2018 | 10:30:28,188 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room3, Id: 3, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:30:28,201 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+02 一月 2018 | 10:30:28,203 | INFO  | main | Extensions |     | {java}: ==================斗地主服务器初始化========================== 
+02 一月 2018 | 10:30:28,206 | WARN  | main | Extensions |     | {java}: 初始化数据库失败jdbc:mysql://127.0..0.1:3306/doudizhu: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server. 
+02 一月 2018 | 10:30:28,209 | INFO  | main | Extensions |     | {java}: ======================================================= 
+02 一月 2018 | 10:30:28,213 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 4, Group: default, isGame: false ], type = SFSRoom
+02 一月 2018 | 10:30:28,252 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+02 一月 2018 | 10:30:28,443 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+02 一月 2018 | 10:30:28,444 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+02 一月 2018 | 10:30:28,446 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+02 一月 2018 | 10:30:29,815 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.

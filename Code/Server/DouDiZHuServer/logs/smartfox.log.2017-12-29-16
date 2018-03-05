@@ -1,0 +1,10 @@
+29 十二月 2017 | 16:04:14,023 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 172.18.23.160:62973 } on Server port: 9933 <---> 62973
+29 十二月 2017 | 16:04:22,766 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户frank登录成功! 
+29 十二月 2017 | 16:04:22,768 | INFO  | SFSWorker:Ext:3 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: frank, Id: 2, Priv: 0, Sess: 172.18.23.160:62973 ) , Type: Unity
+29 十二月 2017 | 16:04:22,769 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户进入区 
+29 十二月 2017 | 16:04:22,769 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: ( User Name: frank, Id: 2, Priv: 0, Sess: 172.18.23.160:62973 )  
+29 十二月 2017 | 16:06:24,992 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 3, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:62973 }
+29 十二月 2017 | 16:06:24,993 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 2, Priv: 0, Sess: 172.18.23.160:62973 ) , SessionLen: 122225, Type: Unity
+29 十二月 2017 | 16:55:45,003 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: DouDiZhu }, CCU: 0/1
+29 十二月 2017 | 16:55:45,004 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 1/1
+29 十二月 2017 | 16:55:45,005 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: CCU: 1/2

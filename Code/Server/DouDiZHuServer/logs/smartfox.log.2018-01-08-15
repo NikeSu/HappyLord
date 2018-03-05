@@ -1,0 +1,99 @@
+08 一月 2018 | 15:08:39,240 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 6, Type: DEFAULT, Logged: No, IP: 172.18.23.160:25985 } on Server port: 9933 <---> 25985
+08 一月 2018 | 15:08:40,184 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户admin登录成功! 
+08 一月 2018 | 15:08:40,185 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 4, Priv: 0, Sess: 172.18.23.160:25985 ) , Type: Unity
+08 一月 2018 | 15:08:40,186 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+08 一月 2018 | 15:08:40,444 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 获取用户信息 
+08 一月 2018 | 15:08:40,445 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: !---------{Max_mult=256, honor_title=难民, quan=199, usernick=杨海龙, sex=女, headpicture=picture1, userpwd=admin123, Vitory=null, gold=233, gamelv=15, game_count=7, viplv=1, vipEXP=null, ID=2, Defeat=null, personalwords=Hello,Admin!, gameEXP=null, username=admin}-----------! 
+08 一月 2018 | 15:08:40,446 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: admin 
+08 一月 2018 | 15:08:41,704 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: admin, Id: 4, Priv: 0, Sess: 172.18.23.160:25985 ) , asSpect: false
+08 一月 2018 | 15:08:41,705 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入房间 
+08 一月 2018 | 15:08:41,706 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 房间信息发送客户端成功 
+08 一月 2018 | 15:10:48,376 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 6, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:25985 }
+08 一月 2018 | 15:10:48,377 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 4, Priv: 0, Sess: 172.18.23.160:25985 ) , SessionLen: 128192, Type: Unity
+08 一月 2018 | 15:15:29,594 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 7, Type: DEFAULT, Logged: No, IP: 172.18.23.160:26055 } on Server port: 9933 <---> 26055
+08 一月 2018 | 15:17:38,410 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 7, Type: DEFAULT, Logged: No, IP: 172.18.23.160:26055 }
+08 一月 2018 | 15:18:59,637 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 8, Type: DEFAULT, Logged: No, IP: 172.18.23.160:26151 } on Server port: 9933 <---> 26151
+08 一月 2018 | 15:19:00,678 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户admin登录成功! 
+08 一月 2018 | 15:19:00,679 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 5, Priv: 0, Sess: 172.18.23.160:26151 ) , Type: Unity
+08 一月 2018 | 15:19:00,679 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+08 一月 2018 | 15:19:00,936 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 获取用户信息 
+08 一月 2018 | 15:19:00,937 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: !---------{Max_mult=256, honor_title=难民, quan=199, usernick=杨海龙, sex=女, headpicture=picture1, userpwd=admin123, Vitory=null, gold=233, gamelv=15, game_count=7, viplv=1, vipEXP=null, ID=2, Defeat=null, personalwords=Hello,Admin!, gameEXP=null, username=admin}-----------! 
+08 一月 2018 | 15:19:00,937 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: admin 
+08 一月 2018 | 15:19:36,443 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: admin, Id: 5, Priv: 0, Sess: 172.18.23.160:26151 ) , asSpect: false
+08 一月 2018 | 15:19:36,444 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户进入房间 
+08 一月 2018 | 15:19:36,444 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 房间信息发送客户端成功 
+08 一月 2018 | 15:19:38,444 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 8, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:26151 }
+08 一月 2018 | 15:19:38,445 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 5, Priv: 0, Sess: 172.18.23.160:26151 ) , SessionLen: 37766, Type: Unity
+08 一月 2018 | 15:22:15,420 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 9, Type: DEFAULT, Logged: No, IP: 172.18.23.160:26201 } on Server port: 9933 <---> 26201
+08 一月 2018 | 15:22:16,397 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户admin登录成功! 
+08 一月 2018 | 15:22:16,398 | INFO  | SFSWorker:Ext:1 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 6, Priv: 0, Sess: 172.18.23.160:26201 ) , Type: Unity
+08 一月 2018 | 15:22:16,398 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户进入区 
+08 一月 2018 | 15:22:16,713 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 获取用户信息 
+08 一月 2018 | 15:22:16,713 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: !---------{Max_mult=256, honor_title=难民, quan=199, usernick=杨海龙, sex=女, headpicture=picture1, userpwd=admin123, Vitory=null, gold=233, gamelv=15, game_count=7, viplv=1, vipEXP=null, ID=2, Defeat=null, personalwords=Hello,Admin!, gameEXP=null, username=admin}-----------! 
+08 一月 2018 | 15:22:16,714 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: admin 
+08 一月 2018 | 15:22:18,187 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: admin, Id: 6, Priv: 0, Sess: 172.18.23.160:26201 ) , asSpect: false
+08 一月 2018 | 15:22:18,188 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入房间 
+08 一月 2018 | 15:22:18,188 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 房间信息发送客户端成功 
+08 一月 2018 | 15:24:28,450 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 9, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:26201 }
+08 一月 2018 | 15:24:28,452 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 6, Priv: 0, Sess: 172.18.23.160:26201 ) , SessionLen: 132054, Type: Unity
+08 一月 2018 | 15:36:24,072 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 10, Type: DEFAULT, Logged: No, IP: 172.18.23.160:26537 } on Server port: 9933 <---> 26537
+08 一月 2018 | 15:36:26,163 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户admin登录成功! 
+08 一月 2018 | 15:36:26,164 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 7, Priv: 0, Sess: 172.18.23.160:26537 ) , Type: Unity
+08 一月 2018 | 15:36:26,164 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+08 一月 2018 | 15:36:27,427 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 获取用户信息 
+08 一月 2018 | 15:36:27,512 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: !---------{Max_mult=256, honor_title=难民, quan=199, usernick=杨海龙, sex=女, headpicture=picture1, userpwd=admin123, Vitory=null, gold=233, gamelv=15, game_count=7, viplv=1, vipEXP=null, ID=2, Defeat=null, personalwords=Hello,Admin!, gameEXP=null, username=admin}-----------! 
+08 一月 2018 | 15:36:27,512 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: admin 
+08 一月 2018 | 15:36:30,082 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: admin, Id: 7, Priv: 0, Sess: 172.18.23.160:26537 ) , asSpect: false
+08 一月 2018 | 15:36:30,102 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入房间 
+08 一月 2018 | 15:36:30,102 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 房间信息发送客户端成功 
+08 一月 2018 | 15:38:29,294 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 10, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:26537 }
+08 一月 2018 | 15:38:29,298 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 7, Priv: 0, Sess: 172.18.23.160:26537 ) , SessionLen: 123133, Type: Unity
+08 一月 2018 | 15:44:00,007 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 11, Type: DEFAULT, Logged: No, IP: 172.18.23.160:26649 } on Server port: 9933 <---> 26649
+08 一月 2018 | 15:44:01,568 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户admin登录成功! 
+08 一月 2018 | 15:44:01,569 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 8, Priv: 0, Sess: 172.18.23.160:26649 ) , Type: Unity
+08 一月 2018 | 15:44:01,569 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+08 一月 2018 | 15:44:03,593 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 获取用户信息 
+08 一月 2018 | 15:44:03,595 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: !---------{Max_mult=256, honor_title=难民, quan=199, usernick=杨海龙, sex=女, headpicture=picture1, userpwd=admin123, Vitory=null, gold=233, gamelv=15, game_count=7, viplv=1, vipEXP=null, ID=2, Defeat=null, personalwords=Hello,Admin!, gameEXP=null, username=admin}-----------! 
+08 一月 2018 | 15:44:03,596 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: admin 
+08 一月 2018 | 15:44:04,511 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: admin, Id: 8, Priv: 0, Sess: 172.18.23.160:26649 ) , asSpect: false
+08 一月 2018 | 15:44:04,525 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入房间 
+08 一月 2018 | 15:44:04,525 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 房间信息发送客户端成功 
+08 一月 2018 | 15:44:10,544 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 11, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:26649 }
+08 一月 2018 | 15:44:10,544 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 8, Priv: 0, Sess: 172.18.23.160:26649 ) , SessionLen: 8975, Type: Unity
+08 一月 2018 | 15:44:48,479 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 12, Type: DEFAULT, Logged: No, IP: 172.18.23.160:26658 } on Server port: 9933 <---> 26658
+08 一月 2018 | 15:44:49,680 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户admin登录成功! 
+08 一月 2018 | 15:44:49,681 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 9, Priv: 0, Sess: 172.18.23.160:26658 ) , Type: Unity
+08 一月 2018 | 15:44:49,682 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+08 一月 2018 | 15:44:50,019 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 获取用户信息 
+08 一月 2018 | 15:44:50,020 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: !---------{Max_mult=256, honor_title=难民, quan=199, usernick=杨海龙, sex=女, headpicture=picture1, userpwd=admin123, Vitory=null, gold=233, gamelv=15, game_count=7, viplv=1, vipEXP=null, ID=2, Defeat=null, personalwords=Hello,Admin!, gameEXP=null, username=admin}-----------! 
+08 一月 2018 | 15:44:50,020 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: admin 
+08 一月 2018 | 15:44:51,139 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: admin, Id: 9, Priv: 0, Sess: 172.18.23.160:26658 ) , asSpect: false
+08 一月 2018 | 15:44:51,139 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户进入房间 
+08 一月 2018 | 15:44:51,140 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 房间信息发送客户端成功 
+08 一月 2018 | 15:45:23,760 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 12, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:26658 }
+08 一月 2018 | 15:45:23,761 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 9, Priv: 0, Sess: 172.18.23.160:26658 ) , SessionLen: 34079, Type: Unity
+08 一月 2018 | 15:55:08,578 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: DouDiZhu }, CCU: 0/1
+08 一月 2018 | 15:55:08,578 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+08 一月 2018 | 15:55:08,578 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1
+08 一月 2018 | 15:57:54,142 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 13, Type: DEFAULT, Logged: No, IP: 172.18.23.160:26793 } on Server port: 9933 <---> 26793
+08 一月 2018 | 15:57:57,640 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户admin登录成功! 
+08 一月 2018 | 15:57:57,641 | INFO  | SFSWorker:Ext:2 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 10, Priv: 0, Sess: 172.18.23.160:26793 ) , Type: Unity
+08 一月 2018 | 15:57:57,641 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户进入区 
+08 一月 2018 | 15:57:58,937 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 获取用户信息 
+08 一月 2018 | 15:57:58,947 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: !---------{Max_mult=256, honor_title=难民, quan=199, usernick=杨海龙, sex=女, headpicture=picture1, userpwd=admin123, Vitory=null, gold=233, gamelv=15, game_count=7, viplv=1, vipEXP=null, ID=2, Defeat=null, personalwords=Hello,Admin!, gameEXP=null, username=admin}-----------! 
+08 一月 2018 | 15:57:58,947 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: admin 
+08 一月 2018 | 15:58:00,557 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: admin, Id: 10, Priv: 0, Sess: 172.18.23.160:26793 ) , asSpect: false
+08 一月 2018 | 15:58:00,584 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户进入房间 
+08 一月 2018 | 15:58:00,584 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 房间信息发送客户端成功 
+08 一月 2018 | 15:59:18,518 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 13, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:26793 }
+08 一月 2018 | 15:59:18,518 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 10, Priv: 0, Sess: 172.18.23.160:26793 ) , SessionLen: 80877, Type: Unity
+08 一月 2018 | 15:59:32,620 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 14, Type: DEFAULT, Logged: No, IP: 172.18.23.160:26817 } on Server port: 9933 <---> 26817
+08 一月 2018 | 15:59:34,467 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户admin登录成功! 
+08 一月 2018 | 15:59:34,492 | INFO  | SFSWorker:Ext:2 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 11, Priv: 0, Sess: 172.18.23.160:26817 ) , Type: Unity
+08 一月 2018 | 15:59:34,507 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户进入区 
+08 一月 2018 | 15:59:35,232 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 获取用户信息 
+08 一月 2018 | 15:59:35,233 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: !---------{Max_mult=256, honor_title=难民, quan=199, usernick=杨海龙, sex=女, headpicture=picture1, userpwd=admin123, Vitory=null, gold=233, gamelv=15, game_count=7, viplv=1, vipEXP=null, ID=2, Defeat=null, personalwords=Hello,Admin!, gameEXP=null, username=admin}-----------! 
+08 一月 2018 | 15:59:35,234 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: admin 
+08 一月 2018 | 15:59:36,963 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: admin, Id: 11, Priv: 0, Sess: 172.18.23.160:26817 ) , asSpect: false
+08 一月 2018 | 15:59:36,981 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户进入房间 
+08 一月 2018 | 15:59:36,981 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 房间信息发送客户端成功 

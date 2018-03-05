@@ -1,0 +1,127 @@
+27 十二月 2017 | 16:00:26,606 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+27 十二月 2017 | 16:00:27,130 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+27 十二月 2017 | 16:00:27,154 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+27 十二月 2017 | 16:00:27,220 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+27 十二月 2017 | 16:00:27,222 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+27 十二月 2017 | 16:00:27,232 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+27 十二月 2017 | 16:00:27,240 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+27 十二月 2017 | 16:00:27,243 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+27 十二月 2017 | 16:00:27,275 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+27 十二月 2017 | 16:00:27,547 | ERROR | main | v2.db.SFSDBManager |     | java.sql.SQLException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.sql.SQLException
+Message: Access denied for user 'root'@'localhost' (using password: YES)
+Description: The DBManager Test SQL failed: select * from account
+Please double check your SQL code and make sure that Database server is running.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+27 十二月 2017 | 16:00:27,556 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+27 十二月 2017 | 16:00:27,557 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+27 十二月 2017 | 16:00:27,557 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+27 十二月 2017 | 16:00:27,581 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+27 十二月 2017 | 16:00:27,620 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+27 十二月 2017 | 16:00:27,816 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+27 十二月 2017 | 16:00:27,821 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+27 十二月 2017 | 16:00:27,821 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+27 十二月 2017 | 16:00:27,822 | WARN  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | com.smartfoxserver.v2.exceptions.SFSException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSException
+Message: Extension creation failure: java - Class not found: com.fps.FPSExtension
+Description: There were startup errors during the Zone Setup
+Please connect via the AdminTool and correct the problem
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.entities.managers.SFSZoneManager.createZone(SFSZoneManager.java:433)
+com.smartfoxserver.v2.entities.managers.SFSZoneManager.initializeZones(SFSZoneManager.java:239)
+com.smartfoxserver.v2.SmartFoxServer.start(SmartFoxServer.java:297)
+com.smartfoxserver.v2.Main.main(Main.java:14)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+27 十二月 2017 | 16:00:29,584 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+27 十二月 2017 | 16:00:56,244 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:6100 } on Server port: 9933 <---> 6100
+27 十二月 2017 | 16:00:56,315 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:6100 ) , Type: Flash ActiveX:WIN 24,0,0,221
+27 十二月 2017 | 16:00:56,321 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:6100 ) , asSpect: false
+27 十二月 2017 | 16:01:36,911 | INFO  | SFSWorker:Ext:4 | Extensions |     | {Admin}: Halting SmartFoxServer... 
+27 十二月 2017 | 16:01:36,913 | WARN  | SFSWorker:Ext:4 | smartfoxserver.v2.SmartFoxServer |     | *** SERVER HALTING ***
+27 十二月 2017 | 16:01:36,915 | WARN  | Thread-17 | smartfoxserver.v2.SmartFoxServer |     | Server Halt in 3 seconds...
+27 十二月 2017 | 16:01:37,916 | WARN  | Thread-17 | smartfoxserver.v2.SmartFoxServer |     | Server Halt in 2 seconds...
+27 十二月 2017 | 16:01:38,916 | WARN  | Thread-17 | smartfoxserver.v2.SmartFoxServer |     | Server Halt in 1 seconds...
+27 十二月 2017 | 16:01:39,917 | INFO  | Thread-0 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+27 十二月 2017 | 16:01:39,935 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+27 十二月 2017 | 16:01:39,939 | INFO  | Thread-1 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+27 十二月 2017 | 16:01:46,867 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+27 十二月 2017 | 16:01:47,374 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+27 十二月 2017 | 16:01:47,398 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+27 十二月 2017 | 16:01:47,460 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+27 十二月 2017 | 16:01:47,462 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+27 十二月 2017 | 16:01:47,472 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+27 十二月 2017 | 16:01:47,480 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+27 十二月 2017 | 16:01:47,484 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+27 十二月 2017 | 16:01:47,513 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+27 十二月 2017 | 16:01:47,759 | ERROR | main | v2.db.SFSDBManager |     | java.sql.SQLException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.sql.SQLException
+Message: Access denied for user 'root'@'localhost' (using password: YES)
+Description: The DBManager Test SQL failed: select * from account
+Please double check your SQL code and make sure that Database server is running.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+27 十二月 2017 | 16:01:47,769 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+27 十二月 2017 | 16:01:47,769 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+27 十二月 2017 | 16:01:47,769 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+27 十二月 2017 | 16:01:47,780 | INFO  | main | Extensions |     | {java}: ==================绝地求生服务器初始化========================== 
+27 十二月 2017 | 16:01:47,881 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://localhost:3306/db_eworld 
+27 十二月 2017 | 16:01:47,884 | INFO  | main | Extensions |     | {java}: ======================================================= 
+27 十二月 2017 | 16:01:47,888 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+27 十二月 2017 | 16:01:47,937 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+27 十二月 2017 | 16:01:48,112 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+27 十二月 2017 | 16:01:48,113 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+27 十二月 2017 | 16:01:48,113 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+27 十二月 2017 | 16:01:49,782 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.

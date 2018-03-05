@@ -1,0 +1,64 @@
+﻿using Sfs2X.Core;
+using Sfs2X.Entities.Data;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System;
+using UnityEngine.SceneManagement;
+using Sfs2X.Requests;
+
+public class BtnClick : BtnCtrl {
+    
+    protected override void OnClickHandler(GameObject button)
+    {
+        base.OnClickHandler(button);
+
+        Global.AddEventListener(ExtCmd.TEST,ExtensionHandler);
+        Global.AddEventListener(SFSEvent.ROOM_JOIN, JoinRoom);
+        Global.AddEventListener(SFSEvent.ROOM_JOIN_ERROR, JoinRoomFailed);
+
+        switch (button.name) {
+            case "Huanlei":
+                SFSObject obj = new SFSObject();
+                obj.PutUtfString("nick","超级VIP用户，您选择了欢乐场进行游戏");
+                Global.SendExtMessage("nick",obj);
+                print("欢迎来到欢乐场");
+                SceneManager.LoadScene("欢乐场");
+                break;
+            case"Bisai":
+                
+                print("欢迎来到比赛场");
+                break;
+            case "Laizi":
+                
+                print("欢迎来到癞子场");
+                break;
+            case "touxiang":
+                
+                break;
+            case "btn_back":
+                SceneManager.LoadScene("ModeSelect");
+                break;
+            case "Huanle_cj":
+                Global.SendSFSMessage(new JoinRoomRequest("lobby"));
+                SceneManager.LoadScene("game");
+                break;
+        }
+    }
+
+    private void JoinRoomFailed(NEvent evt)
+    {
+        print("进入房间失败");
+    }
+
+    private void JoinRoom(NEvent evt)
+    {
+        print("进入房间成功");
+    }
+
+    private void ExtensionHandler(NEvent evt)
+    {
+        
+        print(evt.Data.GetUtfString("nick"));
+    }
+}

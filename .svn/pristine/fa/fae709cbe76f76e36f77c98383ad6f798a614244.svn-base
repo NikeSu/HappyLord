@@ -1,0 +1,232 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class GameController : MonoBehaviour
+{
+    public Card M_card;
+    private bool Xuanze;
+
+    /// <summary>
+    /// 把扑克分成4类，P1，P2,P3,底牌
+    /// </summary>
+    public List<string> cardlist = new List<string>();
+    public List<string> player1Cards;
+    public List<string> player2Cards;
+    public List<string> player3Cards;
+
+
+    public List<string> dipai;
+    List<Card> cards;
+
+
+
+
+    // Use this for initialization
+    void Start()
+    {
+
+        InitCardList();
+        FaPai();
+        CreateCards();
+        GameObject button = GameObject.Find("Btn_Send");
+        UIEventListener.Get(button).onClick = ButtonClick;
+
+    }
+   // 点
+    private  void ButtonClick(GameObject go)
+    {
+        int j = 0;
+        int z = 0;
+
+        foreach (var key in XuanZeList.Keys)
+        {
+
+            Card D = XuanZeList[key];
+
+            Destroy(GameObject.Find("Card_"+D.Value));
+            cards.Remove(D);
+            j++;
+        }
+        for (int i = 0; i < cards.Count; i++)
+        {
+            Card NO = cards[i];
+            if(j>5)
+            {
+                j = 5;
+            }
+            if(cards.Count<=14&&i==0)
+            {
+                z = 14 - cards.Count;
+            }
+            NO.GetComponent<UIPanel>().depth = i + cards.Count;
+            NO.transform.localPosition = new Vector3((55+j*4) * (i+z/2), NO.transform.parent.position.y, NO.transform.parent.position.z);
+            NO.gameObject.SetActive(true);
+        }
+
+    }
+  
+    /// <summary>
+    /// 利用集和来解决牌的归属问题
+    /// </summary>
+    public void FaPai()
+    {
+
+        dipai = new List<string>();
+        string d1 = cardlist[cardlist.Count - 3];
+        string d2 = cardlist[cardlist.Count - 2];
+        string d3 = cardlist[cardlist.Count - 1];
+        dipai.Add(d1);
+        dipai.Add(d2);
+        dipai.Add(d3);
+        cardlist.RemoveRange(cardlist.Count - 3, 3);
+
+        player1Cards = new List<string>();
+        player2Cards = new List<string>();
+        player3Cards = new List<string>();
+        for (int i = 0; i < cardlist.Count; i += 3)
+        {
+            player1Cards.Add(cardlist[i]);
+            player2Cards.Add(cardlist[i + 1]);
+            player3Cards.Add(cardlist[i + 2]);
+        }
+
+    }
+
+    /// <summary>
+    ///创建一副牌
+    /// </summary>
+    private void InitCardList()
+    {
+        cardlist = new List<string>();
+        for (int i = 0; i < 4; i++)
+        {
+            for (int j = 1; j <= 13; j++)
+            {
+                if (j == 10)
+                {
+                    cardlist.Add(i + "A");
+                }
+                else if (j == 11)
+                {
+                    cardlist.Add(i + "B");
+                }
+                else if (j == 12)
+                {
+                    cardlist.Add(i + "C");
+                }
+                else if (j == 13)
+                {
+                    cardlist.Add(i + "D");
+                }
+                else
+                {
+                    cardlist.Add(i + "" + j);
+                }
+
+            }
+
+        }
+        cardlist.Add("41");
+        cardlist.Add("51");
+
+        ///利用位置转换来起到打乱牌的效果
+        for (int i = 0; i < cardlist.Count; i++)
+        {
+            string v = cardlist[i];
+            int id = UnityEngine.Random.Range(0, cardlist.Count);
+            cardlist[i] = cardlist[id];
+            cardlist[id] = v;
+        }
+
+    }
+
+    /// <summary>
+    /// 创建玩家1的手牌
+    /// </summary>
+    public void CreateCards()
+    {
+        
+        //未实例化之前的排序
+         cards = new List<Card>();
+        for (int i = player1Cards.Count - 1; i >= 0; i--)
+        {
+            Card go = Instantiate(M_card);
+            go.Value = player1Cards[i];
+            go.transform.SetParent(GameObject.Find("CardParent").transform);
+            go.transform.localScale = Vector3.one;
+            go.name = "Card_" + player1Cards[i];
+            go.gameObject.SetActive(false);
+
+            go.OnClickHandler = OnCardSelectHandler;
+            cards.Add(go);
+        }
+        cards.Sort();
+        //实例化排序
+        for (int i = 0; i < cards.Count; i++)
+        {
+            Card go = cards[i];
+            go.GetComponent<UIPanel>().depth = i + cards.Count;
+            go.transform.localPosition = new Vector3(55 * i, go.transform.parent.position.y, go.transform.parent.position.z);
+            go.gameObject.SetActive(true);
+        }
+    }
+    private void OnCardSelectHandler(bool obj)
+    {
+        print(obj);
+    }
+
+    public Dictionary<string, Card> XuanZeList = new Dictionary<string, Card>();
+    public Card lastHitCard = null;
+    public float keeptime = 0f;
+    private bool isDragging = false;
+    void Update()
+    {
+        RaycastHit lastHit = default(RaycastHit);
+        if (Input.GetMouseButton(0))
+        {
+            if (Physics.Raycast(UICamera.mainCamera.ScreenPointToRay(Input.mousePosition), out lastHit))
+            {
+                if (lastHit.collider.transform != null && UICamera.lastHit.collider.name != "UI Root")
+                {
+
+                    Card c = UICamera.lastHit.collider.transform.parent.GetComponent<Card>();
+
+                    if (c != null)
+                    {
+
+                        if (lastHitCard != c)
+                        {
+                            lastHitCard = c;
+                            if (!c.Select)
+                            {
+                                c.Select = true;
+                                if (!XuanZeList.ContainsKey(c.name))
+                                {
+                                    XuanZeList.Add(c.name, c);
+                                }
+                            }
+                            else
+                            {
+                                c.Select = false;
+                                if (XuanZeList.ContainsKey(c.name))
+                                {
+                                    XuanZeList.Remove(c.name);
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+            
+
+        }
+        if (Input.GetMouseButtonUp(0)) lastHitCard = null;
+
+       
+    }
+
+}
+

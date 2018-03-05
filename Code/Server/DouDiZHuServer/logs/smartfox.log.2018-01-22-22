@@ -1,0 +1,7 @@
+22 一月 2018 | 22:00:01,716 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: GameExtends 
+22 一月 2018 | 22:00:01,718 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: !---GameExt:[41, 51]---! 
+22 一月 2018 | 22:00:01,719 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: !-SendCardsOnDesk-! 
+22 一月 2018 | 22:00:38,838 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:15284 }
+22 一月 2018 | 22:00:38,841 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 1, Priv: 0, Sess: 172.18.23.160:15284 ) , SessionLen: 115044, Type: Unity
+22 一月 2018 | 22:00:40,375 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:15287 }
+22 一月 2018 | 22:00:40,377 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: frank, Id: 0, Priv: 0, Sess: 172.18.23.160:15287 ) , SessionLen: 124507, Type: Unity

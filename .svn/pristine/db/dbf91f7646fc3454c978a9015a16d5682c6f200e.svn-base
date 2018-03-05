@@ -1,0 +1,33 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Http_test : MonoBehaviour {
+    public UIInput u_name;
+    public UIInput u_pwd;
+   
+    public string url = "http://172.18.23.154/juedi/reg.php";
+    // Use this for initialization
+    void Start()
+    {
+
+        //获取一个http请求的对象
+        HttpPostRequest hp = Global.NetMgr.GetHttpRequest();
+        //设置地址
+        hp.SetURL(url);
+        hp.PutString("username", "frank");
+        hp.PutString("password", "123");
+
+        hp.OnComplete += Hp_OnComplete;
+        //发出请求
+        hp.StartRequest();
+
+
+    }
+
+    private void Hp_OnComplete(string result)
+    {
+        print("得到结果:" + result);
+    }
+
+}

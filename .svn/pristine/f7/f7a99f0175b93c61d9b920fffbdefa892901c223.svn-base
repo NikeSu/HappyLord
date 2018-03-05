@@ -1,0 +1,42 @@
+[{
+	"Level": 0,
+	"Experience": 0,
+	"TreeOpen": 0,
+	"sign": 0
+},
+{
+	"Level": 1,
+	"Experience": 1,
+	"TreeOpen": 1,
+	"sign": 2
+},
+{
+	"Level": 2,
+	"Experience": 30,
+	"TreeOpen": 1,
+	"sign": 4
+},
+{
+	"Level": 3,
+	"Experience": 100,
+	"TreeOpen": 1,
+	"sign": 6
+},
+{
+	"Level": 4,
+	"Experience": 200,
+	"TreeOpen": 1,
+	"sign": 8
+},
+{
+	"Level": 5,
+	"Experience": 400,
+	"TreeOpen": 1,
+	"sign": 10
+},
+{
+	"Level": 6,
+	"Experience": 800,
+	"TreeOpen": 1,
+	"sign": 12
+}]

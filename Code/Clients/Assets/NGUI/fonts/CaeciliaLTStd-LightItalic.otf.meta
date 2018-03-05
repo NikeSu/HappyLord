@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: a414f4f22699a6045ae636d3ca76f6f7
+timeCreated: 1515664984
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Caecilia LT Std
+  fontNames:
+  - Caecilia LT Std
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 7d742bf0a63a32c4382cb27bb579b101, type: 3}
+  - {fileID: 12800000, guid: 314c63c5b6a5ed3499755793e87bcb35, type: 3}
+  - {fileID: 12800000, guid: 87a0b67a07f7ad749a5ad698a800dc71, type: 3}
+  - {fileID: 12800000, guid: 4622375b7f6a9a542b0deaf15740fabc, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

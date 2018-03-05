@@ -1,0 +1,69 @@
+﻿using Sfs2X.Core;
+using Sfs2X.Entities.Data;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System;
+using UnityEngine.SceneManagement;
+using Sfs2X.Requests;
+
+public class BtnClick : BtnCtrl {
+    private SFSObject obj;
+    protected override void OnClickHandler(GameObject button)
+    {
+        base.OnClickHandler(button);
+
+        Global.AddEventListener(ExtCmd.TEST,ExtensionHandler);
+        Global.AddEventListener(SFSEvent.ROOM_JOIN, JoinRoom);
+        Global.AddEventListener(SFSEvent.ROOM_JOIN_ERROR, JoinRoomFailed);
+
+        switch (button.name) {
+            case "Huanlei":
+                obj = new SFSObject();
+                obj.PutUtfString("nick","超级VIP用户，您选择了欢乐场进行游戏");
+                Global.NetMgr.SendExtMessage("test",obj);
+                print("欢迎来到欢乐场");
+                SceneManager.LoadScene("欢乐场");
+                break;
+            case"Bisai":
+                obj = new SFSObject();
+                obj.PutUtfString("nick", "超级VIP用户，您选择了比赛场进行游戏");
+                Global.NetMgr.SendExtMessage("test", obj);
+                print("欢迎来到比赛场");
+                break;
+            case "Laizi":
+                obj = new SFSObject();
+                obj.PutUtfString("nick", "超级VIP用户，您选择了癞子场进行游戏");
+                Global.NetMgr.SendExtMessage("test", obj);
+                print("欢迎来到癞子场");
+                break;
+            case "touxiang":
+                //GameObject parent = GameObject.Find("Container_Panel");
+                //GameObject son = parent.transform.Find("XinXi").gameObject;
+                //son.SetActive(true);
+                break;
+            case "btn_back":
+                SceneManager.LoadScene("GameSelect");
+                break;
+            case "Huanle_cj":
+                Global.SendSFSMessage(new JoinRoomRequest("lobby"));
+                SceneManager.LoadScene("game");
+                break;
+        }
+    }
+
+    private void JoinRoomFailed(NEvent evt)
+    {
+        print("进入房间失败");
+    }
+
+    private void JoinRoom(NEvent evt)
+    {
+        print("进入房间成功");
+    }
+
+    private void ExtensionHandler(NEvent evt)
+    {
+        print(evt.Data.GetUtfString("nick"));
+    }
+}

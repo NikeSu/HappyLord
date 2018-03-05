@@ -1,0 +1,9 @@
+29 十二月 2017 | 14:04:56,459 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:1435 }
+29 十二月 2017 | 14:04:56,470 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 0, Priv: 0, Sess: 127.0.0.1:1435 ) , SessionLen: 19045559, Type: Flash ActiveX:WIN 24,0,0,221
+29 十二月 2017 | 14:10:42,990 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 24, Type: DEFAULT, Logged: No, IP: 172.18.23.184:22232 } on Server port: 9933 <---> 22232
+29 十二月 2017 | 14:10:48,947 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 24, Type: DEFAULT, Logged: No, IP: 172.18.23.184:22232 }
+29 十二月 2017 | 14:17:16,854 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 25, Type: DEFAULT, Logged: No, IP: 172.18.23.184:22634 } on Server port: 9933 <---> 22634
+29 十二月 2017 | 14:17:24,825 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 25, Type: DEFAULT, Logged: No, IP: 172.18.23.184:22634 }
+29 十二月 2017 | 14:55:39,853 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: DouDiZhu }, CCU: 0/0
+29 十二月 2017 | 14:55:39,854 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/1
+29 十二月 2017 | 14:55:39,854 | INFO  | pool-1-thread-3 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1

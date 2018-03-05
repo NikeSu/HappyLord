@@ -1,0 +1,540 @@
+17 十二月 2017 | 22:03:15,950 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+17 十二月 2017 | 22:03:16,305 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+17 十二月 2017 | 22:03:16,322 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\Felix\AppData\Local\Temp\vfs_cache" as temporary files store.
+17 十二月 2017 | 22:03:16,370 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+17 十二月 2017 | 22:03:16,371 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+17 十二月 2017 | 22:03:16,379 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+17 十二月 2017 | 22:03:16,387 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+17 十二月 2017 | 22:03:16,396 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\FPSGame.zone.xml
+17 十二月 2017 | 22:03:16,417 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: FPSGame 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+17 十二月 2017 | 22:03:16,644 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+17 十二月 2017 | 22:03:16,644 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+17 十二月 2017 | 22:03:16,644 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+17 十二月 2017 | 22:03:16,654 | INFO  | main | Extensions |     | {java}: FPS服务器启动成功 
+17 十二月 2017 | 22:03:16,658 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+17 十二月 2017 | 22:03:16,699 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+17 十二月 2017 | 22:03:16,806 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+17 十二月 2017 | 22:03:16,810 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+17 十二月 2017 | 22:03:16,810 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+17 十二月 2017 | 22:03:18,292 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+17 十二月 2017 | 22:03:49,853 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:62476 } on Server port: 9933 <---> 62476
+17 十二月 2017 | 22:03:50,018 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User login: { Zone: FPSGame }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 127.0.0.1:62476 ) , Type: Unity
+17 十二月 2017 | 22:03:50,045 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: FPSGame }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 127.0.0.1:62476 ) , asSpect: false
+17 十二月 2017 | 22:03:50,047 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户Guest#0 房间lobby 
+17 十二月 2017 | 22:04:14,577 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:62476 }
+17 十二月 2017 | 22:04:14,578 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: FPSGame }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 127.0.0.1:62476 ) , SessionLen: 24560, Type: Unity
+17 十二月 2017 | 22:04:14,578 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户Guest#0掉线了! 
+17 十二月 2017 | 22:05:55,051 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:62939 } on Server port: 9933 <---> 62939
+17 十二月 2017 | 22:05:55,219 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: FPSGame }, ( User Name: Guest#1, Id: 1, Priv: 0, Sess: 127.0.0.1:62939 ) , Type: Unity
+17 十二月 2017 | 22:05:55,234 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: FPSGame }, ( User Name: Guest#1, Id: 1, Priv: 0, Sess: 127.0.0.1:62939 ) , asSpect: false
+17 十二月 2017 | 22:05:55,234 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户Guest#1 房间lobby 
+17 十二月 2017 | 22:06:01,097 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:62939 }
+17 十二月 2017 | 22:06:01,098 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户Guest#1掉线了! 
+17 十二月 2017 | 22:06:01,098 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: FPSGame }, ( User Name: Guest#1, Id: 1, Priv: 0, Sess: 127.0.0.1:62939 ) , SessionLen: 5879, Type: Unity
+17 十二月 2017 | 22:06:21,674 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 127.0.0.1:63033 } on Server port: 9933 <---> 63033
+17 十二月 2017 | 22:06:21,843 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: FPSGame }, ( User Name: Guest#2, Id: 2, Priv: 0, Sess: 127.0.0.1:63033 ) , Type: Unity
+17 十二月 2017 | 22:06:26,733 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 3, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:63033 }
+17 十二月 2017 | 22:06:26,733 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: FPSGame }, ( User Name: Guest#2, Id: 2, Priv: 0, Sess: 127.0.0.1:63033 ) , SessionLen: 4890, Type: Unity
+17 十二月 2017 | 22:06:26,733 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户Guest#2掉线了! 
+17 十二月 2017 | 22:07:37,606 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 4, Type: DEFAULT, Logged: No, IP: 127.0.0.1:63333 } on Server port: 9933 <---> 63333
+17 十二月 2017 | 22:07:37,768 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: FPSGame }, ( User Name: Guest#3, Id: 3, Priv: 0, Sess: 127.0.0.1:63333 ) , Type: Unity
+17 十二月 2017 | 22:07:37,783 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: FPSGame }, ( User Name: Guest#3, Id: 3, Priv: 0, Sess: 127.0.0.1:63333 ) , asSpect: false
+17 十二月 2017 | 22:07:37,787 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户Guest#3 房间lobby 
+17 十二月 2017 | 22:08:21,376 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 4, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:63333 }
+17 十二月 2017 | 22:08:21,377 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户Guest#3掉线了! 
+17 十二月 2017 | 22:08:21,377 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: FPSGame }, ( User Name: Guest#3, Id: 3, Priv: 0, Sess: 127.0.0.1:63333 ) , SessionLen: 43609, Type: Unity
+17 十二月 2017 | 22:08:23,141 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 5, Type: DEFAULT, Logged: No, IP: 127.0.0.1:63497 } on Server port: 9933 <---> 63497
+17 十二月 2017 | 22:08:23,305 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: FPSGame }, ( User Name: Guest#4, Id: 4, Priv: 0, Sess: 127.0.0.1:63497 ) , Type: Unity
+17 十二月 2017 | 22:08:23,326 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: FPSGame }, ( User Name: Guest#4, Id: 4, Priv: 0, Sess: 127.0.0.1:63497 ) , asSpect: false
+17 十二月 2017 | 22:08:23,327 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户Guest#4 房间lobby 
+17 十二月 2017 | 22:08:25,696 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 5, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:63497 }
+17 十二月 2017 | 22:08:25,696 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户Guest#4掉线了! 
+17 十二月 2017 | 22:08:25,696 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: FPSGame }, ( User Name: Guest#4, Id: 4, Priv: 0, Sess: 127.0.0.1:63497 ) , SessionLen: 2391, Type: Unity
+17 十二月 2017 | 22:08:40,608 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 6, Type: DEFAULT, Logged: No, IP: 127.0.0.1:63563 } on Server port: 9933 <---> 63563
+17 十二月 2017 | 22:08:40,769 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: FPSGame }, ( User Name: Guest#5, Id: 5, Priv: 0, Sess: 127.0.0.1:63563 ) , Type: Unity
+17 十二月 2017 | 22:08:40,789 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: FPSGame }, ( User Name: Guest#5, Id: 5, Priv: 0, Sess: 127.0.0.1:63563 ) , asSpect: false
+17 十二月 2017 | 22:08:40,789 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户Guest#5 房间lobby 
+17 十二月 2017 | 22:08:49,493 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 6, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:63563 }
+17 十二月 2017 | 22:08:49,493 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: FPSGame }, ( User Name: Guest#5, Id: 5, Priv: 0, Sess: 127.0.0.1:63563 ) , SessionLen: 8724, Type: Unity
+17 十二月 2017 | 22:08:49,493 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户Guest#5掉线了! 
+17 十二月 2017 | 22:10:45,367 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 7, Type: DEFAULT, Logged: No, IP: 127.0.0.1:64016 } on Server port: 9933 <---> 64016
+17 十二月 2017 | 22:10:45,533 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User login: { Zone: FPSGame }, ( User Name: Guest#6, Id: 6, Priv: 0, Sess: 127.0.0.1:64016 ) , Type: Unity
+17 十二月 2017 | 22:10:45,566 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: FPSGame }, ( User Name: Guest#6, Id: 6, Priv: 0, Sess: 127.0.0.1:64016 ) , asSpect: false
+17 十二月 2017 | 22:10:45,566 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户Guest#6 房间lobby 
+17 十二月 2017 | 22:10:56,125 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 8, Type: DEFAULT, Logged: No, IP: 127.0.0.1:64057 } on Server port: 9933 <---> 64057
+17 十二月 2017 | 22:10:56,137 | WARN  | SFSWorker:Ext:1 | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSLoginException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSLoginException
+Message: Admin login refused to user 'sfsadmin': invalid credentials
+Description: Extension's Login Handler exception
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.smartfoxserver.v2.admin.handlers.events.LoginEvtHandler.handleServerEvent(LoginEvtHandler.java:93)
+com.smartfoxserver.v2.extensions.SFSExtension.handleServerEvent(SFSExtension.java:259)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchEvent(SFSExtensionManager.java:768)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchZoneLevelEvent(SFSExtensionManager.java:689)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.handleServerEvent(SFSExtensionManager.java:887)
+com.smartfoxserver.v2.core.SFSEventManager$SFSEventRunner.run(SFSEventManager.java:66)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+17 十二月 2017 | 22:10:56,273 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 8, Type: DEFAULT, Logged: No, IP: 127.0.0.1:64057 }
+17 十二月 2017 | 22:10:59,018 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 9, Type: DEFAULT, Logged: No, IP: 127.0.0.1:64070 } on Server port: 9933 <---> 64070
+17 十二月 2017 | 22:10:59,030 | INFO  | SFSWorker:Ext:2 | v2.api.SFSApi |     | User login: { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 7, Priv: 0, Sess: 127.0.0.1:64070 ) , Type: Flash ActiveX:WIN 28,0,0,126
+17 十二月 2017 | 22:10:59,034 | INFO  | SFSWorker:Ext:2 | v2.api.SFSApi |     | Room joined: [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], { Zone: --=={{{ AdminZone }}}==-- }, ( User Name: sfsadmin, Id: 7, Priv: 0, Sess: 127.0.0.1:64070 ) , asSpect: false
+17 十二月 2017 | 22:12:47,001 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 7, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:64016 }
+17 十二月 2017 | 22:12:47,003 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户Guest#6掉线了! 
+17 十二月 2017 | 22:12:47,003 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: FPSGame }, ( User Name: Guest#6, Id: 6, Priv: 0, Sess: 127.0.0.1:64016 ) , SessionLen: 121470, Type: Unity
+17 十二月 2017 | 22:15:31,324 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+17 十二月 2017 | 22:15:31,671 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+17 十二月 2017 | 22:15:31,688 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\Felix\AppData\Local\Temp\vfs_cache" as temporary files store.
+17 十二月 2017 | 22:15:31,736 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+17 十二月 2017 | 22:15:31,737 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+17 十二月 2017 | 22:15:31,744 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+17 十二月 2017 | 22:15:31,752 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+17 十二月 2017 | 22:15:31,755 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\FPSGame.zone.xml
+17 十二月 2017 | 22:15:31,779 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: FPSGame 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+17 十二月 2017 | 22:15:31,994 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+17 十二月 2017 | 22:15:31,995 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+17 十二月 2017 | 22:15:31,995 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+17 十二月 2017 | 22:15:32,005 | INFO  | main | Extensions |     | {java}: FPS服务器启动成功 
+17 十二月 2017 | 22:15:32,008 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+17 十二月 2017 | 22:15:32,039 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+17 十二月 2017 | 22:15:32,145 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+17 十二月 2017 | 22:15:32,146 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+17 十二月 2017 | 22:15:32,146 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+17 十二月 2017 | 22:15:33,310 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+17 十二月 2017 | 22:15:38,593 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:65116 } on Server port: 9933 <---> 65116
+17 十二月 2017 | 22:15:38,766 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: FPSGame }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 127.0.0.1:65116 ) , Type: Unity
+17 十二月 2017 | 22:15:38,790 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: FPSGame }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 127.0.0.1:65116 ) , asSpect: false
+17 十二月 2017 | 22:15:38,791 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户Guest#0 房间lobby 
+17 十二月 2017 | 22:15:38,822 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 收到扩展 
+17 十二月 2017 | 22:15:43,926 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:65116 }
+17 十二月 2017 | 22:15:43,927 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: FPSGame }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 127.0.0.1:65116 ) , SessionLen: 5161, Type: Unity
+17 十二月 2017 | 22:15:43,927 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户Guest#0掉线了! 
+17 十二月 2017 | 22:18:07,872 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+17 十二月 2017 | 22:18:08,217 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+17 十二月 2017 | 22:18:08,234 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\Felix\AppData\Local\Temp\vfs_cache" as temporary files store.
+17 十二月 2017 | 22:18:08,281 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+17 十二月 2017 | 22:18:08,281 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+17 十二月 2017 | 22:18:08,288 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+17 十二月 2017 | 22:18:08,296 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+17 十二月 2017 | 22:18:08,299 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\FPSGame.zone.xml
+17 十二月 2017 | 22:18:08,321 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: FPSGame 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+17 十二月 2017 | 22:18:08,534 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+17 十二月 2017 | 22:18:08,534 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+17 十二月 2017 | 22:18:08,534 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+17 十二月 2017 | 22:18:08,544 | INFO  | main | Extensions |     | {java}: FPS服务器启动成功 
+17 十二月 2017 | 22:18:08,547 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+17 十二月 2017 | 22:18:08,579 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+17 十二月 2017 | 22:18:08,685 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+17 十二月 2017 | 22:18:08,687 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+17 十二月 2017 | 22:18:08,687 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+17 十二月 2017 | 22:18:09,797 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+17 十二月 2017 | 22:18:15,564 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:1182 } on Server port: 9933 <---> 1182
+17 十二月 2017 | 22:18:15,732 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: FPSGame }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 127.0.0.1:1182 ) , Type: Unity
+17 十二月 2017 | 22:18:15,757 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: FPSGame }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 127.0.0.1:1182 ) , asSpect: false
+17 十二月 2017 | 22:18:15,758 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户Guest#0 房间lobby 
+17 十二月 2017 | 22:18:15,779 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 登录 
+17 十二月 2017 | 22:18:19,530 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:1182 }
+17 十二月 2017 | 22:18:19,532 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: FPSGame }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 127.0.0.1:1182 ) , SessionLen: 3800, Type: Unity
+17 十二月 2017 | 22:18:19,532 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户Guest#0掉线了! 
+17 十二月 2017 | 22:22:27,936 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+17 十二月 2017 | 22:22:28,282 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+17 十二月 2017 | 22:22:28,300 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\Felix\AppData\Local\Temp\vfs_cache" as temporary files store.
+17 十二月 2017 | 22:22:28,349 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+17 十二月 2017 | 22:22:28,350 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+17 十二月 2017 | 22:22:28,358 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+17 十二月 2017 | 22:22:28,366 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+17 十二月 2017 | 22:22:28,369 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\FPSGame.zone.xml
+17 十二月 2017 | 22:22:28,391 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: FPSGame 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+17 十二月 2017 | 22:22:28,638 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+17 十二月 2017 | 22:22:28,639 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+17 十二月 2017 | 22:22:28,639 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+17 十二月 2017 | 22:22:28,649 | INFO  | main | Extensions |     | {java}: FPS服务器启动成功 
+17 十二月 2017 | 22:22:28,653 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+17 十二月 2017 | 22:22:28,684 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+17 十二月 2017 | 22:22:28,792 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+17 十二月 2017 | 22:22:28,793 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+17 十二月 2017 | 22:22:28,793 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+17 十二月 2017 | 22:22:29,911 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+17 十二月 2017 | 22:22:34,486 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:2234 } on Server port: 9933 <---> 2234
+17 十二月 2017 | 22:22:34,647 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: FPSGame }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 127.0.0.1:2234 ) , Type: Unity
+17 十二月 2017 | 22:22:34,673 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: FPSGame }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 127.0.0.1:2234 ) , asSpect: false
+17 十二月 2017 | 22:22:34,674 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户Guest#0 房间lobby 
+17 十二月 2017 | 22:22:34,689 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户登录frank,123 
+17 十二月 2017 | 22:24:38,976 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:2234 }
+17 十二月 2017 | 22:24:38,979 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: FPSGame }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 127.0.0.1:2234 ) , SessionLen: 124331, Type: Unity
+17 十二月 2017 | 22:24:38,979 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户Guest#0掉线了! 
+17 十二月 2017 | 22:25:52,865 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+17 十二月 2017 | 22:25:53,209 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+17 十二月 2017 | 22:25:53,227 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\Felix\AppData\Local\Temp\vfs_cache" as temporary files store.
+17 十二月 2017 | 22:25:53,290 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+17 十二月 2017 | 22:25:53,291 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+17 十二月 2017 | 22:25:53,298 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+17 十二月 2017 | 22:25:53,306 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+17 十二月 2017 | 22:25:53,308 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\FPSGame.zone.xml
+17 十二月 2017 | 22:25:53,330 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: FPSGame 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+17 十二月 2017 | 22:25:53,549 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+17 十二月 2017 | 22:25:53,549 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+17 十二月 2017 | 22:25:53,549 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+17 十二月 2017 | 22:25:53,560 | INFO  | main | Extensions |     | {java}: FPS服务器启动成功 
+17 十二月 2017 | 22:25:53,563 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+17 十二月 2017 | 22:25:53,593 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+17 十二月 2017 | 22:25:53,698 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: 
+17 十二月 2017 | 22:25:53,698 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+17 十二月 2017 | 22:25:53,698 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+17 十二月 2017 | 22:25:54,819 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+17 十二月 2017 | 22:25:54,887 | INFO  | Thread-0 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+17 十二月 2017 | 22:25:54,889 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+17 十二月 2017 | 22:25:54,892 | INFO  | Thread-1 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+17 十二月 2017 | 22:25:57,097 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:3481 } on Server port: 9933 <---> 3481
+17 十二月 2017 | 22:25:57,269 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: FPSGame }, ( User Name: Guest#1, Id: 1, Priv: 0, Sess: 127.0.0.1:3481 ) , Type: Unity
+17 十二月 2017 | 22:25:57,302 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: FPSGame }, ( User Name: Guest#1, Id: 1, Priv: 0, Sess: 127.0.0.1:3481 ) , asSpect: false
+17 十二月 2017 | 22:25:57,303 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户Guest#1 房间lobby 
+17 十二月 2017 | 22:25:57,333 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户登录frank,123 
+17 十二月 2017 | 22:26:08,520 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+17 十二月 2017 | 22:26:08,866 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+17 十二月 2017 | 22:26:08,884 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\Felix\AppData\Local\Temp\vfs_cache" as temporary files store.
+17 十二月 2017 | 22:26:08,930 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+17 十二月 2017 | 22:26:08,930 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+17 十二月 2017 | 22:26:08,937 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+17 十二月 2017 | 22:26:08,945 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+17 十二月 2017 | 22:26:08,948 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\FPSGame.zone.xml
+17 十二月 2017 | 22:26:08,968 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: FPSGame 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+17 十二月 2017 | 22:26:09,180 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+17 十二月 2017 | 22:26:09,180 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+17 十二月 2017 | 22:26:09,180 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+17 十二月 2017 | 22:26:09,190 | INFO  | main | Extensions |     | {java}: FPS服务器启动成功 
+17 十二月 2017 | 22:26:09,193 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+17 十二月 2017 | 22:26:09,224 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+17 十二月 2017 | 22:26:09,332 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+17 十二月 2017 | 22:26:09,332 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+17 十二月 2017 | 22:26:09,332 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+17 十二月 2017 | 22:26:10,463 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+17 十二月 2017 | 22:26:14,087 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:3570 } on Server port: 9933 <---> 3570
+17 十二月 2017 | 22:26:14,248 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: FPSGame }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 127.0.0.1:3570 ) , Type: Unity
+17 十二月 2017 | 22:26:14,275 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: FPSGame }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 127.0.0.1:3570 ) , asSpect: false
+17 十二月 2017 | 22:26:14,276 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户Guest#0 房间lobby 
+17 十二月 2017 | 22:26:14,292 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户登录frank,123 
+17 十二月 2017 | 22:26:30,725 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:3570 }
+17 十二月 2017 | 22:26:30,726 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: FPSGame }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 127.0.0.1:3570 ) , SessionLen: 16478, Type: Unity
+17 十二月 2017 | 22:26:30,726 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户Guest#0掉线了! 
+17 十二月 2017 | 22:37:46,502 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+17 十二月 2017 | 22:37:46,849 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+17 十二月 2017 | 22:37:46,867 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\Felix\AppData\Local\Temp\vfs_cache" as temporary files store.
+17 十二月 2017 | 22:37:46,913 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+17 十二月 2017 | 22:37:46,913 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+17 十二月 2017 | 22:37:46,920 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+17 十二月 2017 | 22:37:46,930 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+17 十二月 2017 | 22:37:46,932 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\FPSGame.zone.xml
+17 十二月 2017 | 22:37:46,955 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: FPSGame 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+17 十二月 2017 | 22:37:47,170 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+17 十二月 2017 | 22:37:47,171 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+17 十二月 2017 | 22:37:47,171 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+17 十二月 2017 | 22:37:47,181 | INFO  | main | Extensions |     | {java}: ============================================= 
+17 十二月 2017 | 22:37:47,182 | INFO  | main | Extensions |     | {java}:          绝地求生Server 启动成功                                       
+17 十二月 2017 | 22:37:47,182 | INFO  | main | Extensions |     | {java}: ============================================= 
+17 十二月 2017 | 22:37:47,185 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+17 十二月 2017 | 22:37:47,216 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+17 十二月 2017 | 22:37:47,319 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: 
+17 十二月 2017 | 22:37:47,320 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+17 十二月 2017 | 22:37:47,320 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+17 十二月 2017 | 22:37:48,462 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+17 十二月 2017 | 22:37:48,531 | INFO  | Thread-0 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+17 十二月 2017 | 22:37:48,531 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+17 十二月 2017 | 22:37:48,536 | INFO  | Thread-1 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+17 十二月 2017 | 22:38:00,004 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+17 十二月 2017 | 22:38:00,351 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+17 十二月 2017 | 22:38:00,370 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\Felix\AppData\Local\Temp\vfs_cache" as temporary files store.
+17 十二月 2017 | 22:38:00,416 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+17 十二月 2017 | 22:38:00,416 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+17 十二月 2017 | 22:38:00,423 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+17 十二月 2017 | 22:38:00,432 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+17 十二月 2017 | 22:38:00,434 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\FPSGame.zone.xml
+17 十二月 2017 | 22:38:00,455 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: FPSGame 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+17 十二月 2017 | 22:38:00,666 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+17 十二月 2017 | 22:38:00,666 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+17 十二月 2017 | 22:38:00,666 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+17 十二月 2017 | 22:38:00,676 | INFO  | main | Extensions |     | {java}: ============================================= 
+17 十二月 2017 | 22:38:00,676 | INFO  | main | Extensions |     | {java}:          绝地求生Server 启动成功                                       
+17 十二月 2017 | 22:38:00,676 | INFO  | main | Extensions |     | {java}: ============================================= 
+17 十二月 2017 | 22:38:00,679 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+17 十二月 2017 | 22:38:00,710 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+17 十二月 2017 | 22:38:00,809 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+17 十二月 2017 | 22:38:00,810 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+17 十二月 2017 | 22:38:00,811 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+17 十二月 2017 | 22:38:01,938 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+17 十二月 2017 | 22:38:05,031 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:6291 } on Server port: 9933 <---> 6291
+17 十二月 2017 | 22:38:05,144 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: FPSGame }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 127.0.0.1:6291 ) , Type: Unity
+17 十二月 2017 | 22:38:05,165 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: FPSGame }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 127.0.0.1:6291 ) , asSpect: false
+17 十二月 2017 | 22:38:05,166 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户Guest#0 进入房间lobby 
+17 十二月 2017 | 22:38:05,180 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户登录验证frank,123 
+17 十二月 2017 | 22:38:12,667 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:6291 }
+17 十二月 2017 | 22:38:12,668 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: FPSGame }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 127.0.0.1:6291 ) , SessionLen: 7524, Type: Unity
+17 十二月 2017 | 22:38:12,668 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户Guest#0掉线了! 
+17 十二月 2017 | 22:41:27,331 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+17 十二月 2017 | 22:41:27,668 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+17 十二月 2017 | 22:41:27,685 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\Felix\AppData\Local\Temp\vfs_cache" as temporary files store.
+17 十二月 2017 | 22:41:27,731 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+17 十二月 2017 | 22:41:27,732 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+17 十二月 2017 | 22:41:27,739 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+17 十二月 2017 | 22:41:27,745 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+17 十二月 2017 | 22:41:27,748 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\FPSGame.zone.xml
+17 十二月 2017 | 22:41:27,768 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: FPSGame 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+17 十二月 2017 | 22:41:27,976 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+17 十二月 2017 | 22:41:27,976 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: room1, Id: 1, Group: default, isGame: true ], type = SFSRoom
+17 十二月 2017 | 22:41:27,976 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: FPSGame }, [ Room: room2, Id: 2, Group: default, isGame: true ], type = SFSRoom
+17 十二月 2017 | 22:41:27,986 | INFO  | main | Extensions |     | {java}: ============================================= 
+17 十二月 2017 | 22:41:27,987 | INFO  | main | Extensions |     | {java}:          绝地求生Server 启动成功                                       
+17 十二月 2017 | 22:41:27,987 | INFO  | main | Extensions |     | {java}: ============================================= 
+17 十二月 2017 | 22:41:27,990 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+17 十二月 2017 | 22:41:28,020 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+17 十二月 2017 | 22:41:28,116 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+17 十二月 2017 | 22:41:28,117 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+17 十二月 2017 | 22:41:28,117 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+17 十二月 2017 | 22:41:29,236 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+17 十二月 2017 | 22:41:37,137 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:7075 } on Server port: 9933 <---> 7075
+17 十二月 2017 | 22:41:37,329 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User login: { Zone: FPSGame }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 127.0.0.1:7075 ) , Type: Unity
+17 十二月 2017 | 22:41:37,356 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: FPSGame }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 127.0.0.1:7075 ) , asSpect: false
+17 十二月 2017 | 22:41:37,357 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户Guest#0 进入房间lobby 
+17 十二月 2017 | 22:41:37,372 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户登录验证frank,123 
+17 十二月 2017 | 22:41:41,520 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户登录验证frank,123 
+17 十二月 2017 | 22:41:43,513 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户登录验证frank,123 
+17 十二月 2017 | 22:41:44,218 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户登录验证frank,123 
+17 十二月 2017 | 22:41:44,633 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户登录验证frank,123 
+17 十二月 2017 | 22:41:44,822 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户登录验证frank,123 
+17 十二月 2017 | 22:41:45,000 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户登录验证frank,123 
+17 十二月 2017 | 22:41:45,163 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户登录验证frank,123 
+17 十二月 2017 | 22:41:45,337 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户登录验证frank,123 
+17 十二月 2017 | 22:41:45,523 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户登录验证frank,123 
+17 十二月 2017 | 22:41:45,685 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户登录验证frank,123 
+17 十二月 2017 | 22:41:45,851 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户登录验证frank,123 
+17 十二月 2017 | 22:41:46,016 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户登录验证frank,123 
+17 十二月 2017 | 22:41:46,184 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户登录验证frank,123 
+17 十二月 2017 | 22:41:46,351 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户登录验证frank,123 
+17 十二月 2017 | 22:41:46,515 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户登录验证frank,123 
+17 十二月 2017 | 22:41:46,682 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户登录验证frank,123 
+17 十二月 2017 | 22:41:46,864 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户登录验证frank,123 
+17 十二月 2017 | 22:41:47,687 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户登录验证frank,123 
+17 十二月 2017 | 22:41:47,853 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户登录验证frank,123 
+17 十二月 2017 | 22:41:48,003 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户登录验证frank,123 
+17 十二月 2017 | 22:41:48,191 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户登录验证frank,123 
+17 十二月 2017 | 22:41:48,334 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户登录验证frank,123 
+17 十二月 2017 | 22:41:48,504 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户登录验证frank,123 
+17 十二月 2017 | 22:41:48,684 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户登录验证frank,123 
+17 十二月 2017 | 22:41:48,872 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户登录验证frank,123 
+17 十二月 2017 | 22:41:49,036 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户登录验证frank,123 
+17 十二月 2017 | 22:41:50,424 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:7075 }
+17 十二月 2017 | 22:41:50,425 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: FPSGame }, ( User Name: Guest#0, Id: 0, Priv: 0, Sess: 127.0.0.1:7075 ) , SessionLen: 13096, Type: Unity
+17 十二月 2017 | 22:41:50,425 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户Guest#0掉线了! 

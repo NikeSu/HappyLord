@@ -1,0 +1,71 @@
+package com.ddz.room;
+
+import java.util.HashMap;
+import java.util.List;
+
+import com.ddz.Global;
+import com.smartfoxserver.v2.core.ISFSEvent;
+import com.smartfoxserver.v2.core.SFSEventParam;
+import com.smartfoxserver.v2.entities.Room;
+import com.smartfoxserver.v2.entities.User;
+import com.smartfoxserver.v2.entities.data.SFSObject;
+import com.smartfoxserver.v2.exceptions.SFSException;
+import com.smartfoxserver.v2.extensions.BaseServerEventHandler;
+
+public class SFSUserJoinRoomHandler extends BaseServerEventHandler {
+
+	@Override
+	public void handleServerEvent(ISFSEvent event) throws SFSException {
+		// TODO Auto-generated method stub
+               
+		trace("用户进入房间");
+		
+		User u=(User)event.getParameter(SFSEventParam.USER);
+	
+        Room r = (Room)event.getParameter(SFSEventParam.ROOM);
+        trace(r);
+        
+       
+        List list = r.getUserList();
+        
+        trace(list);
+        
+        int player_num = list.size();
+	 	
+	 	trace("!-----"+player_num+"-----!");
+	
+	 	
+	 	if(player_num<=3)
+	 	{
+	 		SFSObject obj=new SFSObject();
+			obj.putInt("Multi", 3);
+			obj.putInt("Grade", 100);
+			obj.putUtfString("MatchName", "欢乐——初级场");
+			
+			this.send("GetRoomMassage", obj, u);
+			
+			SFSObject wobj=new SFSObject();
+			this.send("WaitForGame", wobj, u);
+			trace("房间信息发送客户端成功,等待游戏开始");
+	 	}
+	 	if(player_num==3)
+	 	{
+	 		
+	 		
+	 		SFSObject obj=new SFSObject();
+	 		this.send("RoomIsFull",obj,u);
+	 		trace("游戏即将开始");
+	 	}
+	 	
+	 	
+	 	
+	 	else if(player_num>3)
+	 	{
+	 		r.removeUser(u);
+	 		trace("房间人数已满");
+	 	}
+		
+	
+	}
+
+}

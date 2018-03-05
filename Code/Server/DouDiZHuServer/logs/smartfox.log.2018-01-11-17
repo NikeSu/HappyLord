@@ -1,0 +1,256 @@
+11 一月 2018 | 17:00:33,200 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 9, Type: DEFAULT, Logged: No, IP: 172.18.23.160:18690 }
+11 一月 2018 | 17:03:40,867 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 10, Type: DEFAULT, Logged: No, IP: 172.18.23.160:18780 } on Server port: 9933 <---> 18780
+11 一月 2018 | 17:03:54,050 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 10, Type: DEFAULT, Logged: No, IP: 172.18.23.160:18780 }
+11 一月 2018 | 17:04:01,177 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 11, Type: DEFAULT, Logged: No, IP: 172.18.23.160:18785 } on Server port: 9933 <---> 18785
+11 一月 2018 | 17:04:07,253 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 11, Type: DEFAULT, Logged: No, IP: 172.18.23.160:18785 }
+11 一月 2018 | 17:16:20,648 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 12, Type: DEFAULT, Logged: No, IP: 172.18.23.160:19523 } on Server port: 9933 <---> 19523
+11 一月 2018 | 17:16:25,834 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户admin登录成功! 
+11 一月 2018 | 17:16:25,837 | INFO  | SFSWorker:Ext:3 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 8, Priv: 0, Sess: 172.18.23.160:19523 ) , Type: Unity
+11 一月 2018 | 17:16:25,838 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户进入区 
+11 一月 2018 | 17:16:37,827 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 12, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:19523 }
+11 一月 2018 | 17:16:37,828 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 8, Priv: 0, Sess: 172.18.23.160:19523 ) , SessionLen: 11991, Type: Unity
+11 一月 2018 | 17:17:07,671 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 13, Type: DEFAULT, Logged: No, IP: 172.18.23.160:19558 } on Server port: 9933 <---> 19558
+11 一月 2018 | 17:17:09,765 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户admin登录成功! 
+11 一月 2018 | 17:17:09,767 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 9, Priv: 0, Sess: 172.18.23.160:19558 ) , Type: Unity
+11 一月 2018 | 17:17:09,768 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+11 一月 2018 | 17:18:05,530 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 13, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:19558 }
+11 一月 2018 | 17:18:05,533 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 9, Priv: 0, Sess: 172.18.23.160:19558 ) , SessionLen: 55765, Type: Unity
+11 一月 2018 | 17:44:00,766 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 14, Type: DEFAULT, Logged: No, IP: 172.18.23.160:20436 } on Server port: 9933 <---> 20436
+11 一月 2018 | 17:44:03,139 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户admin登录成功! 
+11 一月 2018 | 17:44:03,140 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 10, Priv: 0, Sess: 172.18.23.160:20436 ) , Type: Unity
+11 一月 2018 | 17:44:03,141 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+11 一月 2018 | 17:44:11,335 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 14, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:20436 }
+11 一月 2018 | 17:44:11,336 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 10, Priv: 0, Sess: 172.18.23.160:20436 ) , SessionLen: 8196, Type: Unity
+11 一月 2018 | 17:44:15,259 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 15, Type: DEFAULT, Logged: No, IP: 172.18.23.160:20443 } on Server port: 9933 <---> 20443
+11 一月 2018 | 17:44:24,655 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 15, Type: DEFAULT, Logged: No, IP: 172.18.23.160:20443 }
+11 一月 2018 | 17:46:53,489 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 16, Type: DEFAULT, Logged: No, IP: 172.18.23.160:20469 } on Server port: 9933 <---> 20469
+11 一月 2018 | 17:46:56,286 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户admin登录成功! 
+11 一月 2018 | 17:46:56,287 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 11, Priv: 0, Sess: 172.18.23.160:20469 ) , Type: Unity
+11 一月 2018 | 17:46:56,287 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+11 一月 2018 | 17:47:11,828 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+11 一月 2018 | 17:47:12,870 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initialized
+11 一月 2018 | 17:47:12,898 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\aaa\AppData\Local\Temp\vfs_cache" as temporary files store.
+11 一月 2018 | 17:47:13,042 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+==========================================
+LICENSE DETAILS
+------------------------------------------
+Type            : Community Edition
+Max users       : 100
+==========================================
+
+11 一月 2018 | 17:47:13,067 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+11 一月 2018 | 17:47:13,103 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+11 一月 2018 | 17:47:13,110 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+11 一月 2018 | 17:47:13,113 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\DouDiZhu.zone.xml
+11 一月 2018 | 17:47:13,171 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: DouDiZhu 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+11 一月 2018 | 17:47:13,198 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: lobby, Id: 0, Group: default, isGame: false ], type = SFSRoom
+11 一月 2018 | 17:47:13,219 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+11 一月 2018 | 17:47:13,791 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+11 一月 2018 | 17:47:13,821 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room1, Id: 1, Group: default, isGame: false ], type = SFSRoom
+11 一月 2018 | 17:47:13,822 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+11 一月 2018 | 17:47:13,828 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+11 一月 2018 | 17:47:13,829 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: DouDiZhu }, [ Room: room2, Id: 2, Group: default, isGame: false ], type = SFSRoom
+11 一月 2018 | 17:47:13,829 | INFO  | main | Extensions |     | {java}: --------RoomExtension--------- 
+11 一月 2018 | 17:47:13,849 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+11 一月 2018 | 17:47:13,859 | INFO  | main | Extensions |     | {java}: ==================斗地主服务器初始化========================== 
+11 一月 2018 | 17:47:13,879 | INFO  | main | Extensions |     | {java}: 初始化数据库成功! jdbc:mysql://127.0.0.1:3306/doudizhu 
+11 一月 2018 | 17:47:13,932 | INFO  | main | Extensions |     | {java}: ======================================================= 
+11 一月 2018 | 17:47:13,936 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 3, Group: default, isGame: false ], type = SFSRoom
+11 一月 2018 | 17:47:14,149 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+11 一月 2018 | 17:47:14,432 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+11 一月 2018 | 17:47:14,433 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.13.1 ] 
+
+11 一月 2018 | 17:47:14,433 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.13.1) READY!
+11 一月 2018 | 17:47:15,270 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 172.18.23.160:20485 } on Server port: 9933 <---> 20485
+11 一月 2018 | 17:47:16,715 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.1.0) READY.
+11 一月 2018 | 17:47:18,081 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户admin登录成功! 
+11 一月 2018 | 17:47:18,088 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 0, Priv: 0, Sess: 172.18.23.160:20485 ) , Type: Unity
+11 一月 2018 | 17:47:18,090 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+11 一月 2018 | 17:47:42,485 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:20485 }
+11 一月 2018 | 17:47:42,487 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 0, Priv: 0, Sess: 172.18.23.160:20485 ) , SessionLen: 24399, Type: Unity
+11 一月 2018 | 17:49:11,106 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 172.18.23.160:20532 } on Server port: 9933 <---> 20532
+11 一月 2018 | 17:49:13,049 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户admin登录成功! 
+11 一月 2018 | 17:49:13,050 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 1, Priv: 0, Sess: 172.18.23.160:20532 ) , Type: Unity
+11 一月 2018 | 17:49:13,051 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+11 一月 2018 | 17:49:13,379 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 获取用户信息 
+11 一月 2018 | 17:49:13,380 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: !---------{Max_mult=256, honor_title=难民, quan=199, usernick=admin123456, sex=女, headpicture=picture1, userpwd=admin123, Vitory=null, gold=233, gamelv=15, game_count=7, viplv=1, vipEXP=null, ID=2, Defeat=null, personalwords=Hello,Admin!, gameEXP=null, username=admin}-----------! 
+11 一月 2018 | 17:49:13,380 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: admin 
+11 一月 2018 | 17:49:27,901 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 获取用户信息 
+11 一月 2018 | 17:49:27,903 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: !---------{Max_mult=256, honor_title=难民, quan=199, usernick=admin123456, sex=女, headpicture=picture1, userpwd=admin123, Vitory=null, gold=233, gamelv=15, game_count=7, viplv=1, vipEXP=null, ID=2, Defeat=null, personalwords=Hello,Admin!, gameEXP=null, username=admin}-----------! 
+11 一月 2018 | 17:49:27,903 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: admin 
+11 一月 2018 | 17:49:28,851 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 收到邮箱拓展 
+11 一月 2018 | 17:49:28,852 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 返回客户端消息 
+11 一月 2018 | 17:49:36,927 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: admin, Id: 1, Priv: 0, Sess: 172.18.23.160:20532 ) , asSpect: false
+11 一月 2018 | 17:49:36,928 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入房间 
+11 一月 2018 | 17:49:36,928 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 房间信息发送客户端成功 
+11 一月 2018 | 17:49:40,470 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:20532 }
+11 一月 2018 | 17:49:40,471 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 1, Priv: 0, Sess: 172.18.23.160:20532 ) , SessionLen: 27421, Type: Unity
+11 一月 2018 | 17:49:42,375 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 172.18.23.160:20540 } on Server port: 9933 <---> 20540
+11 一月 2018 | 17:49:44,267 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户admin登录成功! 
+11 一月 2018 | 17:49:44,267 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 2, Priv: 0, Sess: 172.18.23.160:20540 ) , Type: Unity
+11 一月 2018 | 17:49:44,268 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+11 一月 2018 | 17:49:44,512 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 获取用户信息 
+11 一月 2018 | 17:49:44,513 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: !---------{Max_mult=256, honor_title=难民, quan=199, usernick=admin123456, sex=女, headpicture=picture1, userpwd=admin123, Vitory=null, gold=233, gamelv=15, game_count=7, viplv=1, vipEXP=null, ID=2, Defeat=null, personalwords=Hello,Admin!, gameEXP=null, username=admin}-----------! 
+11 一月 2018 | 17:49:44,513 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: admin 
+11 一月 2018 | 17:49:46,338 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 收到邮箱拓展 
+11 一月 2018 | 17:49:46,338 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 返回客户端消息 
+11 一月 2018 | 17:49:57,392 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 获取用户信息 
+11 一月 2018 | 17:49:57,394 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: !---------{Max_mult=256, honor_title=难民, quan=199, usernick=admin123456, sex=女, headpicture=picture1, userpwd=admin123, Vitory=null, gold=233, gamelv=15, game_count=7, viplv=1, vipEXP=null, ID=2, Defeat=null, personalwords=Hello,Admin!, gameEXP=null, username=admin}-----------! 
+11 一月 2018 | 17:49:57,394 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: admin 
+11 一月 2018 | 17:50:00,181 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | Room joined: [ Room: lobby, Id: 0, Group: default, isGame: false ], { Zone: DouDiZhu }, ( User Name: admin, Id: 2, Priv: 0, Sess: 172.18.23.160:20540 ) , asSpect: false
+11 一月 2018 | 17:50:00,182 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 用户进入房间 
+11 一月 2018 | 17:50:00,182 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 房间信息发送客户端成功 
+11 一月 2018 | 17:50:21,643 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:50:21,643 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 3 
+11 一月 2018 | 17:50:21,643 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：6 
+11 一月 2018 | 17:50:59,566 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:50:59,567 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 6 
+11 一月 2018 | 17:50:59,567 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：12 
+11 一月 2018 | 17:50:59,946 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:50:59,946 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 12 
+11 一月 2018 | 17:50:59,946 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：24 
+11 一月 2018 | 17:51:00,160 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:00,161 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 24 
+11 一月 2018 | 17:51:00,161 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：48 
+11 一月 2018 | 17:51:00,359 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:00,360 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 48 
+11 一月 2018 | 17:51:00,360 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：96 
+11 一月 2018 | 17:51:00,540 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:00,541 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 96 
+11 一月 2018 | 17:51:00,542 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：192 
+11 一月 2018 | 17:51:00,725 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:00,726 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 192 
+11 一月 2018 | 17:51:00,726 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：384 
+11 一月 2018 | 17:51:00,908 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:00,908 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 384 
+11 一月 2018 | 17:51:00,908 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：768 
+11 一月 2018 | 17:51:01,118 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:01,119 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 768 
+11 一月 2018 | 17:51:01,119 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：1536 
+11 一月 2018 | 17:51:01,271 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:01,272 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 1536 
+11 一月 2018 | 17:51:01,272 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：3072 
+11 一月 2018 | 17:51:01,802 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:01,802 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 3072 
+11 一月 2018 | 17:51:01,803 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：6144 
+11 一月 2018 | 17:51:02,002 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:02,002 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 6144 
+11 一月 2018 | 17:51:02,002 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：12288 
+11 一月 2018 | 17:51:02,198 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:02,198 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 12288 
+11 一月 2018 | 17:51:02,198 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：24576 
+11 一月 2018 | 17:51:02,383 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:02,383 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 24576 
+11 一月 2018 | 17:51:02,383 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：49152 
+11 一月 2018 | 17:51:02,583 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:02,583 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 49152 
+11 一月 2018 | 17:51:02,583 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：98304 
+11 一月 2018 | 17:51:02,924 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:02,925 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 98304 
+11 一月 2018 | 17:51:02,925 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：196608 
+11 一月 2018 | 17:51:03,158 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:03,158 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 196608 
+11 一月 2018 | 17:51:03,159 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：393216 
+11 一月 2018 | 17:51:22,340 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:22,340 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 393216 
+11 一月 2018 | 17:51:22,341 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：786432 
+11 一月 2018 | 17:51:22,510 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:22,510 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 786432 
+11 一月 2018 | 17:51:22,510 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：1572864 
+11 一月 2018 | 17:51:22,677 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:22,677 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 1572864 
+11 一月 2018 | 17:51:22,678 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：3145728 
+11 一月 2018 | 17:51:23,024 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:23,025 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 3145728 
+11 一月 2018 | 17:51:23,025 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：6291456 
+11 一月 2018 | 17:51:23,208 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:23,208 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 6291456 
+11 一月 2018 | 17:51:23,209 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：12582912 
+11 一月 2018 | 17:51:23,388 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:23,388 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 12582912 
+11 一月 2018 | 17:51:23,388 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：25165824 
+11 一月 2018 | 17:51:23,573 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:23,573 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 25165824 
+11 一月 2018 | 17:51:23,574 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：50331648 
+11 一月 2018 | 17:51:23,788 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:23,789 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 50331648 
+11 一月 2018 | 17:51:23,789 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：100663296 
+11 一月 2018 | 17:51:24,384 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:24,384 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 100663296 
+11 一月 2018 | 17:51:24,384 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：201326592 
+11 一月 2018 | 17:51:24,550 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:24,550 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 201326592 
+11 一月 2018 | 17:51:24,550 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：402653184 
+11 一月 2018 | 17:51:24,750 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:24,750 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 402653184 
+11 一月 2018 | 17:51:24,750 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：805306368 
+11 一月 2018 | 17:51:25,342 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:25,342 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 805306368 
+11 一月 2018 | 17:51:25,342 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：1610612736 
+11 一月 2018 | 17:51:25,560 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:25,560 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 1610612736 
+11 一月 2018 | 17:51:25,561 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：-1073741824 
+11 一月 2018 | 17:51:25,739 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:25,739 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: -1073741824 
+11 一月 2018 | 17:51:25,739 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：-2147483648 
+11 一月 2018 | 17:51:25,914 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:25,914 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: -2147483648 
+11 一月 2018 | 17:51:25,914 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：0 
+11 一月 2018 | 17:51:26,104 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:26,104 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 0 
+11 一月 2018 | 17:51:26,104 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：0 
+11 一月 2018 | 17:51:26,290 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:26,290 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 0 
+11 一月 2018 | 17:51:26,290 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：0 
+11 一月 2018 | 17:51:26,849 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:26,850 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 0 
+11 一月 2018 | 17:51:26,850 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：0 
+11 一月 2018 | 17:51:27,034 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:27,034 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 0 
+11 一月 2018 | 17:51:27,034 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：0 
+11 一月 2018 | 17:51:27,285 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:27,285 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 0 
+11 一月 2018 | 17:51:27,285 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：0 
+11 一月 2018 | 17:51:27,551 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:27,551 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 0 
+11 一月 2018 | 17:51:27,551 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：0 
+11 一月 2018 | 17:51:27,781 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:27,781 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 0 
+11 一月 2018 | 17:51:27,781 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：0 
+11 一月 2018 | 17:51:31,530 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:31,530 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 0 
+11 一月 2018 | 17:51:31,530 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：0 
+11 一月 2018 | 17:51:39,230 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:51:39,230 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 0 
+11 一月 2018 | 17:51:39,230 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：0 
+11 一月 2018 | 17:53:18,385 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 发送任务到客户端成功 
+11 一月 2018 | 17:53:18,649 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 发送任务到客户端成功 
+11 一月 2018 | 17:53:19,394 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 发送任务到客户端成功 
+11 一月 2018 | 17:53:21,531 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 发送任务到客户端成功 
+11 一月 2018 | 17:53:21,746 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 发送任务到客户端成功 
+11 一月 2018 | 17:53:23,075 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 发送任务到客户端成功 
+11 一月 2018 | 17:53:23,469 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 发送任务到客户端成功 
+11 一月 2018 | 17:53:24,047 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 发送任务到客户端成功 
+11 一月 2018 | 17:55:00,244 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 房间拓展回调成功 
+11 一月 2018 | 17:55:00,244 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 0 
+11 一月 2018 | 17:55:00,244 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 有人放炸弹搞事情，倍数*2，现在倍数为：0 
+11 一月 2018 | 17:55:14,438 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: DouDiZhu }, CCU: 0/1
+11 一月 2018 | 17:55:14,438 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+11 一月 2018 | 17:55:14,438 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/1
+11 一月 2018 | 17:56:47,956 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 3, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:20540 }
+11 一月 2018 | 17:56:47,957 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 2, Priv: 0, Sess: 172.18.23.160:20540 ) , SessionLen: 423690, Type: Unity

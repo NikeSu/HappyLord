@@ -1,0 +1,201 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+
+public enum CardColor
+{
+    Heart=1, Spade=0, Diamond=2,Club=3,KingB=4,KingS=5
+}
+public class Card : MonoBehaviour, IComparable
+{
+    public GameObject obj = null;
+    public UISprite Bjing;
+    public UISprite Numbei;
+    public UISprite Dhua;
+    public UISprite Xhua;
+    public UISprite B;
+    public bool Xuanze = false;
+    public Card M_card;
+
+    /// <summary>
+    /// 牌是否被选择
+    /// </summary>  
+    public Action<bool> OnClickHandler = null;
+    void Start()
+    {
+
+    }
+
+    [SerializeField]
+    private string _value;
+    private int _num = -1;
+    //拍的花色
+    private CardColor _color; 
+    public   string  Weight
+    {
+        get {
+
+            string v = "";
+            //获取牌值
+            if (_value == "41")
+            {
+                v = "WS";
+            }else if (_value == "51")
+            {
+                v = "WL";
+            }else if (_value.ToLower() == "a")
+            {
+                v = "10";
+            }else if (_value.ToLower() == "b")
+            {
+                v = "J";
+            }else if (_value.ToLower() == "c")
+            {
+                v = "Q";
+            }else if (_value.ToLower() == "d")
+            {
+                v = "K";
+            }
+          
+            return v;
+        }
+     
+    }
+
+    public string Value
+    {
+        set
+        {
+            _value = value;
+            string c = _value[0].ToString();
+            string n = _value[1].ToString().ToUpper();
+            Dhua.spriteName = "pokerColor" + c;
+            Xhua.spriteName = "pokerColorX" + c;
+            if (c == "0")
+            {
+                _color = CardColor.Spade;
+            }
+            else if (c == "1")
+            {
+                //红桃
+                _color = CardColor.Heart;
+            }
+            else if (c == "2")
+            {
+                _color = CardColor.Diamond;
+            }
+            else if (c == "3")
+            {
+                _color = CardColor.Club;
+            }
+            else if (c == "4")
+            {
+                //大王
+                _color = CardColor.KingB;
+            }
+            else if (c == "5")
+            {
+                _color = CardColor.KingS;
+            }
+            if (c == "2")
+            {
+                c = "1";
+            }
+            if (c == "3")
+            {
+                c = "0";
+            }
+            Numbei.spriteName = "PokerIndex" + c + n;
+
+            Dictionary<string, int> dic = new Dictionary<string, int>();
+            dic.Add("1", 4);
+            dic.Add("2", 3);
+            dic.Add("3", 15);
+            dic.Add("4", 14);
+            dic.Add("5", 13);
+            dic.Add("6", 12);
+            dic.Add("7", 11);
+            dic.Add("8", 10);
+            dic.Add("9", 9);
+            dic.Add("A", 8);
+            dic.Add("B", 7);
+            dic.Add("C", 6);
+            dic.Add("D", 5);
+            if (_value == "41")
+            {
+                _num = 1;
+            }
+            else if (_value == "51")
+            {
+                _num = 2;
+            }
+            else
+            {
+                _num = dic[n];
+            }
+            Dhua.MakePixelPerfect();
+            Xhua.MakePixelPerfect();
+            Numbei.MakePixelPerfect();
+        }
+        get { return _value; }
+    }
+
+
+    /// <summary>
+    /// 牌的花色
+    /// </summary>
+    public CardColor Color
+    {
+        get { return _color; }
+    }
+    /// <summary>
+    /// 牌的值
+    /// </summary>
+    public int Number
+    {
+        get { return _num; }
+    }
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+
+
+    public int CompareTo(object obj)
+    {
+        Card c = (Card)obj;
+        return Number.CompareTo(c.Number);
+    }
+    public bool Select
+    {
+        set
+        {
+            Xuanze = value;
+
+            if (Xuanze)
+            {
+                M_card.transform.localPosition += new Vector3(0, 20, 0);
+            }
+            else
+            {
+                M_card.transform.localPosition -= new Vector3(0, 20, 0);
+            }
+        }
+        get
+        {
+            return Xuanze;
+        }
+    }
+
+
+    private void Destroy(List<Card> cards)
+    {
+        Destroy(cards);
+    }
+}
+   
+    

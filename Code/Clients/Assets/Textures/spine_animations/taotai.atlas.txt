@@ -1,0 +1,13 @@
+
+taotai.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+taotai
+  rotate: false
+  xy: 2, 2
+  size: 123, 75
+  orig: 123, 75
+  offset: 0, 0
+  index: -1

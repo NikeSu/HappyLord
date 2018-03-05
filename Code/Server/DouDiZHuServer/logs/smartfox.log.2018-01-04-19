@@ -1,0 +1,55 @@
+04 一月 2018 | 19:11:03,414 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 9, Type: DEFAULT, Logged: No, IP: 172.18.23.160:49898 } on Server port: 9933 <---> 49898
+04 一月 2018 | 19:11:23,097 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 9, Type: DEFAULT, Logged: No, IP: 172.18.23.160:49898 }
+04 一月 2018 | 19:16:46,552 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 10, Type: DEFAULT, Logged: No, IP: 172.18.23.160:49954 } on Server port: 9933 <---> 49954
+04 一月 2018 | 19:16:48,027 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 10, Type: DEFAULT, Logged: No, IP: 172.18.23.160:49954 }
+04 一月 2018 | 19:16:50,298 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 11, Type: DEFAULT, Logged: No, IP: 172.18.23.160:49957 } on Server port: 9933 <---> 49957
+04 一月 2018 | 19:16:51,258 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 11, Type: DEFAULT, Logged: No, IP: 172.18.23.160:49957 }
+04 一月 2018 | 19:16:57,088 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 12, Type: DEFAULT, Logged: No, IP: 172.18.23.160:49960 } on Server port: 9933 <---> 49960
+04 一月 2018 | 19:17:08,915 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 12, Type: DEFAULT, Logged: No, IP: 172.18.23.160:49960 }
+04 一月 2018 | 19:17:27,105 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 13, Type: DEFAULT, Logged: No, IP: 172.18.23.160:49970 } on Server port: 9933 <---> 49970
+04 一月 2018 | 19:17:28,945 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 13, Type: DEFAULT, Logged: No, IP: 172.18.23.160:49970 }
+04 一月 2018 | 19:17:37,652 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 14, Type: DEFAULT, Logged: No, IP: 172.18.23.160:49973 } on Server port: 9933 <---> 49973
+04 一月 2018 | 19:17:38,532 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 14, Type: DEFAULT, Logged: No, IP: 172.18.23.160:49973 }
+04 一月 2018 | 19:17:45,208 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 15, Type: DEFAULT, Logged: No, IP: 172.18.23.160:49976 } on Server port: 9933 <---> 49976
+04 一月 2018 | 19:17:46,378 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 15, Type: DEFAULT, Logged: No, IP: 172.18.23.160:49976 }
+04 一月 2018 | 19:32:34,991 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 16, Type: DEFAULT, Logged: No, IP: 172.18.23.160:50195 } on Server port: 9933 <---> 50195
+04 一月 2018 | 19:32:37,137 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 16, Type: DEFAULT, Logged: No, IP: 172.18.23.160:50195 }
+04 一月 2018 | 19:32:39,837 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 17, Type: DEFAULT, Logged: No, IP: 172.18.23.160:50197 } on Server port: 9933 <---> 50197
+04 一月 2018 | 19:32:42,909 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户admin登录成功! 
+04 一月 2018 | 19:32:42,910 | INFO  | SFSWorker:Ext:3 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 6, Priv: 0, Sess: 172.18.23.160:50197 ) , Type: Unity
+04 一月 2018 | 19:32:42,910 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 用户进入区 
+04 一月 2018 | 19:32:43,233 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 获取用户信息 
+04 一月 2018 | 19:32:43,234 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: admin 
+04 一月 2018 | 19:32:45,449 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 17, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:50197 }
+04 一月 2018 | 19:32:45,449 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 6, Priv: 0, Sess: 172.18.23.160:50197 ) , SessionLen: 2539, Type: Unity
+04 一月 2018 | 19:36:19,202 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 18, Type: DEFAULT, Logged: No, IP: 172.18.23.160:50241 } on Server port: 9933 <---> 50241
+04 一月 2018 | 19:36:25,259 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户admin登录成功! 
+04 一月 2018 | 19:36:25,260 | INFO  | SFSWorker:Ext:4 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 7, Priv: 0, Sess: 172.18.23.160:50241 ) , Type: Unity
+04 一月 2018 | 19:36:25,260 | INFO  | SFSWorker:Ext:4 | Extensions |     | {java}: 用户进入区 
+04 一月 2018 | 19:36:25,588 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: 获取用户信息 
+04 一月 2018 | 19:36:25,589 | INFO  | SFSWorker:Ext:3 | Extensions |     | {java}: admin 
+04 一月 2018 | 19:36:27,173 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 获取用户信息 
+04 一月 2018 | 19:36:27,174 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: admin 
+04 一月 2018 | 19:36:29,363 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 18, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:50241 }
+04 一月 2018 | 19:36:29,363 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 7, Priv: 0, Sess: 172.18.23.160:50241 ) , SessionLen: 4103, Type: Unity
+04 一月 2018 | 19:36:31,028 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 19, Type: DEFAULT, Logged: No, IP: 172.18.23.160:50247 } on Server port: 9933 <---> 50247
+04 一月 2018 | 19:36:34,763 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 19, Type: DEFAULT, Logged: No, IP: 172.18.23.160:50247 }
+04 一月 2018 | 19:40:23,275 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 20, Type: DEFAULT, Logged: No, IP: 172.18.23.160:50278 } on Server port: 9933 <---> 50278
+04 一月 2018 | 19:40:40,077 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 20, Type: DEFAULT, Logged: No, IP: 172.18.23.160:50278 }
+04 一月 2018 | 19:47:37,763 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 21, Type: DEFAULT, Logged: No, IP: 172.18.23.160:50377 } on Server port: 9933 <---> 50377
+04 一月 2018 | 19:47:48,154 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 21, Type: DEFAULT, Logged: No, IP: 172.18.23.160:50377 }
+04 一月 2018 | 19:47:57,850 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 22, Type: DEFAULT, Logged: No, IP: 172.18.23.160:50383 } on Server port: 9933 <---> 50383
+04 一月 2018 | 19:47:59,362 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户admin登录成功! 
+04 一月 2018 | 19:47:59,363 | INFO  | SFSWorker:Ext:1 | v2.api.SFSApi |     | User login: { Zone: DouDiZhu }, ( User Name: admin, Id: 8, Priv: 0, Sess: 172.18.23.160:50383 ) , Type: Unity
+04 一月 2018 | 19:47:59,363 | INFO  | SFSWorker:Ext:1 | Extensions |     | {java}: 用户进入区 
+04 一月 2018 | 19:47:59,672 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: 获取用户信息 
+04 一月 2018 | 19:47:59,673 | INFO  | SFSWorker:Ext:2 | Extensions |     | {java}: admin 
+04 一月 2018 | 19:48:01,242 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 22, Type: DEFAULT, Logged: Yes, IP: 172.18.23.160:50383 }
+04 一月 2018 | 19:48:01,242 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: DouDiZhu }, ( User Name: admin, Id: 8, Priv: 0, Sess: 172.18.23.160:50383 ) , SessionLen: 1879, Type: Unity
+04 一月 2018 | 19:48:02,923 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 23, Type: DEFAULT, Logged: No, IP: 172.18.23.160:50384 } on Server port: 9933 <---> 50384
+04 一月 2018 | 19:48:34,793 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 23, Type: DEFAULT, Logged: No, IP: 172.18.23.160:50384 }
+04 一月 2018 | 19:51:28,435 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 24, Type: DEFAULT, Logged: No, IP: 172.18.23.160:50441 } on Server port: 9933 <---> 50441
+04 一月 2018 | 19:51:43,238 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 24, Type: DEFAULT, Logged: No, IP: 172.18.23.160:50441 }
+04 一月 2018 | 19:55:21,936 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: DouDiZhu }, CCU: 0/0
+04 一月 2018 | 19:55:21,936 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 1/1
+04 一月 2018 | 19:55:21,936 | INFO  | pool-1-thread-2 | util.stats.CCULoggerTask |     | CCU stats: CCU: 1/1
